@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "edificio": "Naos Empresarial, Ak 9 con calle 102, Bogotá",
+  "nota": "Todas las coordenadas son píxeles de la escena de 640 x 360 (1:1). Se amplía con vecino más cercano.",
+  "escena": { "ancho": 640, "alto": 360 },
+  "archivos": {
+    "dia": "fachada-naos-dia.png",
+    "noche": "fachada-naos-noche.png",
+    "soloEdificioNoche": "fachada-naos-solo-edificio-noche.png",
+    "hojaIzq": "puerta-naos-hoja-izq.png",
+    "hojaDer": "puerta-naos-hoja-der.png",
+    "interior": "puerta-naos-interior.png"
+  },
+  "puerta": {
+    "x": 372,
+    "y": 194,
+    "ancho": 40,
+    "alto": 58,
+    "centroX": 392,
+    "umbralY": 252,
+    "hojaIzq": { "x": 372, "y": 194, "ancho": 20, "alto": 58 },
+    "hojaDer": { "x": 392, "y": 194, "ancho": 20, "alto": 58 },
+    "interior": { "x": 372, "y": 194, "ancho": 40, "alto": 58 }
+  },
+  "acera": {
+    "yPared": 252,
+    "yBordillo": 320,
+    "yPies": 298,
+    "altoLibre": 68,
+    "franjaPies": { "y0": 286, "y1": 302 },
+    "nota": "Nada ocupa la franja de los pies (y de 286 a 302, de x=0 a la puerta). Los árboles y el poste apoyan en y=282 a 284, detrás de la línea de los pies; los conos y la cinta empiezan en y=302 y quedan delante. El personaje se dibuja encima de la escena."
+  },
+  "personaje": { "ancho": 32, "alto": 48, "yPies": 298, "yCabeza": 250, "xInicio": -16, "xPuerta": 392 },
+  "piso4": {
+    "nota": "Franja del piso 4, de la losa de abajo al borde de arriba. En la fachada larga las líneas son rectas (perspectiva); en el tambor son arcos que suben hacia el centro.",
+    "caja": { "x": 0, "y": 80, "ancho": 592, "alto": 99 },
+    "fachada": { "x0": 0, "x1": 468, "y0Arriba": 166, "y0Abajo": 179, "y1Arriba": 86, "y1Abajo": 111 },
+    "tambor": {
+      "x0": 469,
+      "x1": 591,
+      "xCentro": 530,
+      "yBordeArriba": 86,
+      "yBordeAbajo": 111,
+      "yCentroArriba": 80,
+      "yCentroAbajo": 106
+    }
+  },
+  "panel": { "ancho": 480, "alto": 360, "x": 132, "y": 0, "archivo": "fachada-naos-solo-edificio-noche.png" }
+}

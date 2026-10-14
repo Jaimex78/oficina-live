@@ -1,0 +1,378 @@
+/* Estructura de la plataforma: barra lateral translúcida (vidrio, por el brief), contenido y barra superior en celular */
+
+.shell {
+  display: grid;
+  grid-template-columns: 272px minmax(0, 1fr);
+  min-height: 100dvh;
+}
+
+.shell-menu {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s5);
+  height: 100dvh;
+  padding: var(--s5) var(--s4);
+  background: var(--vidrio);
+  backdrop-filter: blur(28px) saturate(1.5);
+  -webkit-backdrop-filter: blur(28px) saturate(1.5);
+  box-shadow: 1px 0 0 var(--linea);
+}
+
+.shell-marca {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  padding: var(--s1) var(--s3) 0;
+}
+.shell-cerrar {
+  display: none;
+}
+.shell-luces {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s3);
+  padding: 0 var(--s3) var(--s2);
+}
+
+.shell-nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s1);
+}
+.shell-nav a {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  min-height: 44px;
+  padding: 0 var(--s3);
+  border-radius: var(--r-control);
+  color: var(--tinta-2);
+  font-weight: 550;
+  text-decoration: none;
+  transition:
+    background-color var(--sale) var(--ease),
+    color var(--sale) var(--ease);
+}
+.shell-nav a svg {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+.shell-nav a:hover {
+  background: var(--hover);
+  color: var(--tinta);
+}
+.shell-nav a[aria-current='page'] {
+  background: var(--acento-claro);
+  color: var(--acento-texto);
+  font-weight: 650;
+}
+
+.shell-pie {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  margin-top: auto;
+}
+.shell-persona {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  min-width: 0;
+  padding: var(--s2) var(--s3);
+  border-radius: var(--r-control);
+  color: inherit;
+  text-decoration: none;
+}
+.shell-persona:hover {
+  background: var(--hover);
+}
+.shell-persona__texto {
+  min-width: 0;
+  line-height: 1.3;
+}
+.shell-persona__nombre,
+.shell-persona__cargo {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.shell-persona__nombre {
+  font-size: var(--t-dato);
+  font-weight: 650;
+}
+.shell-persona__cargo {
+  font-size: var(--t-etiqueta);
+  color: var(--tinta-3);
+}
+.shell-salir {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  min-height: 44px;
+  padding: 0 var(--s3);
+  border: 0;
+  border-radius: var(--r-control);
+  background: transparent;
+  color: var(--tinta-2);
+  font-weight: 550;
+  text-align: left;
+}
+.shell-salir svg {
+  width: 20px;
+  height: 20px;
+}
+.shell-salir:hover {
+  background: var(--peligro-bg);
+  color: var(--peligro);
+}
+
+.shell-barra {
+  display: none;
+}
+.shell-velo {
+  display: none;
+}
+
+.shell-contenido {
+  width: 100%;
+  max-width: 1160px;
+  padding: var(--s6) var(--s6) var(--s8);
+  margin: 0 auto;
+}
+.shell-contenido--completo {
+  max-width: none;
+  padding: 0;
+}
+
+.pagina-cab {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--s4);
+  margin-bottom: var(--s6);
+}
+.pagina-cab p {
+  max-width: 62ch;
+  margin-top: var(--s2);
+  color: var(--tinta-2);
+}
+.pagina-cab__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3);
+}
+
+/* ---------- Celular y tablet angosta ---------- */
+@media (max-width: 860px) {
+  .shell {
+    display: block;
+  }
+  .shell-barra {
+    position: sticky;
+    top: 0;
+    z-index: 35;
+    display: flex;
+    align-items: center;
+    gap: var(--s3);
+    height: 56px;
+    padding: 0 var(--s3);
+    background: var(--vidrio-fuerte);
+    backdrop-filter: blur(28px) saturate(1.5);
+    -webkit-backdrop-filter: blur(28px) saturate(1.5);
+    box-shadow: 0 1px 0 var(--linea);
+  }
+  .shell-barra__boton {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: var(--r-control);
+    background: transparent;
+    color: var(--tinta);
+  }
+  .shell-barra__boton:hover {
+    background: var(--hover);
+  }
+  .shell-menu {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: min(300px, 86vw);
+    background: var(--vidrio-fuerte);
+    box-shadow: var(--sombra-flotante);
+    visibility: hidden;
+    transform: translateX(-102%);
+    transition:
+      transform var(--sale) var(--ease),
+      visibility 0s linear var(--sale);
+  }
+  .shell-menu.abierto {
+    visibility: visible;
+    transform: none;
+    transition:
+      transform var(--entra) var(--ease),
+      visibility 0s;
+  }
+  .shell-cerrar {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--tinta-2);
+  }
+  .shell-cerrar:hover {
+    background: var(--hover);
+    color: var(--tinta);
+  }
+  .shell-velo.abierto {
+    position: fixed;
+    inset: 0;
+    z-index: 36;
+    display: block;
+    background: var(--velo);
+    animation: velo-entra var(--entra) var(--ease);
+  }
+  .shell-contenido {
+    padding: var(--s5) var(--s4) var(--s7);
+  }
+  .shell-contenido--completo {
+    padding: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shell-menu {
+    transition: none;
+  }
+}
+
+.shell-contenido:focus {
+  outline: none;
+}
+
+/* ---------- barra encogida: solo iconos (escritorio) ---------- */
+.shell-plegar {
+  display: none;
+}
+@media (min-width: 861px) {
+  .shell-plegar {
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: var(--r-control);
+    background: transparent;
+    color: var(--tinta-3);
+  }
+  .shell-plegar:hover {
+    background: var(--hover);
+    color: var(--tinta);
+  }
+  .shell-plegar svg {
+    width: 18px;
+    height: 18px;
+  }
+  .shell--compacto {
+    grid-template-columns: 76px minmax(0, 1fr);
+  }
+  .shell--compacto .shell-menu {
+    align-items: center;
+    padding-inline: var(--s2);
+  }
+  .shell--compacto .shell-marca {
+    padding: 0;
+    align-items: center;
+    min-height: 64px;
+    justify-content: center;
+  }
+  .shell--compacto .shell-marca .marca {
+    display: none;
+  }
+  .shell--compacto .shell-plegar {
+    position: static;
+  }
+  .shell--compacto .shell-etq {
+    display: none;
+  }
+  .shell--compacto .shell-nav a,
+  .shell--compacto .shell-salir {
+    justify-content: center;
+    width: 48px;
+    padding: 0;
+  }
+  .shell--compacto .shell-luces {
+    padding: 0;
+    justify-content: center;
+  }
+  .shell--compacto .shell-persona {
+    padding: var(--s2);
+    justify-content: center;
+  }
+  /* Mientras se construye, la oficina ocupa toda la pantalla. */
+  :root[data-construyendo] .shell {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  :root[data-construyendo] .shell-menu {
+    display: none;
+  }
+}
+
+/* ---------- inicio ---------- */
+.inicio {
+  display: grid;
+  min-height: 100%;
+  padding: var(--s6) var(--s5);
+  place-items: center;
+}
+.inicio__cuerpo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s3);
+  width: min(560px, 100%);
+}
+.inicio__saludo {
+  margin: 0;
+  color: var(--tinta-3);
+  font-size: var(--t-dato);
+  font-weight: 600;
+}
+.inicio__titulo {
+  margin: 0;
+  font-size: clamp(1.75rem, 1.2rem + 2vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.inicio__texto {
+  max-width: 46ch;
+  margin: 0 0 var(--s3);
+  color: var(--tinta-2);
+}
+.inicio__entrar {
+  padding: 14px 22px;
+  font-size: 1.0625rem;
+}
+.inicio__atajos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+  margin-top: var(--s4);
+}

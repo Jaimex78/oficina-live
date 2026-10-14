@@ -1,0 +1,219 @@
+// Oficina Live: esquema de base de datos (SQLite).
+// Las migraciones viven en prisma/migrations y se aplican solas al arrancar.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario {
+  id               Int       @id @default(autoincrement())
+  usuario          String    @unique
+  nombre           String
+  cargo            String    @default("")
+  correo           String    @default("")
+  rol              String    @default("usuario") // admin | constructor | usuario
+  claveHash        String
+  debeCambiarClave Boolean   @default(true)
+  activo           Boolean   @default(true)
+  intentosFallidos Int       @default(0)
+  bloqueadoHasta   DateTime?
+  versionToken     Int       @default(1) // al subirla se invalidan todas las sesiones de la persona
+  creadoEn         DateTime  @default(now())
+  ultimoIngreso    DateTime?
+
+  // Presencia y personaje (se usan desde la parte 3 en adelante)
+  apodo         String  @default("")
+  personaje     String? // JSON con las capas elegidas
+  estado        String  @default("disponible") // disponible | concentrado | reunion | ausente
+  invisible     Boolean @default(false)
+  etiquetaLugar String  @default("") // "" | naos | remoto
+  /// JSON con los paquetes del catálogo que la administración le dio (ver shared/src/acceso.ts)
+  acceso        String  @default("[]")
+  /// false hasta que la persona confirma su personaje la primera vez que entra
+  personajeListo Boolean @default(false)
+  /// Foto de perfil: nombre del archivo en data/fotos (vacío = sin foto). Nunca se envía al navegador.
+  fotoArchivo    String  @default("")
+  /// Número de versión de la foto. Solo sube (también al borrarla), para que el navegador nunca reuse una foto vieja.
+  fotoVersion    Int     @default(0)
+  /// true hasta que la persona abre su enlace de activación y crea su contraseña. Mientras tanto no puede ingresar.
+  pendiente      Boolean   @default(false)
+  /// SHA-256 (hex) del enlace de activación vigente. El enlace en sí nunca se guarda. Un solo uso.
+  enlaceHash     String?   @unique
+  enlaceVence    DateTime?
+}
+
+model Solicitud {
+  id          Int       @id @default(autoincrement())
+  nombre      String
+  correo      String
+  cargo       String    @default("")
+  mensaje     String    @default("")
+  ip          String    @default("")
+  estado      String    @default("pendiente") // pendiente | atendida | rechazada
+  creadaEn    DateTime  @default(now())
+  atendidaPor String?
+  atendidaEn  DateTime?
+
+  @@index([ip, creadaEn])
+}
+
+model Actividad {
+  id        Int      @id @default(autoincrement())
+  fecha     DateTime @default(now())
+  usuarioId Int?
+  usuario   String   @default("")
+  accion    String
+  objeto    String   @default("")
+  detalle   String   @default("")
+  ip        String   @default("")
+
+  @@index([fecha])
+  @@index([accion])
+}
+
+model Ajuste {
+  clave String @id
+  valor String // JSON
+}
+
+// Versiones del mapa de la oficina. Hay a lo sumo un borrador y un publicado; el resto son histórico (máximo 30).
+model MapaOficina {
+  id            Int      @id @default(autoincrement())
+  estado        String // borrador | publicado | historico
+  numero        Int      @default(0) // versión: solo en publicado e historico; empieza en 1 y sube de uno en uno
+  revision      Int      @default(1) // guardados del borrador: detecta choques entre dos constructores
+  contenido     String // JSON del formato compacto (MapaGuardado)
+  nota          String   @default("")
+  autorId       Int?
+  autor         String   @default("")
+  creadoEn      DateTime @default(now())
+  actualizadoEn DateTime @updatedAt
+
+  @@index([estado, numero])
+}
+
+// ---------- Planner interno ----------
+// Tableros de tareas del equipo. Cada tablero tiene sus columnas y sus campos (Marca, Cliente, semáforo de prioridad...),
+// que la administración puede cambiar.
+
+model PlannerTablero {
+  id       Int     @id @default(autoincrement())
+  nombre   String
+  color    String  @default("#3B82F6")
+  orden    Int     @default(0)
+  archivado Boolean @default(false)
+}
+
+model PlannerColumna {
+  id        Int            @id @default(autoincrement())
+  /// Sin relación declarada: SQLite no deja agregar la clave foránea a una tabla que ya existe. Se cuida desde el servicio.
+  tableroId Int            @default(1)
+  nombre    String
+  color     String         @default("#8E8E93")
+  orden     Int            @default(0)
+  /// Las tareas que llegan aquí cuentan como terminadas.
+  esFinal   Boolean        @default(false)
+  /// Máximo de tareas que caben en la columna (vacío: sin límite).
+  limite    Int?
+  tareas    PlannerTarea[]
+
+  @@index([tableroId])
+}
+
+model PlannerCampo {
+  id        Int             @id @default(autoincrement())
+  tableroId Int             @default(1)
+  nombre    String
+  /// lista | texto | fecha
+  tipo      String          @default("lista")
+  /// En una lista, sus opciones se muestran como semáforo (rojo, amarillo, verde).
+  semaforo  Boolean         @default(false)
+  orden     Int             @default(0)
+  opciones  PlannerOpcion[]
+
+  @@index([tableroId])
+}
+
+model PlannerOpcion {
+  id      Int          @id @default(autoincrement())
+  campoId Int
+  campo   PlannerCampo @relation(fields: [campoId], references: [id], onDelete: Cascade)
+  nombre  String
+  color   String       @default("#8E8E93")
+  orden   Int          @default(0)
+
+  @@index([campoId])
+}
+
+model PlannerTarea {
+  id               Int                @id @default(autoincrement())
+  titulo           String
+  descripcion      String             @default("")
+  columnaId        Int
+  columna          PlannerColumna     @relation(fields: [columnaId], references: [id])
+  responsableId    Int?
+  /// JSON con los ids de las demás personas que colaboran en la tarea
+  miembros         String             @default("[]")
+  fechaLimite      DateTime?
+  /// JSON: { "<id del campo>": id de opción | texto | fecha "AAAA-MM-DD" }
+  valores          String             @default("{}")
+  orden            Int                @default(0)
+  archivada        Boolean            @default(false)
+  /// Ya se avisó que está por vencer (para no avisar dos veces)
+  avisoVencimiento Boolean            @default(false)
+  creadaPorId      Int?
+  creadaPor        String             @default("")
+  creadaEn         DateTime           @default(now())
+  actualizadaEn    DateTime           @updatedAt
+  completadaEn     DateTime?
+  subtareas        PlannerSubtarea[]
+  comentarios      PlannerComentario[]
+
+  @@index([columnaId, orden])
+}
+
+model PlannerSubtarea {
+  id      Int          @id @default(autoincrement())
+  tareaId Int
+  tarea   PlannerTarea @relation(fields: [tareaId], references: [id], onDelete: Cascade)
+  titulo  String
+  hecha   Boolean      @default(false)
+  orden   Int          @default(0)
+
+  @@index([tareaId])
+}
+
+model PlannerComentario {
+  id       Int          @id @default(autoincrement())
+  tareaId  Int
+  tarea    PlannerTarea @relation(fields: [tareaId], references: [id], onDelete: Cascade)
+  autorId  Int?
+  autor    String       @default("")
+  texto    String
+  creadaEn DateTime     @default(now())
+
+  @@index([tareaId])
+}
+
+// ---------- Notificaciones ----------
+// Avisos para una persona (por ejemplo, «te asignaron una tarea»). Se ven en la campana, dentro de la plataforma y en la oficina.
+
+model Notificacion {
+  id        Int      @id @default(autoincrement())
+  usuarioId Int
+  /// tarea_asignada | tarea_comentario | tarea_terminada | tarea_vence | tarea_miembro
+  tipo      String
+  titulo    String
+  texto     String   @default("")
+  /// Ruta dentro de la plataforma a la que lleva el aviso
+  enlace    String   @default("")
+  leida     Boolean  @default(false)
+  creadaEn  DateTime @default(now())
+
+  @@index([usuarioId, leida, creadaEn])
+}

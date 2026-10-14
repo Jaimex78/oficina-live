@@ -1,0 +1,643 @@
+/* Planner: tablero de tareas del equipo (página completa y panel de la oficina). */
+
+.pl-pagina {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s4);
+  min-height: 100%;
+  padding: var(--s5);
+}
+.pl-cab {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--s3);
+}
+.pl-cab__titulo {
+  margin: 0;
+  font-size: var(--t-titulo);
+  letter-spacing: -0.02em;
+}
+.pl-cab__sub {
+  margin: 2px 0 0;
+  color: var(--tinta-3);
+  font-size: var(--t-dato);
+}
+.pl-cab__acciones {
+  display: flex;
+  gap: var(--s2);
+}
+.pl-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s2);
+}
+.pl-filtros .entrada {
+  width: auto;
+  min-width: 150px;
+}
+.pl-buscar {
+  position: relative;
+  flex: 1 1 220px;
+  max-width: 320px;
+}
+.pl-buscar svg {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  color: var(--tinta-3);
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.pl-buscar .entrada {
+  width: 100%;
+  padding-left: 36px;
+}
+
+/* ---------- tablero ---------- */
+.pl-tablero {
+  display: grid;
+  grid-auto-columns: minmax(250px, 1fr);
+  grid-auto-flow: column;
+  flex: 1;
+  gap: var(--s3);
+  padding-bottom: var(--s2);
+  overflow-x: auto;
+  align-items: start;
+}
+.pl-columna {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  min-height: 120px;
+  padding: var(--s3);
+  background: var(--fondo);
+  border: 1px solid var(--linea);
+  border-radius: 14px;
+  transition: background 0.15s var(--ease, ease-out);
+}
+.pl-columna--encima {
+  background: var(--acento-claro);
+}
+.pl-columna__cab {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+}
+.pl-columna__cab h3 {
+  margin: 0;
+  font-size: var(--t-dato);
+}
+.pl-columna__punto {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.pl-columna__cuenta {
+  padding: 0 8px;
+  color: var(--tinta-2);
+  font-size: var(--t-etiqueta);
+  font-weight: 700;
+  background: var(--superficie);
+  border-radius: 999px;
+}
+.pl-columna__mas {
+  margin-left: auto;
+}
+.pl-columna__lista {
+  display: grid;
+  gap: var(--s2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pl-columna__vacia {
+  padding: var(--s3);
+  color: var(--tinta-3);
+  font-size: var(--t-dato);
+  text-align: center;
+}
+
+/* ---------- tarjeta ---------- */
+.pl-tarjeta {
+  background: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: 12px;
+  cursor: grab;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+.pl-tarjeta:active {
+  cursor: grabbing;
+}
+.pl-tarjeta--encima {
+  outline: 2px solid var(--primario);
+  outline-offset: 2px;
+}
+.pl-tarjeta--hecha .pl-tarjeta__titulo {
+  color: var(--tinta-3);
+  text-decoration: line-through;
+}
+.pl-tarjeta__boton {
+  display: grid;
+  gap: var(--s2);
+  width: 100%;
+  padding: var(--s3);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-radius: inherit;
+  cursor: inherit;
+}
+.pl-tarjeta__boton:focus-visible {
+  outline: 2px solid var(--primario);
+  outline-offset: 2px;
+}
+.pl-tarjeta__titulo {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s2);
+  font-size: var(--t-dato);
+  font-weight: 600;
+  line-height: 1.35;
+}
+.pl-semaforo {
+  flex: none;
+  width: 12px;
+  height: 12px;
+  margin-top: 3px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06);
+}
+.pl-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.pl-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 8px;
+  color: var(--tinta-2);
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--fondo);
+  border-radius: 999px;
+}
+.pl-chip i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+.pl-tarjeta__pie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s2);
+}
+.pl-fecha {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--tinta-3);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.pl-fecha svg {
+  width: 13px;
+  height: 13px;
+}
+.pl-fecha--vencida {
+  color: var(--peligro);
+}
+.pl-avatar {
+  display: inline-grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  background: var(--secundario, #1c1c1e);
+  border-radius: 50%;
+}
+
+/* ---------- vacío ---------- */
+.pl-vacio {
+  display: grid;
+  gap: var(--s2);
+  justify-items: center;
+  padding: var(--s7) var(--s5);
+  text-align: center;
+  background: var(--fondo);
+  border: 1px dashed var(--linea);
+  border-radius: 16px;
+}
+.pl-vacio svg {
+  width: 32px;
+  height: 32px;
+  color: var(--tinta-3);
+}
+.pl-vacio h2 {
+  margin: 0;
+  font-size: var(--t-sub);
+}
+.pl-vacio p {
+  margin: 0 0 var(--s2);
+  color: var(--tinta-2);
+}
+
+/* ---------- formulario de tarea ---------- */
+.pl-form {
+  display: grid;
+  gap: var(--s3);
+}
+.pl-fila {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: var(--s3);
+}
+.pl-opciones {
+  display: grid;
+  gap: var(--s2);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.pl-opciones legend {
+  margin-bottom: 6px;
+  padding: 0;
+  font-size: var(--t-etiqueta);
+  font-weight: 700;
+}
+.pl-opciones__fila {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.pl-opcion {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 0 12px;
+  color: var(--tinta);
+  font: inherit;
+  font-size: var(--t-dato);
+  font-weight: 600;
+  background: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.pl-opcion i {
+  width: 10px;
+  height: 10px;
+  background: var(--c);
+  border-radius: 50%;
+}
+.pl-opcion[aria-checked='true'] {
+  background: color-mix(in srgb, var(--c) 18%, var(--superficie));
+  border-color: var(--c);
+}
+.pl-opcion:focus-visible {
+  outline: 2px solid var(--primario);
+  outline-offset: 2px;
+}
+.pl-borrar {
+  margin-right: auto;
+}
+
+/* ---------- configuración ---------- */
+.pl-config {
+  display: grid;
+  gap: var(--s5);
+}
+.pl-config__titulo {
+  margin: 0 0 var(--s2);
+  font-size: var(--t-sub);
+}
+.pl-config__lista {
+  display: grid;
+  gap: var(--s2);
+  margin: 0 0 var(--s2);
+  padding: 0;
+  list-style: none;
+}
+.pl-config__fila {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s2);
+}
+.pl-config__fila .entrada {
+  flex: 1 1 160px;
+  width: auto;
+}
+.pl-config__fila--opcion {
+  padding-left: var(--s4);
+}
+.pl-config__acciones {
+  display: inline-flex;
+  gap: 2px;
+}
+.pl-campo {
+  display: grid;
+  gap: var(--s2);
+  margin-bottom: var(--s3);
+  padding: var(--s3);
+  background: var(--fondo);
+  border-radius: 12px;
+}
+.pl-opciones-ed {
+  display: grid;
+  gap: var(--s2);
+}
+.pl-colores {
+  display: inline-flex;
+  gap: 4px;
+}
+.pl-color {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pl-color[aria-checked='true'] {
+  border-color: var(--tinta);
+  box-shadow: 0 0 0 2px var(--superficie) inset;
+}
+.pl-color:focus-visible {
+  outline: 2px solid var(--primario);
+  outline-offset: 2px;
+}
+
+/* ---------- panel dentro de la oficina ---------- */
+.planner .pl-tablero {
+  grid-auto-columns: minmax(200px, 1fr);
+  max-height: min(56vh, 520px);
+  overflow: auto;
+}
+.planner .pl-columna {
+  background: var(--fondo);
+}
+@media (max-width: 640px) {
+  .pl-pagina {
+    padding: var(--s4);
+  }
+  .pl-tablero {
+    grid-auto-columns: minmax(240px, 82%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pl-columna {
+    transition: none;
+  }
+}
+
+/* ---------- campana de avisos ---------- */
+.campana {
+  position: relative;
+}
+.campana__boton {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.campana__boton:hover {
+  background: var(--hover);
+}
+.campana__boton svg,
+.campana .ed-btn svg {
+  width: 18px;
+  height: 18px;
+}
+.campana .ed-btn {
+  position: relative;
+}
+.campana__cuenta {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  min-width: 16px;
+  padding: 0 4px;
+  color: #fff;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  background: var(--primario);
+  border-radius: 999px;
+}
+.campana__panel {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 0;
+  z-index: 30;
+  width: min(340px, calc(100vw - 32px));
+  max-height: 60vh;
+  overflow: auto;
+  color: var(--tinta);
+  background: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+}
+.campana--oficina .campana__panel {
+  top: calc(100% + 8px);
+  right: 0;
+  bottom: auto;
+  left: auto;
+}
+.campana__panel header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s2);
+  padding: var(--s3) var(--s3) var(--s2);
+}
+.campana__panel h2 {
+  margin: 0;
+  font-size: var(--t-dato);
+}
+.campana__todas {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--acento-texto);
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.campana__todas:disabled {
+  color: var(--tinta-3);
+  cursor: default;
+}
+.campana__todas svg {
+  width: 14px;
+  height: 14px;
+}
+.campana__panel ul {
+  margin: 0;
+  padding: 0 var(--s2) var(--s2);
+  list-style: none;
+}
+.campana__aviso {
+  display: grid;
+  gap: 2px;
+  width: 100%;
+  padding: var(--s2) var(--s3);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.campana__aviso:hover {
+  background: var(--hover);
+}
+.campana__aviso--nuevo {
+  background: var(--acento-claro);
+}
+.campana__aviso strong {
+  font-size: var(--t-dato);
+}
+.campana__aviso span {
+  color: var(--tinta-2);
+  font-size: 0.8125rem;
+}
+.campana__aviso small {
+  color: var(--tinta-3);
+  font-size: 0.75rem;
+}
+.campana__vacio {
+  margin: 0;
+  padding: var(--s3) var(--s4) var(--s4);
+  color: var(--tinta-2);
+  font-size: var(--t-dato);
+}
+
+/* ---------- subtareas, comentarios y miembros ---------- */
+.pl-datos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+}
+.pl-subtareas {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pl-subtareas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s2);
+}
+.pl-hecha {
+  color: var(--tinta-3);
+  text-decoration: line-through;
+}
+.pl-agregar {
+  display: flex;
+  gap: var(--s2);
+}
+.pl-agregar .entrada {
+  flex: 1;
+}
+.pl-comentarios {
+  display: grid;
+  gap: var(--s2);
+}
+.pl-comentarios h3 {
+  margin: 0;
+  font-size: var(--t-etiqueta);
+}
+.pl-comentarios ul {
+  display: grid;
+  gap: var(--s2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pl-comentarios li {
+  padding: var(--s2) var(--s3);
+  background: var(--fondo);
+  border-radius: 10px;
+}
+.pl-comentarios li p {
+  margin: 0;
+  font-size: var(--t-dato);
+}
+.pl-comentarios small {
+  color: var(--tinta-3);
+}
+.pl-comentario__borrar {
+  margin-top: 2px;
+  color: var(--tinta-3);
+  font: inherit;
+  font-size: 0.75rem;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.pl-archivar {
+  justify-self: start;
+}
+.pl-tableros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s2);
+}
+.pl-tablero-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  color: var(--tinta-2);
+  font: inherit;
+  font-size: var(--t-dato);
+  font-weight: 600;
+  background: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.pl-tablero-tab i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+.pl-tablero-tab[aria-selected='true'] {
+  color: var(--tinta);
+  background: var(--acento-claro);
+  border-color: var(--primario);
+}
+.pl-tablero-tab:focus-visible {
+  outline: 2px solid var(--primario);
+  outline-offset: 2px;
+}

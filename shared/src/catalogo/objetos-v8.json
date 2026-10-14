@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "archivo": "objetos-v8.png",
+  "huella": "b85968fc28",
+  "ancho": 392,
+  "alto": 36,
+  "frames": {
+    "escritorio-largo@S": { "x": 2, "y": 2, "w": 128, "h": 32 },
+    "escritorio-largo@S~madera": { "x": 132, "y": 2, "w": 128, "h": 32 },
+    "escritorio-largo@S~negro": { "x": 262, "y": 2, "w": 128, "h": 32 }
+  }
+}

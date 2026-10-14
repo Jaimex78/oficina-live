@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "nota": "Coordenadas en la cuadrícula de 320 x 180 (la escena la amplía 2x). El personaje mide 17 x 26 en esa cuadrícula.",
+  "cuadricula": { "ancho": 320, "alto": 180 },
+  "marco": {
+    "ancho": 56,
+    "alto": 70,
+    "abertura": { "x": 10, "y": 22, "ancho": 36, "alto": 46 },
+    "indicador": { "x": 18, "y": 7, "ancho": 20, "alto": 6 }
+  },
+  "hoja": { "ancho": 18, "alto": 46 },
+  "llamada": { "ancho": 8, "alto": 14 },
+  "cabina": {
+    "ancho": 160,
+    "alto": 180,
+    "puertas": { "x": 45, "y": 28, "ancho": 70, "alto": 64 },
+    "indicador": { "x": 52, "y": 17, "ancho": 56, "alto": 8 },
+    "lampara": { "x": 70, "y": 2, "ancho": 20, "alto": 4 },
+    "panel": { "x": 142, "y": 50, "ancho": 16, "alto": 58 },
+    "botones": {
+      "x": [147, 153],
+      "y": [97, 87, 77, 67]
+    }
+  },
+  "lobby": {
+    "sueloY": 104,
+    "marcoX": 200,
+    "marcoY": 34,
+    "llamadaX": 187,
+    "llamadaY": 72,
+    "lamparas": [60, 150, 255]
+  },
+  "pasillo": {
+    "sueloY": 120,
+    "marcoX": 14,
+    "marcoY": 50,
+    "placa": { "x": 96, "y": 46, "ancho": 80, "alto": 20 },
+    "puerta": { "x": 232, "y": 66, "ancho": 30, "alto": 54 },
+    "pantalla": { "x": 195, "y": 82, "ancho": 18, "alto": 14 },
+    "fluorescentes": [60, 150, 240]
+  },
+  "archivos": [
+    "ascensor-marco.png",
+    "ascensor-hoja-izq.png",
+    "ascensor-hoja-der.png",
+    "ascensor-llamada.png",
+    "ascensor-interior.png",
+    "lobby-fondo.png",
+    "cabina-fondo.png",
+    "pasillo-fondo.png",
+    "pasillo-puerta-abierta.png"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "oficina-live",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Oficina virtual en pixel art con presencia en tiempo real e integración con Teams",
+  "engines": {
+    "node": ">=24"
+  },
+  "workspaces": [
+    "shared",
+    "server",
+    "web",
+    "arte"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c red,blue \"npm run dev -w @ol/server\" \"npm run dev -w @ol/web\"",
+    "demo": "concurrently -k -n api,web -c red,blue \"npm run demo -w @ol/server\" \"npm run dev -w @ol/web\"",
+    "demo:lan": "concurrently -k -n api,web -c red,blue \"npm run demo -w @ol/server\" \"npm run dev:lan -w @ol/web\"",
+    "demo:b": "OL_WEB_PUERTO=5290 OL_API=http://127.0.0.1:8890 OL_URL_PUBLICA=http://localhost:5290 OL_ORIGENES=http://localhost:5290,http://127.0.0.1:5290 concurrently -k -n api,web -c red,blue \"OL_PUERTO=8890 OL_DATA=$PWD/data-demo-b npm run demo -w @ol/server\" \"npm run dev -w @ol/web\"",
+    "demo:c": "OL_WEB_PUERTO=5390 OL_API=http://127.0.0.1:8990 OL_URL_PUBLICA=http://localhost:5390 OL_ORIGENES=http://localhost:5390,http://127.0.0.1:5390 concurrently -k -n api,web -c red,blue \"OL_PUERTO=8990 OL_DATA=$PWD/data-demo-c npm run demo -w @ol/server\" \"npm run dev -w @ol/web\"",
+    "local": "OL_URL_PUBLICA=http://localhost:5190 concurrently -k -n api,web -c red,blue \"npm run local -w @ol/server\" \"npm run dev -w @ol/web\"",
+    "build": "npm run build -w @ol/web",
+    "start": "npm run start -w @ol/server",
+    "test": "npm run test -w @ol/shared && npm run test -w @ol/server && npm run test -w @ol/web && npm run test -w @ol/arte",
+    "typecheck": "npm run typecheck -w @ol/shared && npm run typecheck -w @ol/server && npm run typecheck -w @ol/web && npm run typecheck -w @ol/arte",
+    "arte": "npm run construir -w @ol/arte",
+    "postinstall": "npm run db:generar",
+    "db:generar": "prisma generate --schema server/prisma/schema.prisma",
+    "db:migrar": "prisma migrate dev --schema server/prisma/schema.prisma"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "prisma": "^6.19.0",
+    "typescript": "~5.9.3"
+  }
+}

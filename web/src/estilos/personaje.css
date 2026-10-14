@@ -1,0 +1,384 @@
+/* Editor de avatar: categorías a la izquierda, opciones y colores al centro, vista previa a la derecha (como el de Gather).
+   Usa los tokens de la plataforma: se ve en claro y en oscuro. Solo para computador (ancho mínimo 1024). */
+
+.pj-pagina {
+  display: grid;
+  min-width: 1024px;
+  min-height: 100dvh;
+  padding: var(--s5);
+  place-items: center;
+  color: var(--tinta);
+  background: var(--velo);
+}
+:root:not([data-tema='oscuro']) .pj-pagina {
+  background: color-mix(in srgb, var(--secundario) 46%, var(--fondo));
+}
+.pj-error {
+  padding: var(--s4) var(--s5);
+  background: var(--superficie);
+  border-radius: var(--r-control);
+}
+
+.pj-modal {
+  display: flex;
+  flex-direction: column;
+  width: min(1000px, 100%);
+  height: min(720px, calc(100dvh - 2 * var(--s5)));
+  overflow: hidden;
+  background: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: 20px;
+  box-shadow: var(--sombra-flotante);
+}
+
+.pj-cab {
+  display: flex;
+  align-items: baseline;
+  gap: var(--s4);
+  padding: var(--s4) var(--s5);
+  border-bottom: 1px solid var(--linea);
+}
+.pj-cab h1 {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.pj-cab p {
+  margin: 0;
+  color: var(--tinta-3);
+  font-size: var(--t-dato);
+}
+
+.pj-cuerpo {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr) 330px;
+  flex: 1;
+  min-height: 0;
+}
+
+/* ---------- categorías ---------- */
+.pj-categorias {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--s3);
+  overflow-y: auto;
+  border-right: 1px solid var(--linea);
+}
+.pj-categoria {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  min-height: 48px;
+  padding: 0 var(--s3);
+  color: var(--tinta);
+  font-size: var(--t-dato);
+  font-weight: 500;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pj-categoria:hover {
+  background: var(--hover);
+}
+.pj-categoria[aria-selected='true'] {
+  color: #fff;
+  background: var(--boton);
+}
+.pj-categoria:focus-visible,
+.pj-opcion:focus-visible,
+.pj-muestra:focus-visible,
+.pj-chico:focus-visible,
+.pj-dado:focus-visible {
+  outline: 3px solid var(--info);
+  outline-offset: 2px;
+}
+.pj-mini {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  image-rendering: pixelated;
+}
+
+.pj-mini--icono {
+  padding: 3px;
+  color: var(--tinta-3);
+}
+
+/* ---------- centro: opciones y paletas ---------- */
+.pj-centro {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+  min-width: 0;
+  min-height: 0;
+  padding: var(--s4);
+}
+.pj-opciones {
+  flex: 1;
+  min-height: 0;
+  padding: var(--s3);
+  overflow: hidden auto;
+  background: var(--fondo);
+  border-radius: var(--r-control);
+}
+.pj-aviso {
+  margin: 0 0 var(--s3);
+  padding: var(--s2) var(--s3);
+  color: var(--aviso);
+  font-size: var(--t-etiqueta);
+  background: var(--aviso-bg);
+  border-radius: 8px;
+}
+.pj-rejilla {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s2);
+}
+.pj-opcion {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 104px;
+  padding: var(--s2);
+  background: var(--superficie);
+  border: 2px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.pj-opcion:hover {
+  border-color: var(--linea);
+}
+.pj-opcion--activa,
+.pj-opcion--activa:hover {
+  border-color: var(--boton);
+  box-shadow: 0 0 0 1px var(--boton);
+}
+.pj-opcion__img {
+  image-rendering: pixelated;
+}
+.pj-opcion--bloqueada {
+  cursor: not-allowed;
+}
+.pj-opcion--bloqueada .pj-opcion__img {
+  opacity: 0.4;
+  filter: grayscale(0.8);
+}
+.pj-candado {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  width: 16px;
+  height: 16px;
+  padding: 3px;
+  box-sizing: content-box;
+  color: #fff;
+  background: var(--inversa-fondo);
+  border-radius: 50%;
+}
+.pj-ninguna {
+  width: 32px;
+  height: 32px;
+  color: var(--tinta-3);
+}
+
+/* Nombre de la opción: aparece al pasar el puntero o al enfocar con el teclado. */
+.pj-opcion::after {
+  content: attr(data-nombre);
+  position: absolute;
+  bottom: calc(100% - 6px);
+  left: 50%;
+  z-index: 3;
+  max-width: 200px;
+  padding: 4px 8px;
+  color: var(--inversa-texto);
+  font-size: var(--t-etiqueta);
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  white-space: normal;
+  background: var(--inversa-fondo);
+  border-radius: 6px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 4px);
+  transition:
+    opacity var(--sale) var(--ease),
+    transform var(--sale) var(--ease);
+  width: max-content;
+}
+.pj-opcion:hover::after,
+.pj-opcion:focus-visible::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.pj-paletas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  min-height: 44px;
+}
+.pj-paleta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  padding: var(--s2) var(--s3);
+  background: var(--fondo);
+  border-radius: var(--r-control);
+}
+.pj-paleta__titulo {
+  flex: 0 0 100%;
+  color: var(--tinta-3);
+  font-size: var(--t-etiqueta);
+  font-weight: 600;
+}
+.pj-muestra {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 2px solid var(--superficie);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--control);
+  cursor: pointer;
+}
+.pj-muestra[aria-checked='true'] {
+  box-shadow:
+    0 0 0 2px var(--superficie),
+    0 0 0 4px var(--boton);
+}
+
+/* ---------- vista previa ---------- */
+.pj-vista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+  min-width: 0;
+  padding: var(--s4) var(--s4) var(--s4) 0;
+}
+.pj-escena {
+  position: relative;
+  display: grid;
+  flex: 1;
+  min-height: 0;
+  place-items: center;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--boton) 8%, var(--fondo));
+  border-radius: var(--r-control);
+}
+.pj-grande {
+  position: relative;
+  z-index: 1;
+  image-rendering: pixelated;
+}
+.pj-sombra {
+  position: absolute;
+  bottom: calc(50% - 126px + 6px);
+  left: 50%;
+  width: 120px;
+  height: 18px;
+  background: rgba(20, 24, 40, 0.18);
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+/* La mascota va al lado del personaje, con los pies a la misma altura (los del personaje quedan a 126 px bajo el centro). */
+.pj-escena--mascota .pj-grande {
+  transform: translateX(-48px);
+}
+.pj-escena--mascota .pj-sombra:not(.pj-sombra--mascota) {
+  margin-left: -48px;
+}
+.pj-mascota {
+  position: absolute;
+  bottom: calc(50% - 126px);
+  left: calc(50% + 4px);
+  z-index: 1;
+  image-rendering: pixelated;
+}
+.pj-sombra--mascota {
+  left: calc(50% + 68px);
+  width: 64px;
+  height: 12px;
+  bottom: calc(50% - 126px + 4px);
+}
+.pj-apodo--mascota {
+  padding: var(--s2) var(--s3);
+}
+.pj-dado {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2;
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  color: var(--tinta);
+  background: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: 10px;
+  box-shadow: var(--sombra);
+  cursor: pointer;
+}
+.pj-dado:hover {
+  background: var(--acento-claro);
+}
+.pj-dado svg {
+  width: 20px;
+  height: 20px;
+}
+.pj-controles {
+  display: flex;
+  justify-content: center;
+  gap: var(--s2);
+}
+.pj-chico {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  color: var(--tinta);
+  background: var(--fondo);
+  border: 1px solid var(--linea);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pj-chico svg {
+  width: 18px;
+  height: 18px;
+}
+.pj-chico:hover {
+  background: var(--hover);
+}
+.pj-chico[aria-pressed='true'] {
+  color: #fff;
+  background: var(--boton);
+  border-color: var(--boton);
+}
+.pj-apodo {
+  display: grid;
+  gap: var(--s1);
+}
+.pj-apodo span {
+  color: var(--tinta-2);
+  font-size: var(--t-etiqueta);
+  font-weight: 600;
+}
+
+/* ---------- pie ---------- */
+.pj-pie {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--s2);
+  padding: var(--s3) var(--s5);
+  border-top: 1px solid var(--linea);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pj-opcion::after {
+    transition: none;
+  }
+}

@@ -1,0 +1,596 @@
+/* Componentes compartidos: modal, avisos emergentes, interruptor, filtros, menú de acciones, tablas */
+
+/* ---------- Modal ---------- */
+.velo {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: var(--s4);
+  background: var(--velo);
+  animation: velo-entra var(--entra) var(--ease);
+}
+.modal {
+  width: min(520px, 100%);
+  max-height: min(92dvh, 780px);
+  overflow-y: auto;
+  padding: var(--s5);
+  background: var(--superficie);
+  border-radius: 24px;
+  box-shadow: var(--sombra-flotante);
+  animation: modal-entra var(--entra) var(--ease);
+}
+.modal--ancho {
+  width: min(680px, 100%);
+}
+.modal__cab {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--s4);
+  margin-bottom: var(--s4);
+}
+.modal__cab p {
+  margin-top: var(--s1);
+  font-size: var(--t-dato);
+  color: var(--tinta-2);
+}
+.modal__cerrar {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 40px;
+  height: 40px;
+  margin: -6px -8px 0 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--tinta-2);
+}
+.modal__cerrar:hover {
+  background: var(--fondo);
+  color: var(--tinta);
+}
+.modal__pie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: var(--s3);
+  margin-top: var(--s5);
+}
+@keyframes velo-entra {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes modal-entra {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.985);
+  }
+}
+
+/* Clave temporal: se muestra una sola vez */
+.clave-temporal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s3);
+  padding: var(--s3) var(--s4);
+  background: var(--fondo);
+  border-radius: var(--r-control);
+}
+.clave-temporal code {
+  font-family: var(--mono);
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  word-break: break-all;
+  user-select: all;
+}
+
+/* ---------- Avisos emergentes ---------- */
+.avisos {
+  position: fixed;
+  right: var(--s4);
+  bottom: var(--s4);
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  width: min(420px, calc(100vw - 32px));
+}
+.aviso-emergente {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s3);
+  padding: var(--s3) var(--s4);
+  background: var(--inversa-fondo);
+  color: var(--inversa-texto);
+  border-radius: var(--r-control);
+  box-shadow: var(--sombra-flotante);
+  font-size: var(--t-dato);
+  line-height: 1.45;
+  animation: aviso-entra var(--entra) var(--ease);
+}
+.aviso-emergente svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  margin-top: 1px;
+}
+.aviso-emergente--error {
+  background: var(--peligro-fuerte);
+  color: #fff;
+}
+.aviso-emergente button {
+  flex: none;
+  margin: -4px -6px 0 auto;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  opacity: 0.85;
+}
+.aviso-emergente button:hover {
+  opacity: 1;
+  background: color-mix(in srgb, currentColor 16%, transparent);
+}
+.aviso-emergente .aviso-emergente__accion {
+  width: auto;
+  height: 28px;
+  margin: -4px 0 0 auto;
+  padding: 0 10px;
+  border-radius: 8px;
+  background: color-mix(in srgb, currentColor 18%, transparent);
+  font-size: var(--t-etiqueta);
+  font-weight: 650;
+  opacity: 1;
+  white-space: nowrap;
+}
+.aviso-emergente .aviso-emergente__accion + button {
+  margin-left: 0;
+}
+@keyframes aviso-entra {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+/* ---------- Interruptor ---------- */
+.interruptor {
+  position: relative;
+  display: inline-flex;
+  flex: none;
+  width: 51px;
+  height: 31px;
+}
+.interruptor input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.interruptor__pista {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--r-pildora);
+  background: var(--control);
+  transition: background-color var(--entra) var(--ease);
+  pointer-events: none;
+}
+.interruptor__pista::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  transition: transform var(--entra) var(--ease);
+}
+.interruptor input:checked + .interruptor__pista {
+  background: var(--boton);
+}
+.interruptor input:checked + .interruptor__pista::after {
+  transform: translateX(20px);
+}
+.interruptor input:focus-visible + .interruptor__pista {
+  outline: 3px solid var(--boton);
+  outline-offset: 2px;
+}
+.interruptor input:disabled + .interruptor__pista {
+  opacity: 0.45;
+}
+
+/* ---------- Filtro segmentado ---------- */
+.segmentado {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  background: var(--seg-pista);
+  border-radius: var(--r-pildora);
+}
+.segmentado button {
+  min-height: 36px;
+  padding: 0 var(--s4);
+  border: 0;
+  border-radius: var(--r-pildora);
+  background: transparent;
+  color: var(--tinta-2);
+  font-size: var(--t-dato);
+  font-weight: 600;
+  transition:
+    background-color var(--entra) var(--ease),
+    color var(--entra) var(--ease);
+}
+.segmentado button:hover {
+  color: var(--tinta);
+}
+.segmentado button[aria-pressed='true'] {
+  background: var(--seg-activo);
+  color: var(--tinta);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);
+}
+
+/* ---------- Menú de acciones ---------- */
+.menu-acc {
+  position: relative;
+  display: inline-block;
+}
+.menu-acc__boton {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--tinta-2);
+}
+.menu-acc__boton:hover,
+.menu-acc__boton[aria-expanded='true'] {
+  background: var(--linea);
+  color: var(--tinta);
+}
+.menu-acc__lista {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 4px);
+  z-index: 30;
+  min-width: 236px;
+  padding: var(--s2);
+  background: var(--vidrio-fuerte);
+  backdrop-filter: blur(28px) saturate(1.4);
+  -webkit-backdrop-filter: blur(28px) saturate(1.4);
+  border-radius: 16px;
+  box-shadow: var(--sombra-flotante);
+  animation: aviso-entra var(--sale) var(--ease);
+}
+.menu-acc__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 40px;
+  padding: 0 var(--s3);
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  text-align: left;
+  font-size: var(--t-dato);
+  font-weight: 550;
+}
+.menu-acc__item svg {
+  width: 17px;
+  height: 17px;
+  flex: none;
+  color: var(--tinta-2);
+}
+.menu-acc__item:hover:not(:disabled),
+.menu-acc__item:focus-visible {
+  background: var(--acento-claro);
+}
+.menu-acc__item:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.menu-acc__item--peligro,
+.menu-acc__item--peligro svg {
+  color: var(--peligro);
+}
+.menu-acc__item--peligro:hover:not(:disabled) {
+  background: var(--peligro-bg);
+}
+
+/* ---------- Tablas ---------- */
+.tabla-caja {
+  overflow-x: auto;
+}
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--t-dato);
+}
+.tabla th {
+  padding: var(--s3) var(--s4);
+  border-bottom: 1px solid var(--linea);
+  text-align: left;
+  font-size: var(--t-etiqueta);
+  font-weight: 600;
+  color: var(--tinta-2);
+  white-space: nowrap;
+}
+.tabla td {
+  padding: var(--s3) var(--s4);
+  border-bottom: 1px solid var(--linea);
+  vertical-align: middle;
+}
+.tabla tbody tr:last-child td {
+  border-bottom: 0;
+}
+.tabla tbody tr {
+  transition: background-color var(--sale) var(--ease);
+}
+.tabla tbody tr:hover {
+  background: var(--acento-suave);
+}
+.tabla__persona {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  min-width: 0;
+}
+.tabla__nombre {
+  font-size: var(--t-cuerpo);
+  font-weight: 600;
+  color: var(--tinta);
+}
+.tabla__sec {
+  color: var(--tinta-3);
+}
+.tabla__acciones {
+  width: 1%;
+  text-align: right;
+}
+
+/* Con la barra lateral, el contenido es mucho más angosto que la ventana. En vez de apilar «etiqueta: valor»
+   renglón por renglón, cada fila queda como una ficha compacta: la persona arriba y sus datos en una línea. */
+@media (max-width: 1240px) {
+  .tabla--apilada thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+  .tabla--apilada,
+  .tabla--apilada tbody {
+    display: block;
+    width: 100%;
+  }
+  .tabla--apilada tr {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--s2) var(--s3);
+    padding: var(--s4) 0;
+    border-bottom: 1px solid var(--linea);
+  }
+  .tabla--apilada tbody tr:last-child {
+    border-bottom: 0;
+  }
+  .tabla--apilada td {
+    display: block;
+    width: auto;
+    padding: 0;
+    border: 0;
+    font-size: var(--t-dato);
+  }
+  .tabla--apilada td:first-child {
+    flex: 1 1 100%;
+    padding-right: 44px;
+  }
+  .tabla--apilada td.tabla__acciones {
+    position: absolute;
+    top: var(--s2);
+    right: -8px;
+    width: auto;
+  }
+  .tabla--apilada td[data-prefijo]::before {
+    content: attr(data-prefijo) ': ';
+    font-size: var(--t-etiqueta);
+    font-weight: 600;
+    color: var(--tinta-3);
+  }
+  /* Registro de actividad: primero qué pasó y quién, luego el detalle y por último fecha e IP */
+  .tabla--actividad td:nth-child(3) {
+    order: 1;
+  }
+  .tabla--actividad td:nth-child(2) {
+    order: 2;
+    font-weight: 600;
+  }
+  .tabla--actividad td:nth-child(4) {
+    order: 3;
+    flex-basis: 100%;
+  }
+  .tabla--actividad td:nth-child(1) {
+    order: 4;
+    flex: 0 0 auto;
+    padding-right: 0;
+    color: var(--tinta-3);
+  }
+  .tabla--actividad td:nth-child(5) {
+    order: 5;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal,
+  .menu-acc__lista,
+  .aviso-emergente {
+    animation: velo-entra var(--entra) linear;
+  }
+  .interruptor__pista::after {
+    transition: none;
+  }
+}
+
+/* Permisos de catálogo en la edición de una cuenta. */
+.acceso {
+  display: grid;
+  gap: var(--s3);
+  margin: var(--s3) 0 0;
+  padding: var(--s3) 0 0;
+  border: 0;
+  border-top: 1px solid var(--linea);
+}
+.acceso legend {
+  padding: 0;
+  font-size: var(--t-etiqueta);
+  font-weight: 700;
+}
+.acceso__grupo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s2) var(--s4);
+}
+.acceso__grupo .ed-check {
+  align-items: flex-start;
+}
+.acceso__nota {
+  display: block;
+  max-width: 34ch;
+  margin: 2px 0 0;
+}
+.acceso__grupo h4 {
+  flex-basis: 100%;
+  margin: 0;
+  color: var(--tinta-3);
+  font-size: var(--t-etiqueta);
+}
+
+/* ---------- Foto de perfil: el ícono de una persona (FotoPersona) ---------- */
+/* Los valores base van en :where() para que cualquier clase de tamaño (.iniciales, .hd-avatar, .pl-avatar) mande sobre ellos. */
+:where(.foto-persona) {
+  position: relative;
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #2a2a30;
+  font-size: var(--t-dato);
+  font-weight: 700;
+  line-height: 1;
+}
+.foto-persona__img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  background: var(--fondo);
+  user-select: none;
+}
+.foto-persona--con-foto > canvas,
+.foto-persona--con-foto > .foto-persona__inicial {
+  visibility: hidden;
+}
+
+/* Editor de la foto en Mi cuenta */
+.foto-editor {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--s5);
+  align-items: start;
+}
+.foto-editor__vista {
+  display: grid;
+  gap: var(--s3);
+  justify-items: center;
+}
+.foto-editor__recorte {
+  position: relative;
+  width: 224px;
+  height: 224px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: var(--fondo);
+  box-shadow: 0 0 0 1px var(--linea);
+  cursor: grab;
+  touch-action: none;
+}
+.foto-editor__recorte:active {
+  cursor: grabbing;
+}
+.foto-editor__recorte canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.foto-editor__zoom {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  width: 224px;
+  color: var(--tinta-3);
+}
+.foto-editor__zoom input {
+  flex: 1;
+  min-width: 0;
+  accent-color: var(--primario);
+}
+.foto-editor__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3);
+  margin-top: var(--s4);
+}
+.foto-editor__texto {
+  display: grid;
+  gap: var(--s3);
+  max-width: 460px;
+}
+@media (max-width: 640px) {
+  .foto-editor {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ⌘K: la foto de una persona ocupa el lugar del ícono del resultado */
+.hd-resultado__foto {
+  width: 26px;
+  height: 26px;
+  font-size: 0.6875rem;
+}
+
+/* Botón de estado de la barra inferior: la foto llena el círculo */
+.hd-dock__foto {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+}
+
+/* Planner: foto junto al nombre de quien comenta */
+.pl-comentario__foto {
+  vertical-align: middle;
+  margin-right: 2px;
+}

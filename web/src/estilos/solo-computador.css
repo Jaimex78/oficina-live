@@ -1,0 +1,82 @@
+/* Pantalla que se muestra en celulares: la plataforma es solo para computador. */
+.solo-pc {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  place-items: center;
+  padding: var(--s5) var(--s4);
+  background: #0c0c10;
+  color: #f2f2f7;
+}
+
+.solo-pc__tarjeta {
+  width: min(100%, 420px);
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: start;
+  gap: var(--s4);
+}
+
+.solo-pc__icono {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  margin-top: var(--s4);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--primario) 22%, #0c0c10);
+  color: #fff;
+}
+
+.solo-pc__icono svg {
+  width: 24px;
+  height: 24px;
+}
+
+.solo-pc__titulo {
+  margin: 0;
+  font-size: var(--t-titulo);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.solo-pc__texto {
+  margin: 0;
+  color: #c9c9d1;
+  font-size: var(--t-cuerpo);
+  line-height: 1.5;
+}
+
+.solo-pc__pasos {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: var(--s3);
+  color: #c9c9d1;
+  font-size: var(--t-dato);
+  line-height: 1.5;
+}
+
+.solo-pc__pasos li {
+  padding-left: var(--s4);
+  border-left: 2px solid color-mix(in srgb, var(--primario) 60%, #0c0c10);
+}
+
+.solo-pc__pasos strong {
+  color: #fff;
+}
+
+.solo-pc__copiar {
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  min-height: 44px;
+  padding-block: var(--s3);
+  text-align: left;
+}
+
+.solo-pc__copiar span {
+  white-space: normal;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@ol/arte",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Pipeline de arte pixel de Oficina Live: dibuja por código, valida y empaqueta atlas.",
+  "scripts": {
+    "construir": "tsx src/construir.ts",
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ol/shared": "*",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/pngjs": "^6.0.5",
+    "tsx": "^4.20.0",
+    "vitest": "^3.2.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@ol/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "demo": "OL_DEMO=1 tsx watch src/index.ts",
+    "local": "OL_LOCAL=1 tsx src/index.ts",
+    "start": "tsx src/index.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ol/shared": "*",
+    "@prisma/client": "^6.19.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jose": "^6.1.0",
+    "sharp": "^0.35.5",
+    "ws": "^8.18.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "@types/supertest": "^6.0.0",
+    "@types/ws": "^8.18.0",
+    "supertest": "^7.1.0",
+    "tsx": "^4.20.0",
+    "vitest": "^3.2.0"
+  }
+}

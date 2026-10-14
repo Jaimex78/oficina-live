@@ -1,0 +1,1 @@
+ALTER TABLE "Usuario" ADD COLUMN "acceso" TEXT NOT NULL DEFAULT '[]';

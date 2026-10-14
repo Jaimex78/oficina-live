@@ -1,0 +1,23 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+*.log
+
+# Datos y secretos locales: nunca van en git
+data/
+data-demo/
+data-demo-b/
+data-demo-c/
+data-local/
+*.sqlite
+*.sqlite-journal
+.env
+.env.*
+!.env.example
+
+# Salidas generadas por el pipeline de arte (se regeneran con npm run arte)
+arte/salida/
+
+# Material de referencia de terceros (solo para estudiar el estilo; no se versiona)
+arte/referencia/

@@ -1,0 +1,57 @@
+Copyright (c) 2026 Jaime Orozco. Todos los derechos reservados.
+Copyright (c) 2026 Jaime Orozco. All rights reserved.
+
+ESPAÑOL
+
+Oficina Live (el "Software") incluye su código fuente, su arte (sprites, atlas,
+paletas e ilustraciones), sus textos y su documentación.
+
+Este repositorio es público para que se pueda leer y estudiar. Eso no concede
+una licencia de uso. Sin permiso previo y por escrito de Jaime Orozco no está
+permitido:
+
+  1. copiar, modificar, fusionar, publicar, distribuir, sublicenciar ni vender
+     el Software, total o parcialmente;
+  2. usarlo en producción, en una empresa o en un servicio propio o de terceros;
+  3. usar su arte, su nombre o su marca en otros proyectos;
+  4. entrenar modelos de inteligencia artificial con su contenido.
+
+Lo que sí se puede, según las Condiciones del Servicio de GitHub: ver el
+repositorio y bifurcarlo (fork) dentro de GitHub, solo con el fin de
+estudiarlo o de proponer cambios por medio de un pull request. Las
+contribuciones aceptadas pasan a poder usarse en el proyecto bajo estos mismos
+términos (ver CONTRIBUTING.md).
+
+Los componentes de terceros que usa el Software (dependencias, tipografías,
+mapas) conservan sus propias licencias. Están listados en AVISOS.md y esta
+licencia no los modifica.
+
+EL SOFTWARE SE ENTREGA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
+IMPLÍCITA, INCLUIDAS LAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN PARTICULAR Y
+NO INFRACCIÓN. EN NINGÚN CASO LA PERSONA AUTORA SERÁ RESPONSABLE POR RECLAMOS,
+DAÑOS U OTRAS RESPONSABILIDADES DERIVADOS DEL SOFTWARE O DE SU USO.
+
+Para pedir permiso de uso o una licencia comercial, abre un issue en el
+repositorio: https://github.com/Jaimex78/oficina-live/issues
+
+ENGLISH
+
+Oficina Live (the "Software") includes its source code, artwork (sprites,
+atlases, palettes, illustrations), texts and documentation.
+
+This repository is public so it can be read and studied. That does not grant
+a license to use it. Without prior written permission from Jaime Orozco you
+may not copy, modify, merge, publish, distribute, sublicense or sell the
+Software, use it in production or in any company or service, reuse its
+artwork, name or brand, or train AI models on its content.
+
+Under GitHub's Terms of Service you may view and fork the repository on
+GitHub, only to study it or to propose changes through a pull request.
+
+Third-party components keep their own licenses (see AVISOS.md).
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE
+SOFTWARE OR ITS USE.

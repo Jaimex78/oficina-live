@@ -1,0 +1,681 @@
+{
+  "version": 1,
+  "archivo": "mascotas-v1.png",
+  "huella": "740b31d613",
+  "ancho": 1022,
+  "alto": 240,
+  "frames": {
+    "buho@E0": { "x": 2, "y": 2, "w": 32, "h": 32 },
+    "buho@E1": { "x": 36, "y": 2, "w": 32, "h": 32 },
+    "buho@E2": { "x": 70, "y": 2, "w": 32, "h": 32 },
+    "buho@E3": { "x": 104, "y": 2, "w": 32, "h": 32 },
+    "buho@N0": { "x": 138, "y": 2, "w": 32, "h": 32 },
+    "buho@N1": { "x": 172, "y": 2, "w": 32, "h": 32 },
+    "buho@N2": { "x": 206, "y": 2, "w": 32, "h": 32 },
+    "buho@N3": { "x": 240, "y": 2, "w": 32, "h": 32 },
+    "buho@O0": { "x": 274, "y": 2, "w": 32, "h": 32 },
+    "buho@O1": { "x": 308, "y": 2, "w": 32, "h": 32 },
+    "buho@O2": { "x": 342, "y": 2, "w": 32, "h": 32 },
+    "buho@O3": { "x": 376, "y": 2, "w": 32, "h": 32 },
+    "buho@S0": { "x": 410, "y": 2, "w": 32, "h": 32 },
+    "buho@S1": { "x": 444, "y": 2, "w": 32, "h": 32 },
+    "buho@S2": { "x": 478, "y": 2, "w": 32, "h": 32 },
+    "buho@S3": { "x": 512, "y": 2, "w": 32, "h": 32 },
+    "conejo@E0": { "x": 546, "y": 2, "w": 32, "h": 32 },
+    "conejo@E1": { "x": 580, "y": 2, "w": 32, "h": 32 },
+    "conejo@E2": { "x": 614, "y": 2, "w": 32, "h": 32 },
+    "conejo@E3": { "x": 648, "y": 2, "w": 32, "h": 32 },
+    "conejo@N0": { "x": 682, "y": 2, "w": 32, "h": 32 },
+    "conejo@N1": { "x": 716, "y": 2, "w": 32, "h": 32 },
+    "conejo@N2": { "x": 750, "y": 2, "w": 32, "h": 32 },
+    "conejo@N3": { "x": 784, "y": 2, "w": 32, "h": 32 },
+    "conejo@O0": { "x": 818, "y": 2, "w": 32, "h": 32 },
+    "conejo@O1": { "x": 852, "y": 2, "w": 32, "h": 32 },
+    "conejo@O2": { "x": 886, "y": 2, "w": 32, "h": 32 },
+    "conejo@O3": { "x": 920, "y": 2, "w": 32, "h": 32 },
+    "conejo@S0": { "x": 954, "y": 2, "w": 32, "h": 32 },
+    "conejo@S1": { "x": 988, "y": 2, "w": 32, "h": 32 },
+    "conejo@S2": { "x": 2, "y": 36, "w": 32, "h": 32 },
+    "conejo@S3": { "x": 36, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@E0": { "x": 70, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@E1": { "x": 104, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@E2": { "x": 138, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@E3": { "x": 172, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@N0": { "x": 206, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@N1": { "x": 240, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@N2": { "x": 274, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@N3": { "x": 308, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@O0": { "x": 342, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@O1": { "x": 376, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@O2": { "x": 410, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@O3": { "x": 444, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@S0": { "x": 478, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@S1": { "x": 512, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@S2": { "x": 546, "y": 36, "w": 32, "h": 32 },
+    "dragoncito@S3": { "x": 580, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@E0": { "x": 614, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@E1": { "x": 648, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@E2": { "x": 682, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@E3": { "x": 716, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@N0": { "x": 750, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@N1": { "x": 784, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@N2": { "x": 818, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@N3": { "x": 852, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@O0": { "x": 886, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@O1": { "x": 920, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@O2": { "x": 954, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@O3": { "x": 988, "y": 36, "w": 32, "h": 32 },
+    "fantasmita@S0": { "x": 2, "y": 70, "w": 32, "h": 32 },
+    "fantasmita@S1": { "x": 36, "y": 70, "w": 32, "h": 32 },
+    "fantasmita@S2": { "x": 70, "y": 70, "w": 32, "h": 32 },
+    "fantasmita@S3": { "x": 104, "y": 70, "w": 32, "h": 32 },
+    "gato@E0": { "x": 138, "y": 70, "w": 32, "h": 32 },
+    "gato@E1": { "x": 172, "y": 70, "w": 32, "h": 32 },
+    "gato@E2": { "x": 206, "y": 70, "w": 32, "h": 32 },
+    "gato@E3": { "x": 240, "y": 70, "w": 32, "h": 32 },
+    "gato@N0": { "x": 274, "y": 70, "w": 32, "h": 32 },
+    "gato@N1": { "x": 308, "y": 70, "w": 32, "h": 32 },
+    "gato@N2": { "x": 342, "y": 70, "w": 32, "h": 32 },
+    "gato@N3": { "x": 376, "y": 70, "w": 32, "h": 32 },
+    "gato@O0": { "x": 410, "y": 70, "w": 32, "h": 32 },
+    "gato@O1": { "x": 444, "y": 70, "w": 32, "h": 32 },
+    "gato@O2": { "x": 478, "y": 70, "w": 32, "h": 32 },
+    "gato@O3": { "x": 512, "y": 70, "w": 32, "h": 32 },
+    "gato@S0": { "x": 546, "y": 70, "w": 32, "h": 32 },
+    "gato@S1": { "x": 580, "y": 70, "w": 32, "h": 32 },
+    "gato@S2": { "x": 614, "y": 70, "w": 32, "h": 32 },
+    "gato@S3": { "x": 648, "y": 70, "w": 32, "h": 32 },
+    "hongo@E0": { "x": 682, "y": 70, "w": 32, "h": 32 },
+    "hongo@E1": { "x": 716, "y": 70, "w": 32, "h": 32 },
+    "hongo@E2": { "x": 750, "y": 70, "w": 32, "h": 32 },
+    "hongo@E3": { "x": 784, "y": 70, "w": 32, "h": 32 },
+    "hongo@N0": { "x": 818, "y": 70, "w": 32, "h": 32 },
+    "hongo@N1": { "x": 852, "y": 70, "w": 32, "h": 32 },
+    "hongo@N2": { "x": 886, "y": 70, "w": 32, "h": 32 },
+    "hongo@N3": { "x": 920, "y": 70, "w": 32, "h": 32 },
+    "hongo@O0": { "x": 954, "y": 70, "w": 32, "h": 32 },
+    "hongo@O1": { "x": 988, "y": 70, "w": 32, "h": 32 },
+    "hongo@O2": { "x": 2, "y": 104, "w": 32, "h": 32 },
+    "hongo@O3": { "x": 36, "y": 104, "w": 32, "h": 32 },
+    "hongo@S0": { "x": 70, "y": 104, "w": 32, "h": 32 },
+    "hongo@S1": { "x": 104, "y": 104, "w": 32, "h": 32 },
+    "hongo@S2": { "x": 138, "y": 104, "w": 32, "h": 32 },
+    "hongo@S3": { "x": 172, "y": 104, "w": 32, "h": 32 },
+    "nube@E0": { "x": 206, "y": 104, "w": 32, "h": 32 },
+    "nube@E1": { "x": 240, "y": 104, "w": 32, "h": 32 },
+    "nube@E2": { "x": 274, "y": 104, "w": 32, "h": 32 },
+    "nube@E3": { "x": 308, "y": 104, "w": 32, "h": 32 },
+    "nube@N0": { "x": 342, "y": 104, "w": 32, "h": 32 },
+    "nube@N1": { "x": 376, "y": 104, "w": 32, "h": 32 },
+    "nube@N2": { "x": 410, "y": 104, "w": 32, "h": 32 },
+    "nube@N3": { "x": 444, "y": 104, "w": 32, "h": 32 },
+    "nube@O0": { "x": 478, "y": 104, "w": 32, "h": 32 },
+    "nube@O1": { "x": 512, "y": 104, "w": 32, "h": 32 },
+    "nube@O2": { "x": 546, "y": 104, "w": 32, "h": 32 },
+    "nube@O3": { "x": 580, "y": 104, "w": 32, "h": 32 },
+    "nube@S0": { "x": 614, "y": 104, "w": 32, "h": 32 },
+    "nube@S1": { "x": 648, "y": 104, "w": 32, "h": 32 },
+    "nube@S2": { "x": 682, "y": 104, "w": 32, "h": 32 },
+    "nube@S3": { "x": 716, "y": 104, "w": 32, "h": 32 },
+    "panda@E0": { "x": 750, "y": 104, "w": 32, "h": 32 },
+    "panda@E1": { "x": 784, "y": 104, "w": 32, "h": 32 },
+    "panda@E2": { "x": 818, "y": 104, "w": 32, "h": 32 },
+    "panda@E3": { "x": 852, "y": 104, "w": 32, "h": 32 },
+    "panda@N0": { "x": 886, "y": 104, "w": 32, "h": 32 },
+    "panda@N1": { "x": 920, "y": 104, "w": 32, "h": 32 },
+    "panda@N2": { "x": 954, "y": 104, "w": 32, "h": 32 },
+    "panda@N3": { "x": 988, "y": 104, "w": 32, "h": 32 },
+    "panda@O0": { "x": 2, "y": 138, "w": 32, "h": 32 },
+    "panda@O1": { "x": 36, "y": 138, "w": 32, "h": 32 },
+    "panda@O2": { "x": 70, "y": 138, "w": 32, "h": 32 },
+    "panda@O3": { "x": 104, "y": 138, "w": 32, "h": 32 },
+    "panda@S0": { "x": 138, "y": 138, "w": 32, "h": 32 },
+    "panda@S1": { "x": 172, "y": 138, "w": 32, "h": 32 },
+    "panda@S2": { "x": 206, "y": 138, "w": 32, "h": 32 },
+    "panda@S3": { "x": 240, "y": 138, "w": 32, "h": 32 },
+    "perro@E0": { "x": 274, "y": 138, "w": 32, "h": 32 },
+    "perro@E1": { "x": 308, "y": 138, "w": 32, "h": 32 },
+    "perro@E2": { "x": 342, "y": 138, "w": 32, "h": 32 },
+    "perro@E3": { "x": 376, "y": 138, "w": 32, "h": 32 },
+    "perro@N0": { "x": 410, "y": 138, "w": 32, "h": 32 },
+    "perro@N1": { "x": 444, "y": 138, "w": 32, "h": 32 },
+    "perro@N2": { "x": 478, "y": 138, "w": 32, "h": 32 },
+    "perro@N3": { "x": 512, "y": 138, "w": 32, "h": 32 },
+    "perro@O0": { "x": 546, "y": 138, "w": 32, "h": 32 },
+    "perro@O1": { "x": 580, "y": 138, "w": 32, "h": 32 },
+    "perro@O2": { "x": 614, "y": 138, "w": 32, "h": 32 },
+    "perro@O3": { "x": 648, "y": 138, "w": 32, "h": 32 },
+    "perro@S0": { "x": 682, "y": 138, "w": 32, "h": 32 },
+    "perro@S1": { "x": 716, "y": 138, "w": 32, "h": 32 },
+    "perro@S2": { "x": 750, "y": 138, "w": 32, "h": 32 },
+    "perro@S3": { "x": 784, "y": 138, "w": 32, "h": 32 },
+    "pollito@E0": { "x": 818, "y": 138, "w": 32, "h": 32 },
+    "pollito@E1": { "x": 852, "y": 138, "w": 32, "h": 32 },
+    "pollito@E2": { "x": 886, "y": 138, "w": 32, "h": 32 },
+    "pollito@E3": { "x": 920, "y": 138, "w": 32, "h": 32 },
+    "pollito@N0": { "x": 954, "y": 138, "w": 32, "h": 32 },
+    "pollito@N1": { "x": 988, "y": 138, "w": 32, "h": 32 },
+    "pollito@N2": { "x": 2, "y": 172, "w": 32, "h": 32 },
+    "pollito@N3": { "x": 36, "y": 172, "w": 32, "h": 32 },
+    "pollito@O0": { "x": 70, "y": 172, "w": 32, "h": 32 },
+    "pollito@O1": { "x": 104, "y": 172, "w": 32, "h": 32 },
+    "pollito@O2": { "x": 138, "y": 172, "w": 32, "h": 32 },
+    "pollito@O3": { "x": 172, "y": 172, "w": 32, "h": 32 },
+    "pollito@S0": { "x": 206, "y": 172, "w": 32, "h": 32 },
+    "pollito@S1": { "x": 240, "y": 172, "w": 32, "h": 32 },
+    "pollito@S2": { "x": 274, "y": 172, "w": 32, "h": 32 },
+    "pollito@S3": { "x": 308, "y": 172, "w": 32, "h": 32 },
+    "rana@E0": { "x": 342, "y": 172, "w": 32, "h": 32 },
+    "rana@E1": { "x": 376, "y": 172, "w": 32, "h": 32 },
+    "rana@E2": { "x": 410, "y": 172, "w": 32, "h": 32 },
+    "rana@E3": { "x": 444, "y": 172, "w": 32, "h": 32 },
+    "rana@N0": { "x": 478, "y": 172, "w": 32, "h": 32 },
+    "rana@N1": { "x": 512, "y": 172, "w": 32, "h": 32 },
+    "rana@N2": { "x": 546, "y": 172, "w": 32, "h": 32 },
+    "rana@N3": { "x": 580, "y": 172, "w": 32, "h": 32 },
+    "rana@O0": { "x": 614, "y": 172, "w": 32, "h": 32 },
+    "rana@O1": { "x": 648, "y": 172, "w": 32, "h": 32 },
+    "rana@O2": { "x": 682, "y": 172, "w": 32, "h": 32 },
+    "rana@O3": { "x": 716, "y": 172, "w": 32, "h": 32 },
+    "rana@S0": { "x": 750, "y": 172, "w": 32, "h": 32 },
+    "rana@S1": { "x": 784, "y": 172, "w": 32, "h": 32 },
+    "rana@S2": { "x": 818, "y": 172, "w": 32, "h": 32 },
+    "rana@S3": { "x": 852, "y": 172, "w": 32, "h": 32 },
+    "zorro@E0": { "x": 886, "y": 172, "w": 32, "h": 32 },
+    "zorro@E1": { "x": 920, "y": 172, "w": 32, "h": 32 },
+    "zorro@E2": { "x": 954, "y": 172, "w": 32, "h": 32 },
+    "zorro@E3": { "x": 988, "y": 172, "w": 32, "h": 32 },
+    "zorro@N0": { "x": 2, "y": 206, "w": 32, "h": 32 },
+    "zorro@N1": { "x": 36, "y": 206, "w": 32, "h": 32 },
+    "zorro@N2": { "x": 70, "y": 206, "w": 32, "h": 32 },
+    "zorro@N3": { "x": 104, "y": 206, "w": 32, "h": 32 },
+    "zorro@O0": { "x": 138, "y": 206, "w": 32, "h": 32 },
+    "zorro@O1": { "x": 172, "y": 206, "w": 32, "h": 32 },
+    "zorro@O2": { "x": 206, "y": 206, "w": 32, "h": 32 },
+    "zorro@O3": { "x": 240, "y": 206, "w": 32, "h": 32 },
+    "zorro@S0": { "x": 274, "y": 206, "w": 32, "h": 32 },
+    "zorro@S1": { "x": 308, "y": 206, "w": 32, "h": 32 },
+    "zorro@S2": { "x": 342, "y": 206, "w": 32, "h": 32 },
+    "zorro@S3": { "x": 376, "y": 206, "w": 32, "h": 32 }
+  },
+  "mascotas": [
+    {
+      "id": "gato",
+      "nombre": "Gato",
+      "descripcion": "Un gatito curioso de orejas puntudas.",
+      "grupo": "animales",
+      "frames": {
+        "S": ["gato@S0", "gato@S1", "gato@S2", "gato@S3"],
+        "O": ["gato@O0", "gato@O1", "gato@O2", "gato@O3"],
+        "E": ["gato@E0", "gato@E1", "gato@E2", "gato@E3"],
+        "N": ["gato@N0", "gato@N1", "gato@N2", "gato@N3"]
+      },
+      "variantes": [
+        {
+          "id": "naranja",
+          "nombre": "Naranja",
+          "rampas": {
+            "accA": ["#190500", "#BC5E18", "#E08A3A", "#F6AA57", "#F9CC96"],
+            "accB": ["#0F0A06", "#DBC4A9", "#F8E6C8", "#FFF4DD", "#FFFBF4"]
+          }
+        },
+        {
+          "id": "gris",
+          "nombre": "Gris",
+          "rampas": {
+            "accA": ["#0A0B0F", "#6D7182", "#8F97A8", "#ABB1C2", "#C6C9D5"],
+            "accB": ["#0C0A11", "#C8C5D1", "#E4E8EF", "#F7F5F1", "#FEFBF6"]
+          }
+        },
+        {
+          "id": "negro",
+          "nombre": "Negro",
+          "rampas": {
+            "accA": ["#020203", "#282733", "#3A3C48", "#565763", "#717079"],
+            "accB": ["#0B0B0E", "#77798A", "#9AA0B0", "#B6BACA", "#D1D3DD"]
+          }
+        }
+      ],
+      "etiquetas": ["animales", "gato"]
+    },
+    {
+      "id": "perro",
+      "nombre": "Perro",
+      "descripcion": "Un perrito juguetón de orejas caídas.",
+      "grupo": "animales",
+      "frames": {
+        "S": ["perro@S0", "perro@S1", "perro@S2", "perro@S3"],
+        "O": ["perro@O0", "perro@O1", "perro@O2", "perro@O3"],
+        "E": ["perro@E0", "perro@E1", "perro@E2", "perro@E3"],
+        "N": ["perro@N0", "perro@N1", "perro@N2", "perro@N3"]
+      },
+      "variantes": [
+        {
+          "id": "cafe",
+          "nombre": "Café",
+          "rampas": {
+            "accA": ["#160703", "#94512D", "#B8794A", "#CF9663", "#D7B591"],
+            "accB": ["#130806", "#481E0D", "#6A4129", "#815A3F", "#8D7561"]
+          }
+        },
+        {
+          "id": "crema",
+          "nombre": "Crema",
+          "rampas": {
+            "accA": ["#110904", "#CBA57D", "#E7C79A", "#F3D9AC", "#F9EACC"],
+            "accB": ["#150702", "#854A1F", "#A8723F", "#BE8F59", "#C8AC87"]
+          }
+        },
+        {
+          "id": "gris",
+          "nombre": "Gris",
+          "rampas": {
+            "accA": ["#0A0B0E", "#777C8D", "#9AA3B3", "#B3BECD", "#CED7E0"],
+            "accB": ["#0B0B0F", "#2E3040", "#4C5262", "#65697A", "#7E808B"]
+          }
+        }
+      ],
+      "etiquetas": ["animales", "perro"]
+    },
+    {
+      "id": "conejo",
+      "nombre": "Conejo",
+      "descripcion": "Un conejito de orejas largas y colita de algodón.",
+      "grupo": "animales",
+      "frames": {
+        "S": ["conejo@S0", "conejo@S1", "conejo@S2", "conejo@S3"],
+        "O": ["conejo@O0", "conejo@O1", "conejo@O2", "conejo@O3"],
+        "E": ["conejo@E0", "conejo@E1", "conejo@E2", "conejo@E3"],
+        "N": ["conejo@N0", "conejo@N1", "conejo@N2", "conejo@N3"]
+      },
+      "variantes": [
+        {
+          "id": "blanco",
+          "nombre": "Blanco",
+          "rampas": {
+            "accA": ["#14141E", "#B6BACD", "#E6E8F0", "#F6F7FB", "#FFFFFF"],
+            "accB": ["#14060C", "#D189A2", "#F5A9B8", "#FFBEC4", "#FFD4D4"]
+          }
+        },
+        {
+          "id": "cafe",
+          "nombre": "Café",
+          "rampas": {
+            "accA": ["#130804", "#926242", "#B58A62", "#CCA67C", "#D9C3A5"],
+            "accB": ["#110906", "#D2A694", "#F0C8B0", "#FEDABF", "#FFEDDD"]
+          }
+        },
+        {
+          "id": "gris",
+          "nombre": "Gris",
+          "rampas": {
+            "accA": ["#0B0B0E", "#818291", "#A5A9B8", "#C1C3D2", "#DCDCE6"],
+            "accB": ["#12080C", "#CF98AC", "#F2B8C4", "#FFCBD0", "#FFE0E1"]
+          }
+        }
+      ],
+      "etiquetas": ["animales", "conejo"]
+    },
+    {
+      "id": "buho",
+      "nombre": "Búho",
+      "descripcion": "Un búho redondo de ojos grandes.",
+      "grupo": "animales",
+      "frames": {
+        "S": ["buho@S0", "buho@S1", "buho@S2", "buho@S3"],
+        "O": ["buho@O0", "buho@O1", "buho@O2", "buho@O3"],
+        "E": ["buho@E0", "buho@E1", "buho@E2", "buho@E3"],
+        "N": ["buho@N0", "buho@N1", "buho@N2", "buho@N3"]
+      },
+      "variantes": [
+        {
+          "id": "cafe",
+          "nombre": "Café",
+          "rampas": {
+            "accA": ["#140804", "#774426", "#9A6A44", "#B1865D", "#BCA285"],
+            "accB": ["#110A04", "#CBAB85", "#E7CDA3", "#F3DFB5", "#FCEFD3"]
+          }
+        },
+        {
+          "id": "gris",
+          "nombre": "Gris",
+          "rampas": {
+            "accA": ["#0B0B0F", "#6A6D82", "#8C93A8", "#A8ADC2", "#C4C5D3"],
+            "accB": ["#0C0A11", "#C1BFCA", "#DDE1EC", "#F4F1ED", "#FEFBF6"]
+          }
+        },
+        {
+          "id": "nieve",
+          "nombre": "Nieve",
+          "rampas": {
+            "accA": ["#14141E", "#B6BACD", "#E6E8F0", "#F6F7FB", "#FFFFFF"],
+            "accB": ["#0B0B0F", "#9B9EB2", "#BFC6DA", "#DDE1F5", "#FBFBFF"]
+          }
+        }
+      ],
+      "etiquetas": ["animales", "buho"]
+    },
+    {
+      "id": "pollito",
+      "nombre": "Pollito",
+      "descripcion": "Un pollito esponjoso que da saltitos.",
+      "grupo": "animales",
+      "frames": {
+        "S": ["pollito@S0", "pollito@S1", "pollito@S2", "pollito@S3"],
+        "O": ["pollito@O0", "pollito@O1", "pollito@O2", "pollito@O3"],
+        "E": ["pollito@E0", "pollito@E1", "pollito@E2", "pollito@E3"],
+        "N": ["pollito@N0", "pollito@N1", "pollito@N2", "pollito@N3"]
+      },
+      "variantes": [
+        {
+          "id": "amarillo",
+          "nombre": "Amarillo",
+          "rampas": {
+            "accA": ["#150800", "#DFA600", "#FCD548", "#FFF3D8", "#FFFBF4"],
+            "accB": ["#180600", "#D27A05", "#F4A83C", "#FFCB7B", "#FFECC9"]
+          }
+        },
+        {
+          "id": "naranja",
+          "nombre": "Naranja",
+          "rampas": {
+            "accA": ["#190500", "#D16D2B", "#F59A4A", "#FFBF80", "#FFE1C0"],
+            "accB": ["#1B0302", "#AE321C", "#D6602F", "#EE8145", "#EEA87E"]
+          }
+        },
+        {
+          "id": "celeste",
+          "nombre": "Celeste",
+          "rampas": {
+            "accA": ["#020C16", "#5EA5CF", "#7FD0F2", "#ACEAFF", "#EDFBFF"],
+            "accB": ["#020B1A", "#2771B3", "#3E9BD6", "#57B8EB", "#90CFED"]
+          }
+        }
+      ],
+      "etiquetas": ["animales", "pollito"]
+    },
+    {
+      "id": "panda",
+      "nombre": "Panda",
+      "descripcion": "Un osito panda con antifaz y orejas redondas.",
+      "grupo": "animales",
+      "frames": {
+        "S": ["panda@S0", "panda@S1", "panda@S2", "panda@S3"],
+        "O": ["panda@O0", "panda@O1", "panda@O2", "panda@O3"],
+        "E": ["panda@E0", "panda@E1", "panda@E2", "panda@E3"],
+        "N": ["panda@N0", "panda@N1", "panda@N2", "panda@N3"]
+      },
+      "variantes": [
+        {
+          "id": "clasico",
+          "nombre": "Clásico",
+          "rampas": {
+            "accA": ["#14141E", "#B6BACD", "#E6E8F0", "#F6F7FB", "#FFFFFF"],
+            "accB": ["#020104", "#201E26", "#2E3038", "#4C4A47", "#65635E"]
+          }
+        },
+        {
+          "id": "cafe",
+          "nombre": "Café",
+          "rampas": {
+            "accA": ["#0F0A06", "#D3BAA1", "#F0DCC0", "#FEEED1", "#FFFBF4"],
+            "accB": ["#120806", "#492314", "#6B4630", "#825F46", "#8F7967"]
+          }
+        },
+        {
+          "id": "rosa",
+          "nombre": "Rosa",
+          "rampas": {
+            "accA": ["#0E090C", "#D7BCC9", "#FADCE6", "#FFF1F4", "#FFFAFB"],
+            "accB": ["#110810", "#52294A", "#7A4A66", "#95637A", "#A37F8C"]
+          }
+        }
+      ],
+      "etiquetas": ["animales", "panda"]
+    },
+    {
+      "id": "rana",
+      "nombre": "Rana",
+      "descripcion": "Una ranita de ojos saltones y sonrisa ancha.",
+      "grupo": "animales",
+      "frames": {
+        "S": ["rana@S0", "rana@S1", "rana@S2", "rana@S3"],
+        "O": ["rana@O0", "rana@O1", "rana@O2", "rana@O3"],
+        "E": ["rana@E0", "rana@E1", "rana@E2", "rana@E3"],
+        "N": ["rana@N0", "rana@N1", "rana@N2", "rana@N3"]
+      },
+      "variantes": [
+        {
+          "id": "verde",
+          "nombre": "Verde",
+          "rampas": {
+            "accA": ["#001103", "#009849", "#5CBE55", "#8CD668", "#BFE69D"],
+            "accB": ["#060E03", "#ADD28F", "#D9F0A8", "#F1FEB7", "#FCFFDF"]
+          }
+        },
+        {
+          "id": "celeste",
+          "nombre": "Celeste",
+          "rampas": {
+            "accA": ["#010C19", "#318DC6", "#4FB8E8", "#6CD5FD", "#ABEAFF"],
+            "accB": ["#080C0F", "#B9D0E0", "#D8F2FF", "#E7F9FF", "#F6FDFF"]
+          }
+        },
+        {
+          "id": "roja",
+          "nombre": "Roja",
+          "rampas": {
+            "accA": ["#1C0205", "#BA273B", "#E5584A", "#FF7A5A", "#FDA689"],
+            "accB": ["#130803", "#DFAD84", "#FBD0A0", "#FFE5C0", "#FFF7E9"]
+          }
+        }
+      ],
+      "etiquetas": ["animales", "rana"]
+    },
+    {
+      "id": "zorro",
+      "nombre": "Zorro",
+      "descripcion": "Un zorrito de cola grande con la punta clara.",
+      "grupo": "animales",
+      "frames": {
+        "S": ["zorro@S0", "zorro@S1", "zorro@S2", "zorro@S3"],
+        "O": ["zorro@O0", "zorro@O1", "zorro@O2", "zorro@O3"],
+        "E": ["zorro@E0", "zorro@E1", "zorro@E2", "zorro@E3"],
+        "N": ["zorro@N0", "zorro@N1", "zorro@N2", "zorro@N3"]
+      },
+      "variantes": [
+        {
+          "id": "naranja",
+          "nombre": "Naranja",
+          "rampas": {
+            "accA": ["#1A0400", "#C3581D", "#E8853A", "#FEA555", "#FFC995"],
+            "accB": ["#0E0A08", "#E0D1C0", "#FFF3E0", "#FDF4E1", "#FFFBF4"]
+          }
+        },
+        {
+          "id": "gris",
+          "nombre": "Gris",
+          "rampas": {
+            "accA": ["#0A0B10", "#696D88", "#8A94AE", "#A7ADC8", "#C3C6D7"],
+            "accB": ["#0C0A11", "#D4D1DD", "#F2F4FA", "#F7F5F1", "#FEFBF6"]
+          }
+        },
+        {
+          "id": "nieve",
+          "nombre": "Nieve",
+          "rampas": {
+            "accA": ["#14141E", "#B6BACD", "#E6E8F0", "#F6F7FB", "#FFFFFF"],
+            "accB": ["#0B0B0F", "#A1A2B7", "#C5CBE0", "#E3E6FB", "#FBFBFF"]
+          }
+        }
+      ],
+      "etiquetas": ["animales", "zorro"]
+    },
+    {
+      "id": "dragoncito",
+      "nombre": "Dragoncito",
+      "descripcion": "Un dragón bebé con cuernitos y alas pequeñas.",
+      "grupo": "fantasticas",
+      "frames": {
+        "S": ["dragoncito@S0", "dragoncito@S1", "dragoncito@S2", "dragoncito@S3"],
+        "O": ["dragoncito@O0", "dragoncito@O1", "dragoncito@O2", "dragoncito@O3"],
+        "E": ["dragoncito@E0", "dragoncito@E1", "dragoncito@E2", "dragoncito@E3"],
+        "N": ["dragoncito@N0", "dragoncito@N1", "dragoncito@N2", "dragoncito@N3"]
+      },
+      "variantes": [
+        {
+          "id": "verde",
+          "nombre": "Verde",
+          "rampas": {
+            "accA": ["#001105", "#008C4E", "#4FB35A", "#7FCB6C", "#B2DC9B"],
+            "accB": ["#110A01", "#DCBF7F", "#F5E3A0", "#FFF3D3", "#FFFBF4"]
+          }
+        },
+        {
+          "id": "morado",
+          "nombre": "Morado",
+          "rampas": {
+            "accA": ["#0D061D", "#6844B0", "#9468D4", "#B581E7", "#CAA3E4"],
+            "accB": ["#0E0811", "#CDAAD6", "#F3C8F0", "#FFDCF7", "#FFF4FB"]
+          }
+        },
+        {
+          "id": "rojo",
+          "nombre": "Rojo",
+          "rampas": {
+            "accA": ["#1C0205", "#B51A2E", "#E0503C", "#F9734C", "#F7A07F"],
+            "accB": ["#130902", "#E4B37C", "#FFD79A", "#FFECC7", "#FFFBF4"]
+          }
+        }
+      ],
+      "etiquetas": ["fantasticas", "dragoncito"]
+    },
+    {
+      "id": "nube",
+      "nombre": "Nube",
+      "descripcion": "Una nubecita con ojos que flota a tu lado.",
+      "grupo": "fantasticas",
+      "frames": {
+        "S": ["nube@S0", "nube@S1", "nube@S2", "nube@S3"],
+        "O": ["nube@O0", "nube@O1", "nube@O2", "nube@O3"],
+        "E": ["nube@E0", "nube@E1", "nube@E2", "nube@E3"],
+        "N": ["nube@N0", "nube@N1", "nube@N2", "nube@N3"]
+      },
+      "variantes": [
+        {
+          "id": "blanca",
+          "nombre": "Blanca",
+          "rampas": {
+            "accA": ["#14141E", "#B6BACD", "#E6E8F0", "#F6F7FB", "#FFFFFF"],
+            "accB": ["#0B0A10", "#A0A2BD", "#C3CBE6", "#E2E6FF", "#FBFBFF"]
+          }
+        },
+        {
+          "id": "tormenta",
+          "nombre": "Tormenta",
+          "rampas": {
+            "accA": ["#0A0B10", "#6D7089", "#8E97B0", "#ABB1CA", "#C7C9DA"],
+            "accB": ["#0A0A11", "#414560", "#5F6985", "#7B819D", "#9698AC"]
+          }
+        },
+        {
+          "id": "rosa",
+          "nombre": "Rosa",
+          "rampas": {
+            "accA": ["#12070E", "#D39AB8", "#F7B9D0", "#FFCFDB", "#FFE5E9"],
+            "accB": ["#150510", "#BA6899", "#E88EB4", "#FFAEC7", "#FFD6DE"]
+          }
+        }
+      ],
+      "etiquetas": ["fantasticas", "nube"]
+    },
+    {
+      "id": "hongo",
+      "nombre": "Hongo",
+      "descripcion": "Un hongo caminante de sombrero con lunares.",
+      "grupo": "fantasticas",
+      "frames": {
+        "S": ["hongo@S0", "hongo@S1", "hongo@S2", "hongo@S3"],
+        "O": ["hongo@O0", "hongo@O1", "hongo@O2", "hongo@O3"],
+        "E": ["hongo@E0", "hongo@E1", "hongo@E2", "hongo@E3"],
+        "N": ["hongo@N0", "hongo@N1", "hongo@N2", "hongo@N3"]
+      },
+      "variantes": [
+        {
+          "id": "rojo",
+          "nombre": "Rojo",
+          "rampas": {
+            "accA": ["#1C0205", "#B4002E", "#E0453A", "#FA6949", "#F69A7B"],
+            "accB": ["#0E0A06", "#E1CFB6", "#FFF1D6", "#FFF4DD", "#FFFBF4"]
+          }
+        },
+        {
+          "id": "cafe",
+          "nombre": "Café",
+          "rampas": {
+            "accA": ["#150703", "#814123", "#A5683F", "#BC8457", "#C5A282"],
+            "accB": ["#0F0A05", "#D6C0A0", "#F3E2C0", "#FFF3DB", "#FFFBF4"]
+          }
+        },
+        {
+          "id": "morado",
+          "nombre": "Morado",
+          "rampas": {
+            "accA": ["#0D061C", "#6240A7", "#8F63C9", "#B07CDC", "#C49DDA"],
+            "accB": ["#0B0A0F", "#CCC6E0", "#F0E6FF", "#F9F2FF", "#FEFAFF"]
+          }
+        }
+      ],
+      "etiquetas": ["fantasticas", "hongo"]
+    },
+    {
+      "id": "fantasmita",
+      "nombre": "Fantasmita",
+      "descripcion": "Un fantasmita amable que flota sin hacer ruido.",
+      "grupo": "fantasticas",
+      "frames": {
+        "S": ["fantasmita@S0", "fantasmita@S1", "fantasmita@S2", "fantasmita@S3"],
+        "O": ["fantasmita@O0", "fantasmita@O1", "fantasmita@O2", "fantasmita@O3"],
+        "E": ["fantasmita@E0", "fantasmita@E1", "fantasmita@E2", "fantasmita@E3"],
+        "N": ["fantasmita@N0", "fantasmita@N1", "fantasmita@N2", "fantasmita@N3"]
+      },
+      "variantes": [
+        {
+          "id": "blanco",
+          "nombre": "Blanco",
+          "rampas": {
+            "accA": ["#14141E", "#C4C9DE", "#EEF0F8", "#FAFBFE", "#FFFFFF"],
+            "accB": ["#0B0A10", "#AEB0CF", "#C9D2F0", "#DDE1FF", "#F0F1FF"]
+          }
+        },
+        {
+          "id": "celeste",
+          "nombre": "Celeste",
+          "rampas": {
+            "accA": ["#050C13", "#85B2D0", "#A8DCF5", "#D9F4FF", "#F6FDFF"],
+            "accB": ["#090C0E", "#C5D4DF", "#E4F6FF", "#E7F9FF", "#F6FDFF"]
+          }
+        },
+        {
+          "id": "lila",
+          "nombre": "Lila",
+          "rampas": {
+            "accA": ["#0C0817", "#9684CC", "#C5A8F0", "#E3C5FF", "#F6E5FF"],
+            "accB": ["#0B0A10", "#CBC5E0", "#F0E4FF", "#FAF2FF", "#FEFAFF"]
+          }
+        }
+      ],
+      "etiquetas": ["fantasticas", "fantasmita"]
+    }
+  ],
+  "marcadores": {
+    "piel": ["#FA00C8", "#FA00D4", "#FA00E0", "#FA00EC", "#FA00F8"],
+    "cabello": ["#FA08C8", "#FA08D4", "#FA08E0", "#FA08EC", "#FA08F8"],
+    "ropaA": ["#FA10C8", "#FA10D4", "#FA10E0", "#FA10EC", "#FA10F8"],
+    "ropaB": ["#FA18C8", "#FA18D4", "#FA18E0", "#FA18EC", "#FA18F8"],
+    "pantalon": ["#FA20C8", "#FA20D4", "#FA20E0", "#FA20EC", "#FA20F8"],
+    "zapatos": ["#FA28C8", "#FA28D4", "#FA28E0", "#FA28EC", "#FA28F8"],
+    "accA": ["#FA30C8", "#FA30D4", "#FA30E0", "#FA30EC", "#FA30F8"],
+    "accB": ["#FA38C8", "#FA38D4", "#FA38E0", "#FA38EC", "#FA38F8"]
+  }
+}

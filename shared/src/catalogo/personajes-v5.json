@@ -1,0 +1,3228 @@
+{
+  "version": 1,
+  "archivo": "personajes-v5.png",
+  "huella": "834f9de2eb",
+  "ancho": 1022,
+  "alto": 2312,
+  "frames": {
+    "abajo-corto@E0": { "x": 2, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@E1": { "x": 36, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@E2": { "x": 70, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@E3": { "x": 104, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@E4": { "x": 138, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@E5": { "x": 172, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@N0": { "x": 206, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@N1": { "x": 240, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@N2": { "x": 274, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@N3": { "x": 308, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@N4": { "x": 342, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@N5": { "x": 376, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@O0": { "x": 410, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@O1": { "x": 444, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@O2": { "x": 478, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@O3": { "x": 512, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@O4": { "x": 546, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@O5": { "x": 580, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@S0": { "x": 614, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@S1": { "x": 648, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@S2": { "x": 682, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@S3": { "x": 716, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@S4": { "x": 750, "y": 2, "w": 32, "h": 64 },
+    "abajo-corto@S5": { "x": 784, "y": 2, "w": 32, "h": 64 },
+    "abajo-falda@E0": { "x": 818, "y": 2, "w": 32, "h": 64 },
+    "abajo-falda@E1": { "x": 852, "y": 2, "w": 32, "h": 64 },
+    "abajo-falda@E2": { "x": 886, "y": 2, "w": 32, "h": 64 },
+    "abajo-falda@E3": { "x": 920, "y": 2, "w": 32, "h": 64 },
+    "abajo-falda@E4": { "x": 954, "y": 2, "w": 32, "h": 64 },
+    "abajo-falda@E5": { "x": 988, "y": 2, "w": 32, "h": 64 },
+    "abajo-falda@N0": { "x": 2, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@N1": { "x": 36, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@N2": { "x": 70, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@N3": { "x": 104, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@N4": { "x": 138, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@N5": { "x": 172, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@O0": { "x": 206, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@O1": { "x": 240, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@O2": { "x": 274, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@O3": { "x": 308, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@O4": { "x": 342, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@O5": { "x": 376, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@S0": { "x": 410, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@S1": { "x": 444, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@S2": { "x": 478, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@S3": { "x": 512, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@S4": { "x": 546, "y": 68, "w": 32, "h": 64 },
+    "abajo-falda@S5": { "x": 580, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@E0": { "x": 614, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@E1": { "x": 648, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@E2": { "x": 682, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@E3": { "x": 716, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@E4": { "x": 750, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@E5": { "x": 784, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@N0": { "x": 818, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@N1": { "x": 852, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@N2": { "x": 886, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@N3": { "x": 920, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@N4": { "x": 954, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@N5": { "x": 988, "y": 68, "w": 32, "h": 64 },
+    "abajo-jean@O0": { "x": 2, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@O1": { "x": 36, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@O2": { "x": 70, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@O3": { "x": 104, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@O4": { "x": 138, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@O5": { "x": 172, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@S0": { "x": 206, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@S1": { "x": 240, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@S2": { "x": 274, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@S3": { "x": 308, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@S4": { "x": 342, "y": 134, "w": 32, "h": 64 },
+    "abajo-jean@S5": { "x": 376, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@E0": { "x": 410, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@E1": { "x": 444, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@E2": { "x": 478, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@E3": { "x": 512, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@E4": { "x": 546, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@E5": { "x": 580, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@N0": { "x": 614, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@N1": { "x": 648, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@N2": { "x": 682, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@N3": { "x": 716, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@N4": { "x": 750, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@N5": { "x": 784, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@O0": { "x": 818, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@O1": { "x": 852, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@O2": { "x": 886, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@O3": { "x": 920, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@O4": { "x": 954, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@O5": { "x": 988, "y": 134, "w": 32, "h": 64 },
+    "abajo-pantalon@S0": { "x": 2, "y": 200, "w": 32, "h": 64 },
+    "abajo-pantalon@S1": { "x": 36, "y": 200, "w": 32, "h": 64 },
+    "abajo-pantalon@S2": { "x": 70, "y": 200, "w": 32, "h": 64 },
+    "abajo-pantalon@S3": { "x": 104, "y": 200, "w": 32, "h": 64 },
+    "abajo-pantalon@S4": { "x": 138, "y": 200, "w": 32, "h": 64 },
+    "abajo-pantalon@S5": { "x": 172, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@E0": { "x": 206, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@E1": { "x": 240, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@E2": { "x": 274, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@E3": { "x": 308, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@E4": { "x": 342, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@E5": { "x": 376, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@N0": { "x": 410, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@N1": { "x": 444, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@N2": { "x": 478, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@N3": { "x": 512, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@N4": { "x": 546, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@N5": { "x": 580, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@O0": { "x": 614, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@O1": { "x": 648, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@O2": { "x": 682, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@O3": { "x": 716, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@O4": { "x": 750, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@O5": { "x": 784, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@S0": { "x": 818, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@S1": { "x": 852, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@S2": { "x": 886, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@S3": { "x": 920, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@S4": { "x": 954, "y": 200, "w": 32, "h": 64 },
+    "abajo-vestir@S5": { "x": 988, "y": 200, "w": 32, "h": 64 },
+    "acc-audifonos@E0": { "x": 2, "y": 266, "w": 32, "h": 64 },
+    "acc-audifonos@N0": { "x": 36, "y": 266, "w": 32, "h": 64 },
+    "acc-audifonos@O0": { "x": 70, "y": 266, "w": 32, "h": 64 },
+    "acc-audifonos@S0": { "x": 104, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@E0": { "x": 138, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@E1": { "x": 172, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@E2": { "x": 206, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@E3": { "x": 240, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@E4": { "x": 274, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@E5": { "x": 308, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@N0": { "x": 342, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@N1": { "x": 376, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@N2": { "x": 410, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@N3": { "x": 444, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@N4": { "x": 478, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@N5": { "x": 512, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@O0": { "x": 546, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@O1": { "x": 580, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@O2": { "x": 614, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@O3": { "x": 648, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@O4": { "x": 682, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@O5": { "x": 716, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@S0": { "x": 750, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@S1": { "x": 784, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@S2": { "x": 818, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@S3": { "x": 852, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@S4": { "x": 886, "y": 266, "w": 32, "h": 64 },
+    "acc-auriculares-cuello@S5": { "x": 920, "y": 266, "w": 32, "h": 64 },
+    "acc-boina@E0": { "x": 954, "y": 266, "w": 32, "h": 64 },
+    "acc-boina@N0": { "x": 988, "y": 266, "w": 32, "h": 64 },
+    "acc-boina@O0": { "x": 2, "y": 332, "w": 32, "h": 64 },
+    "acc-boina@S0": { "x": 36, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@E0": { "x": 70, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@E1": { "x": 104, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@E2": { "x": 138, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@E3": { "x": 172, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@E4": { "x": 206, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@E5": { "x": 240, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@N0": { "x": 274, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@N1": { "x": 308, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@N2": { "x": 342, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@N3": { "x": 376, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@N4": { "x": 410, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@N5": { "x": 444, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@O0": { "x": 478, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@O1": { "x": 512, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@O2": { "x": 546, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@O3": { "x": 580, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@O4": { "x": 614, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@O5": { "x": 648, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@S0": { "x": 682, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@S1": { "x": 716, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@S2": { "x": 750, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@S3": { "x": 784, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@S4": { "x": 818, "y": 332, "w": 32, "h": 64 },
+    "acc-bufanda@S5": { "x": 852, "y": 332, "w": 32, "h": 64 },
+    "acc-capa@E0": { "x": 886, "y": 332, "w": 32, "h": 64 },
+    "acc-capa@E0a": { "x": 920, "y": 332, "w": 32, "h": 64 },
+    "acc-capa@E1": { "x": 954, "y": 332, "w": 32, "h": 64 },
+    "acc-capa@E1a": { "x": 988, "y": 332, "w": 32, "h": 64 },
+    "acc-capa@E2": { "x": 2, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@E2a": { "x": 36, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@E3": { "x": 70, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@E3a": { "x": 104, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@E4": { "x": 138, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@E4a": { "x": 172, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@E5": { "x": 206, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@E5a": { "x": 240, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@N0": { "x": 274, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@N1": { "x": 308, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@N2": { "x": 342, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@N3": { "x": 376, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@N4": { "x": 410, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@N5": { "x": 444, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O0": { "x": 478, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O0a": { "x": 512, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O1": { "x": 546, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O1a": { "x": 580, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O2": { "x": 614, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O2a": { "x": 648, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O3": { "x": 682, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O3a": { "x": 716, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O4": { "x": 750, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O4a": { "x": 784, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O5": { "x": 818, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@O5a": { "x": 852, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@S0": { "x": 886, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@S0a": { "x": 920, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@S1": { "x": 954, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@S1a": { "x": 988, "y": 398, "w": 32, "h": 64 },
+    "acc-capa@S2": { "x": 2, "y": 464, "w": 32, "h": 64 },
+    "acc-capa@S2a": { "x": 36, "y": 464, "w": 32, "h": 64 },
+    "acc-capa@S3": { "x": 70, "y": 464, "w": 32, "h": 64 },
+    "acc-capa@S3a": { "x": 104, "y": 464, "w": 32, "h": 64 },
+    "acc-capa@S4": { "x": 138, "y": 464, "w": 32, "h": 64 },
+    "acc-capa@S4a": { "x": 172, "y": 464, "w": 32, "h": 64 },
+    "acc-capa@S5": { "x": 206, "y": 464, "w": 32, "h": 64 },
+    "acc-capa@S5a": { "x": 240, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-cuadradas@E0": { "x": 274, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-cuadradas@O0": { "x": 308, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-cuadradas@S0": { "x": 342, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-redondas@E0": { "x": 376, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-redondas@O0": { "x": 410, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-redondas@S0": { "x": 444, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-sin-marco@E0": { "x": 478, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-sin-marco@O0": { "x": 512, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-sin-marco@S0": { "x": 546, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-sol@E0": { "x": 580, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-sol@O0": { "x": 614, "y": 464, "w": 32, "h": 64 },
+    "acc-gafas-sol@S0": { "x": 648, "y": 464, "w": 32, "h": 64 },
+    "acc-gorra@E0": { "x": 682, "y": 464, "w": 32, "h": 64 },
+    "acc-gorra@N0": { "x": 716, "y": 464, "w": 32, "h": 64 },
+    "acc-gorra@O0": { "x": 750, "y": 464, "w": 32, "h": 64 },
+    "acc-gorra@S0": { "x": 784, "y": 464, "w": 32, "h": 64 },
+    "acc-gorro-lana@E0": { "x": 818, "y": 464, "w": 32, "h": 64 },
+    "acc-gorro-lana@N0": { "x": 852, "y": 464, "w": 32, "h": 64 },
+    "acc-gorro-lana@O0": { "x": 886, "y": 464, "w": 32, "h": 64 },
+    "acc-gorro-lana@S0": { "x": 920, "y": 464, "w": 32, "h": 64 },
+    "acc-mochila@E0": { "x": 954, "y": 464, "w": 32, "h": 64 },
+    "acc-mochila@E0a": { "x": 988, "y": 464, "w": 32, "h": 64 },
+    "acc-mochila@E1": { "x": 2, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@E1a": { "x": 36, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@E2": { "x": 70, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@E2a": { "x": 104, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@E3": { "x": 138, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@E3a": { "x": 172, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@E4": { "x": 206, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@E4a": { "x": 240, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@E5": { "x": 274, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@E5a": { "x": 308, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@N0": { "x": 342, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@N1": { "x": 376, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@N2": { "x": 410, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@N3": { "x": 444, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@N4": { "x": 478, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@N5": { "x": 512, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O0": { "x": 546, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O0a": { "x": 580, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O1": { "x": 614, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O1a": { "x": 648, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O2": { "x": 682, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O2a": { "x": 716, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O3": { "x": 750, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O3a": { "x": 784, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O4": { "x": 818, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O4a": { "x": 852, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O5": { "x": 886, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@O5a": { "x": 920, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@S0": { "x": 954, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@S0a": { "x": 988, "y": 530, "w": 32, "h": 64 },
+    "acc-mochila@S1": { "x": 2, "y": 596, "w": 32, "h": 64 },
+    "acc-mochila@S1a": { "x": 36, "y": 596, "w": 32, "h": 64 },
+    "acc-mochila@S2": { "x": 70, "y": 596, "w": 32, "h": 64 },
+    "acc-mochila@S2a": { "x": 104, "y": 596, "w": 32, "h": 64 },
+    "acc-mochila@S3": { "x": 138, "y": 596, "w": 32, "h": 64 },
+    "acc-mochila@S3a": { "x": 172, "y": 596, "w": 32, "h": 64 },
+    "acc-mochila@S4": { "x": 206, "y": 596, "w": 32, "h": 64 },
+    "acc-mochila@S4a": { "x": 240, "y": 596, "w": 32, "h": 64 },
+    "acc-mochila@S5": { "x": 274, "y": 596, "w": 32, "h": 64 },
+    "acc-mochila@S5a": { "x": 308, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@E0": { "x": 342, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@E1": { "x": 376, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@E2": { "x": 410, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@E3": { "x": 444, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@E4": { "x": 478, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@E5": { "x": 512, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@N0": { "x": 546, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@N1": { "x": 580, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@N2": { "x": 614, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@N3": { "x": 648, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@N4": { "x": 682, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@N5": { "x": 716, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@O0": { "x": 750, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@O1": { "x": 784, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@O2": { "x": 818, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@O3": { "x": 852, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@O4": { "x": 886, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@O5": { "x": 920, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@S0": { "x": 954, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@S1": { "x": 988, "y": 596, "w": 32, "h": 64 },
+    "arriba-blusa@S2": { "x": 2, "y": 662, "w": 32, "h": 64 },
+    "arriba-blusa@S3": { "x": 36, "y": 662, "w": 32, "h": 64 },
+    "arriba-blusa@S4": { "x": 70, "y": 662, "w": 32, "h": 64 },
+    "arriba-blusa@S5": { "x": 104, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@E0": { "x": 138, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@E1": { "x": 172, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@E2": { "x": 206, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@E3": { "x": 240, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@E4": { "x": 274, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@E5": { "x": 308, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@N0": { "x": 342, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@N1": { "x": 376, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@N2": { "x": 410, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@N3": { "x": 444, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@N4": { "x": 478, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@N5": { "x": 512, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@O0": { "x": 546, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@O1": { "x": 580, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@O2": { "x": 614, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@O3": { "x": 648, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@O4": { "x": 682, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@O5": { "x": 716, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@S0": { "x": 750, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@S1": { "x": 784, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@S2": { "x": 818, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@S3": { "x": 852, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@S4": { "x": 886, "y": 662, "w": 32, "h": 64 },
+    "arriba-buso@S5": { "x": 920, "y": 662, "w": 32, "h": 64 },
+    "arriba-camisa@E0": { "x": 954, "y": 662, "w": 32, "h": 64 },
+    "arriba-camisa@E1": { "x": 988, "y": 662, "w": 32, "h": 64 },
+    "arriba-camisa@E2": { "x": 2, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@E3": { "x": 36, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@E4": { "x": 70, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@E5": { "x": 104, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@N0": { "x": 138, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@N1": { "x": 172, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@N2": { "x": 206, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@N3": { "x": 240, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@N4": { "x": 274, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@N5": { "x": 308, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@O0": { "x": 342, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@O1": { "x": 376, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@O2": { "x": 410, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@O3": { "x": 444, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@O4": { "x": 478, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@O5": { "x": 512, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@S0": { "x": 546, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@S1": { "x": 580, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@S2": { "x": 614, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@S3": { "x": 648, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@S4": { "x": 682, "y": 728, "w": 32, "h": 64 },
+    "arriba-camisa@S5": { "x": 716, "y": 728, "w": 32, "h": 64 },
+    "arriba-camiseta@E0": { "x": 750, "y": 728, "w": 32, "h": 64 },
+    "arriba-camiseta@E1": { "x": 784, "y": 728, "w": 32, "h": 64 },
+    "arriba-camiseta@E2": { "x": 818, "y": 728, "w": 32, "h": 64 },
+    "arriba-camiseta@E3": { "x": 852, "y": 728, "w": 32, "h": 64 },
+    "arriba-camiseta@E4": { "x": 886, "y": 728, "w": 32, "h": 64 },
+    "arriba-camiseta@E5": { "x": 920, "y": 728, "w": 32, "h": 64 },
+    "arriba-camiseta@N0": { "x": 954, "y": 728, "w": 32, "h": 64 },
+    "arriba-camiseta@N1": { "x": 988, "y": 728, "w": 32, "h": 64 },
+    "arriba-camiseta@N2": { "x": 2, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@N3": { "x": 36, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@N4": { "x": 70, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@N5": { "x": 104, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@O0": { "x": 138, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@O1": { "x": 172, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@O2": { "x": 206, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@O3": { "x": 240, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@O4": { "x": 274, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@O5": { "x": 308, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@S0": { "x": 342, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@S1": { "x": 376, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@S2": { "x": 410, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@S3": { "x": 444, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@S4": { "x": 478, "y": 794, "w": 32, "h": 64 },
+    "arriba-camiseta@S5": { "x": 512, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@E0": { "x": 546, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@E1": { "x": 580, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@E2": { "x": 614, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@E3": { "x": 648, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@E4": { "x": 682, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@E5": { "x": 716, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@N0": { "x": 750, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@N1": { "x": 784, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@N2": { "x": 818, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@N3": { "x": 852, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@N4": { "x": 886, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@N5": { "x": 920, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@O0": { "x": 954, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@O1": { "x": 988, "y": 794, "w": 32, "h": 64 },
+    "arriba-polo@O2": { "x": 2, "y": 860, "w": 32, "h": 64 },
+    "arriba-polo@O3": { "x": 36, "y": 860, "w": 32, "h": 64 },
+    "arriba-polo@O4": { "x": 70, "y": 860, "w": 32, "h": 64 },
+    "arriba-polo@O5": { "x": 104, "y": 860, "w": 32, "h": 64 },
+    "arriba-polo@S0": { "x": 138, "y": 860, "w": 32, "h": 64 },
+    "arriba-polo@S1": { "x": 172, "y": 860, "w": 32, "h": 64 },
+    "arriba-polo@S2": { "x": 206, "y": 860, "w": 32, "h": 64 },
+    "arriba-polo@S3": { "x": 240, "y": 860, "w": 32, "h": 64 },
+    "arriba-polo@S4": { "x": 274, "y": 860, "w": 32, "h": 64 },
+    "arriba-polo@S5": { "x": 308, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@E0": { "x": 342, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@E1": { "x": 376, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@E2": { "x": 410, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@E3": { "x": 444, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@E4": { "x": 478, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@E5": { "x": 512, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@N0": { "x": 546, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@N1": { "x": 580, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@N2": { "x": 614, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@N3": { "x": 648, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@N4": { "x": 682, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@N5": { "x": 716, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@O0": { "x": 750, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@O1": { "x": 784, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@O2": { "x": 818, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@O3": { "x": 852, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@O4": { "x": 886, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@O5": { "x": 920, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@S0": { "x": 954, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@S1": { "x": 988, "y": 860, "w": 32, "h": 64 },
+    "arriba-sueter@S2": { "x": 2, "y": 926, "w": 32, "h": 64 },
+    "arriba-sueter@S3": { "x": 36, "y": 926, "w": 32, "h": 64 },
+    "arriba-sueter@S4": { "x": 70, "y": 926, "w": 32, "h": 64 },
+    "arriba-sueter@S5": { "x": 104, "y": 926, "w": 32, "h": 64 },
+    "barba-bigote-clasico@E0": { "x": 138, "y": 926, "w": 32, "h": 64 },
+    "barba-bigote-clasico@O0": { "x": 172, "y": 926, "w": 32, "h": 64 },
+    "barba-bigote-clasico@S0": { "x": 206, "y": 926, "w": 32, "h": 64 },
+    "barba-completa@E0": { "x": 240, "y": 926, "w": 32, "h": 64 },
+    "barba-completa@O0": { "x": 274, "y": 926, "w": 32, "h": 64 },
+    "barba-completa@S0": { "x": 308, "y": 926, "w": 32, "h": 64 },
+    "barba-corta@E0": { "x": 342, "y": 926, "w": 32, "h": 64 },
+    "barba-corta@O0": { "x": 376, "y": 926, "w": 32, "h": 64 },
+    "barba-corta@S0": { "x": 410, "y": 926, "w": 32, "h": 64 },
+    "barba-perilla@E0": { "x": 444, "y": 926, "w": 32, "h": 64 },
+    "barba-perilla@O0": { "x": 478, "y": 926, "w": 32, "h": 64 },
+    "barba-perilla@S0": { "x": 512, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@E0": { "x": 546, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@E1": { "x": 580, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@E2": { "x": 614, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@E3": { "x": 648, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@E4": { "x": 682, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@E5": { "x": 716, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@E6": { "x": 750, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@E7": { "x": 784, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@N0": { "x": 818, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@N1": { "x": 852, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@N2": { "x": 886, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@N3": { "x": 920, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@N4": { "x": 954, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@N5": { "x": 988, "y": 926, "w": 32, "h": 64 },
+    "cara-lisa@O0": { "x": 2, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@O1": { "x": 36, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@O2": { "x": 70, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@O3": { "x": 104, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@O4": { "x": 138, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@O5": { "x": 172, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@O6": { "x": 206, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@O7": { "x": 240, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@S0": { "x": 274, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@S1": { "x": 308, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@S2": { "x": 342, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@S3": { "x": 376, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@S4": { "x": 410, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@S5": { "x": 444, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@S6": { "x": 478, "y": 992, "w": 32, "h": 64 },
+    "cara-lisa@S7": { "x": 512, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@E0": { "x": 546, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@E1": { "x": 580, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@E2": { "x": 614, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@E3": { "x": 648, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@E4": { "x": 682, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@E5": { "x": 716, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@E6": { "x": 750, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@E7": { "x": 784, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@N0": { "x": 818, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@N1": { "x": 852, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@N2": { "x": 886, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@N3": { "x": 920, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@N4": { "x": 954, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@N5": { "x": 988, "y": 992, "w": 32, "h": 64 },
+    "cara-manchas@O0": { "x": 2, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@O1": { "x": 36, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@O2": { "x": 70, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@O3": { "x": 104, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@O4": { "x": 138, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@O5": { "x": 172, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@O6": { "x": 206, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@O7": { "x": 240, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@S0": { "x": 274, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@S1": { "x": 308, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@S2": { "x": 342, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@S3": { "x": 376, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@S4": { "x": 410, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@S5": { "x": 444, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@S6": { "x": 478, "y": 1058, "w": 32, "h": 64 },
+    "cara-manchas@S7": { "x": 512, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@E0": { "x": 546, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@E1": { "x": 580, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@E2": { "x": 614, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@E3": { "x": 648, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@E4": { "x": 682, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@E5": { "x": 716, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@E6": { "x": 750, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@E7": { "x": 784, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@N0": { "x": 818, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@N1": { "x": 852, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@N2": { "x": 886, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@N3": { "x": 920, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@N4": { "x": 954, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@N5": { "x": 988, "y": 1058, "w": 32, "h": 64 },
+    "cara-parches@O0": { "x": 2, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@O1": { "x": 36, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@O2": { "x": 70, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@O3": { "x": 104, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@O4": { "x": 138, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@O5": { "x": 172, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@O6": { "x": 206, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@O7": { "x": 240, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@S0": { "x": 274, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@S1": { "x": 308, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@S2": { "x": 342, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@S3": { "x": 376, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@S4": { "x": 410, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@S5": { "x": 444, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@S6": { "x": 478, "y": 1124, "w": 32, "h": 64 },
+    "cara-parches@S7": { "x": 512, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@E0": { "x": 546, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@E1": { "x": 580, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@E2": { "x": 614, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@E3": { "x": 648, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@E4": { "x": 682, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@E5": { "x": 716, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@E6": { "x": 750, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@E7": { "x": 784, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@N0": { "x": 818, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@N1": { "x": 852, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@N2": { "x": 886, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@N3": { "x": 920, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@N4": { "x": 954, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@N5": { "x": 988, "y": 1124, "w": 32, "h": 64 },
+    "cara-pecas@O0": { "x": 2, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@O1": { "x": 36, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@O2": { "x": 70, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@O3": { "x": 104, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@O4": { "x": 138, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@O5": { "x": 172, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@O6": { "x": 206, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@O7": { "x": 240, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@S0": { "x": 274, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@S1": { "x": 308, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@S2": { "x": 342, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@S3": { "x": 376, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@S4": { "x": 410, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@S5": { "x": 444, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@S6": { "x": 478, "y": 1190, "w": 32, "h": 64 },
+    "cara-pecas@S7": { "x": 512, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@E0": { "x": 546, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@E1": { "x": 580, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@E2": { "x": 614, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@E3": { "x": 648, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@E4": { "x": 682, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@E5": { "x": 716, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@E6": { "x": 750, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@E7": { "x": 784, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@N0": { "x": 818, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@N1": { "x": 852, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@N2": { "x": 886, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@N3": { "x": 920, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@N4": { "x": 954, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@N5": { "x": 988, "y": 1190, "w": 32, "h": 64 },
+    "cara-rubor@O0": { "x": 2, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@O1": { "x": 36, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@O2": { "x": 70, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@O3": { "x": 104, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@O4": { "x": 138, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@O5": { "x": 172, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@O6": { "x": 206, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@O7": { "x": 240, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@S0": { "x": 274, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@S1": { "x": 308, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@S2": { "x": 342, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@S3": { "x": 376, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@S4": { "x": 410, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@S5": { "x": 444, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@S6": { "x": 478, "y": 1256, "w": 32, "h": 64 },
+    "cara-rubor@S7": { "x": 512, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@E0": { "x": 546, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@E1": { "x": 580, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@E2": { "x": 614, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@E3": { "x": 648, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@E4": { "x": 682, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@E5": { "x": 716, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@N0": { "x": 750, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@N1": { "x": 784, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@N2": { "x": 818, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@N3": { "x": 852, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@N4": { "x": 886, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@N5": { "x": 920, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@O0": { "x": 954, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@O1": { "x": 988, "y": 1256, "w": 32, "h": 64 },
+    "chaqueta-abrigo@O2": { "x": 2, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-abrigo@O3": { "x": 36, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-abrigo@O4": { "x": 70, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-abrigo@O5": { "x": 104, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-abrigo@S0": { "x": 138, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-abrigo@S1": { "x": 172, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-abrigo@S2": { "x": 206, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-abrigo@S3": { "x": 240, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-abrigo@S4": { "x": 274, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-abrigo@S5": { "x": 308, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@E0": { "x": 342, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@E1": { "x": 376, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@E2": { "x": 410, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@E3": { "x": 444, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@E4": { "x": 478, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@E5": { "x": 512, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@N0": { "x": 546, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@N1": { "x": 580, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@N2": { "x": 614, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@N3": { "x": 648, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@N4": { "x": 682, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@N5": { "x": 716, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@O0": { "x": 750, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@O1": { "x": 784, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@O2": { "x": 818, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@O3": { "x": 852, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@O4": { "x": 886, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@O5": { "x": 920, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@S0": { "x": 954, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@S1": { "x": 988, "y": 1322, "w": 32, "h": 64 },
+    "chaqueta-blazer@S2": { "x": 2, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-blazer@S3": { "x": 36, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-blazer@S4": { "x": 70, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-blazer@S5": { "x": 104, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@E0": { "x": 138, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@E1": { "x": 172, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@E2": { "x": 206, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@E3": { "x": 240, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@E4": { "x": 274, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@E5": { "x": 308, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@N0": { "x": 342, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@N1": { "x": 376, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@N2": { "x": 410, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@N3": { "x": 444, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@N4": { "x": 478, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@N5": { "x": 512, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@O0": { "x": 546, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@O1": { "x": 580, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@O2": { "x": 614, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@O3": { "x": 648, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@O4": { "x": 682, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@O5": { "x": 716, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@S0": { "x": 750, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@S1": { "x": 784, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@S2": { "x": 818, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@S3": { "x": 852, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@S4": { "x": 886, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-cardigan@S5": { "x": 920, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-chaleco@E0": { "x": 954, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-chaleco@E1": { "x": 988, "y": 1388, "w": 32, "h": 64 },
+    "chaqueta-chaleco@E2": { "x": 2, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@E3": { "x": 36, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@E4": { "x": 70, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@E5": { "x": 104, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@N0": { "x": 138, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@N1": { "x": 172, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@N2": { "x": 206, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@N3": { "x": 240, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@N4": { "x": 274, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@N5": { "x": 308, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@O0": { "x": 342, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@O1": { "x": 376, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@O2": { "x": 410, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@O3": { "x": 444, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@O4": { "x": 478, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@O5": { "x": 512, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@S0": { "x": 546, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@S1": { "x": 580, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@S2": { "x": 614, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@S3": { "x": 648, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@S4": { "x": 682, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaleco@S5": { "x": 716, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@E0": { "x": 750, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@E1": { "x": 784, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@E2": { "x": 818, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@E3": { "x": 852, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@E4": { "x": 886, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@E5": { "x": 920, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@N0": { "x": 954, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@N1": { "x": 988, "y": 1454, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@N2": { "x": 2, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@N3": { "x": 36, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@N4": { "x": 70, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@N5": { "x": 104, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@O0": { "x": 138, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@O1": { "x": 172, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@O2": { "x": 206, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@O3": { "x": 240, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@O4": { "x": 274, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@O5": { "x": 308, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@S0": { "x": 342, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@S1": { "x": 376, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@S2": { "x": 410, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@S3": { "x": 444, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@S4": { "x": 478, "y": 1520, "w": 32, "h": 64 },
+    "chaqueta-chaqueta@S5": { "x": 512, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-sombrero@E0": { "x": 546, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-sombrero@N0": { "x": 580, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-sombrero@O0": { "x": 614, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-sombrero@S0": { "x": 648, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@E0": { "x": 682, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@E1": { "x": 716, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@E2": { "x": 750, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@E3": { "x": 784, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@E4": { "x": 818, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@E5": { "x": 852, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@N0": { "x": 886, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@N1": { "x": 920, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@N2": { "x": 954, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@N3": { "x": 988, "y": 1520, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@N4": { "x": 2, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@N5": { "x": 36, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@O0": { "x": 70, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@O1": { "x": 104, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@O2": { "x": 138, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@O3": { "x": 172, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@O4": { "x": 206, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@O5": { "x": 240, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@S0": { "x": 274, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@S1": { "x": 308, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@S2": { "x": 342, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@S3": { "x": 376, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@S4": { "x": 410, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-bruja-traje@S5": { "x": 444, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-cabeza@E0": { "x": 478, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-cabeza@N0": { "x": 512, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-cabeza@O0": { "x": 546, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-cabeza@S0": { "x": 580, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@E0": { "x": 614, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@E1": { "x": 648, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@E2": { "x": 682, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@E3": { "x": 716, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@E4": { "x": 750, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@E5": { "x": 784, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@N0": { "x": 818, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@N1": { "x": 852, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@N2": { "x": 886, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@N3": { "x": 920, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@N4": { "x": 954, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@N5": { "x": 988, "y": 1586, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@O0": { "x": 2, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@O1": { "x": 36, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@O2": { "x": 70, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@O3": { "x": 104, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@O4": { "x": 138, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@O5": { "x": 172, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@S0": { "x": 206, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@S1": { "x": 240, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@S2": { "x": 274, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@S3": { "x": 308, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@S4": { "x": 342, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-calamar-traje@S5": { "x": 376, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-cabeza@E0": { "x": 410, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-cabeza@N0": { "x": 444, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-cabeza@O0": { "x": 478, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-cabeza@S0": { "x": 512, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@E0": { "x": 546, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@E1": { "x": 580, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@E2": { "x": 614, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@E3": { "x": 648, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@E4": { "x": 682, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@E5": { "x": 716, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@N0": { "x": 750, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@N1": { "x": 784, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@N2": { "x": 818, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@N3": { "x": 852, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@N4": { "x": 886, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@N5": { "x": 920, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@O0": { "x": 954, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@O1": { "x": 988, "y": 1652, "w": 32, "h": 64 },
+    "disfraz-momia-traje@O2": { "x": 2, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-momia-traje@O3": { "x": 36, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-momia-traje@O4": { "x": 70, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-momia-traje@O5": { "x": 104, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-momia-traje@S0": { "x": 138, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-momia-traje@S1": { "x": 172, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-momia-traje@S2": { "x": 206, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-momia-traje@S3": { "x": 240, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-momia-traje@S4": { "x": 274, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-momia-traje@S5": { "x": 308, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@E0": { "x": 342, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@E1": { "x": 376, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@E2": { "x": 410, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@E3": { "x": 444, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@E4": { "x": 478, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@E5": { "x": 512, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@O0": { "x": 546, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@O1": { "x": 580, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@O2": { "x": 614, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@O3": { "x": 648, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@O4": { "x": 682, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@O5": { "x": 716, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@S0": { "x": 750, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@S1": { "x": 784, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@S2": { "x": 818, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@S3": { "x": 852, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@S4": { "x": 886, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-atras@S5": { "x": 920, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-cabeza@E0": { "x": 954, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-cabeza@N0": { "x": 988, "y": 1718, "w": 32, "h": 64 },
+    "disfraz-vampiro-cabeza@O0": { "x": 2, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-cabeza@S0": { "x": 36, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@E0": { "x": 70, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@E1": { "x": 104, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@E2": { "x": 138, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@E3": { "x": 172, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@E4": { "x": 206, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@E5": { "x": 240, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@N0": { "x": 274, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@N1": { "x": 308, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@N2": { "x": 342, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@N3": { "x": 376, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@N4": { "x": 410, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@N5": { "x": 444, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@O0": { "x": 478, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@O1": { "x": 512, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@O2": { "x": 546, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@O3": { "x": 580, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@O4": { "x": 614, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@O5": { "x": 648, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@S0": { "x": 682, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@S1": { "x": 716, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@S2": { "x": 750, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@S3": { "x": 784, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@S4": { "x": 818, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-vampiro-traje@S5": { "x": 852, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@E0": { "x": 886, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@E1": { "x": 920, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@E2": { "x": 954, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@E3": { "x": 988, "y": 1784, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@E4": { "x": 2, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@E5": { "x": 36, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@O0": { "x": 70, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@O1": { "x": 104, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@O2": { "x": 138, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@O3": { "x": 172, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@O4": { "x": 206, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@O5": { "x": 240, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@S0": { "x": 274, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@S1": { "x": 308, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@S2": { "x": 342, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@S3": { "x": 376, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@S4": { "x": 410, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-atras@S5": { "x": 444, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-cabeza@E0": { "x": 478, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-cabeza@N0": { "x": 512, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-cabeza@O0": { "x": 546, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-cabeza@S0": { "x": 580, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@E0": { "x": 614, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@E1": { "x": 648, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@E2": { "x": 682, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@E3": { "x": 716, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@E4": { "x": 750, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@E5": { "x": 784, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@N0": { "x": 818, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@N1": { "x": 852, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@N2": { "x": 886, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@N3": { "x": 920, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@N4": { "x": 954, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@N5": { "x": 988, "y": 1850, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@O0": { "x": 2, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@O1": { "x": 36, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@O2": { "x": 70, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@O3": { "x": 104, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@O4": { "x": 138, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@O5": { "x": 172, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@S0": { "x": 206, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@S1": { "x": 240, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@S2": { "x": 274, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@S3": { "x": 308, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@S4": { "x": 342, "y": 1916, "w": 32, "h": 64 },
+    "disfraz-zorro-traje@S5": { "x": 376, "y": 1916, "w": 32, "h": 64 },
+    "peinado-afro@E0": { "x": 410, "y": 1916, "w": 32, "h": 64 },
+    "peinado-afro@E0a": { "x": 444, "y": 1916, "w": 32, "h": 64 },
+    "peinado-afro@N0": { "x": 478, "y": 1916, "w": 32, "h": 64 },
+    "peinado-afro@O0": { "x": 512, "y": 1916, "w": 32, "h": 64 },
+    "peinado-afro@O0a": { "x": 546, "y": 1916, "w": 32, "h": 64 },
+    "peinado-afro@S0": { "x": 580, "y": 1916, "w": 32, "h": 64 },
+    "peinado-afro@S0a": { "x": 614, "y": 1916, "w": 32, "h": 64 },
+    "peinado-cola@E0": { "x": 648, "y": 1916, "w": 32, "h": 64 },
+    "peinado-cola@N0": { "x": 682, "y": 1916, "w": 32, "h": 64 },
+    "peinado-cola@O0": { "x": 716, "y": 1916, "w": 32, "h": 64 },
+    "peinado-cola@S0": { "x": 750, "y": 1916, "w": 32, "h": 64 },
+    "peinado-corto@E0": { "x": 784, "y": 1916, "w": 32, "h": 64 },
+    "peinado-corto@N0": { "x": 818, "y": 1916, "w": 32, "h": 64 },
+    "peinado-corto@O0": { "x": 852, "y": 1916, "w": 32, "h": 64 },
+    "peinado-corto@S0": { "x": 886, "y": 1916, "w": 32, "h": 64 },
+    "peinado-despeinado@E0": { "x": 920, "y": 1916, "w": 32, "h": 64 },
+    "peinado-despeinado@N0": { "x": 954, "y": 1916, "w": 32, "h": 64 },
+    "peinado-despeinado@O0": { "x": 988, "y": 1916, "w": 32, "h": 64 },
+    "peinado-despeinado@S0": { "x": 2, "y": 1982, "w": 32, "h": 64 },
+    "peinado-flequillo@E0": { "x": 36, "y": 1982, "w": 32, "h": 64 },
+    "peinado-flequillo@E0a": { "x": 70, "y": 1982, "w": 32, "h": 64 },
+    "peinado-flequillo@N0": { "x": 104, "y": 1982, "w": 32, "h": 64 },
+    "peinado-flequillo@O0": { "x": 138, "y": 1982, "w": 32, "h": 64 },
+    "peinado-flequillo@O0a": { "x": 172, "y": 1982, "w": 32, "h": 64 },
+    "peinado-flequillo@S0": { "x": 206, "y": 1982, "w": 32, "h": 64 },
+    "peinado-flequillo@S0a": { "x": 240, "y": 1982, "w": 32, "h": 64 },
+    "peinado-melena@E0": { "x": 274, "y": 1982, "w": 32, "h": 64 },
+    "peinado-melena@E0a": { "x": 308, "y": 1982, "w": 32, "h": 64 },
+    "peinado-melena@N0": { "x": 342, "y": 1982, "w": 32, "h": 64 },
+    "peinado-melena@O0": { "x": 376, "y": 1982, "w": 32, "h": 64 },
+    "peinado-melena@O0a": { "x": 410, "y": 1982, "w": 32, "h": 64 },
+    "peinado-melena@S0": { "x": 444, "y": 1982, "w": 32, "h": 64 },
+    "peinado-melena@S0a": { "x": 478, "y": 1982, "w": 32, "h": 64 },
+    "peinado-mono@E0": { "x": 512, "y": 1982, "w": 32, "h": 64 },
+    "peinado-mono@N0": { "x": 546, "y": 1982, "w": 32, "h": 64 },
+    "peinado-mono@O0": { "x": 580, "y": 1982, "w": 32, "h": 64 },
+    "peinado-mono@S0": { "x": 614, "y": 1982, "w": 32, "h": 64 },
+    "peinado-ondulado@E0": { "x": 648, "y": 1982, "w": 32, "h": 64 },
+    "peinado-ondulado@E0a": { "x": 682, "y": 1982, "w": 32, "h": 64 },
+    "peinado-ondulado@N0": { "x": 716, "y": 1982, "w": 32, "h": 64 },
+    "peinado-ondulado@O0": { "x": 750, "y": 1982, "w": 32, "h": 64 },
+    "peinado-ondulado@O0a": { "x": 784, "y": 1982, "w": 32, "h": 64 },
+    "peinado-ondulado@S0": { "x": 818, "y": 1982, "w": 32, "h": 64 },
+    "peinado-ondulado@S0a": { "x": 852, "y": 1982, "w": 32, "h": 64 },
+    "peinado-rapado@E0": { "x": 886, "y": 1982, "w": 32, "h": 64 },
+    "peinado-rapado@N0": { "x": 920, "y": 1982, "w": 32, "h": 64 },
+    "peinado-rapado@O0": { "x": 954, "y": 1982, "w": 32, "h": 64 },
+    "peinado-rapado@S0": { "x": 988, "y": 1982, "w": 32, "h": 64 },
+    "peinado-rizado@E0": { "x": 2, "y": 2048, "w": 32, "h": 64 },
+    "peinado-rizado@N0": { "x": 36, "y": 2048, "w": 32, "h": 64 },
+    "peinado-rizado@O0": { "x": 70, "y": 2048, "w": 32, "h": 64 },
+    "peinado-rizado@S0": { "x": 104, "y": 2048, "w": 32, "h": 64 },
+    "peinado-rizos-largos@E0": { "x": 138, "y": 2048, "w": 32, "h": 64 },
+    "peinado-rizos-largos@N0": { "x": 172, "y": 2048, "w": 32, "h": 64 },
+    "peinado-rizos-largos@O0": { "x": 206, "y": 2048, "w": 32, "h": 64 },
+    "peinado-rizos-largos@S0": { "x": 240, "y": 2048, "w": 32, "h": 64 },
+    "peinado-trenzas@E0": { "x": 274, "y": 2048, "w": 32, "h": 64 },
+    "peinado-trenzas@N0": { "x": 308, "y": 2048, "w": 32, "h": 64 },
+    "peinado-trenzas@O0": { "x": 342, "y": 2048, "w": 32, "h": 64 },
+    "peinado-trenzas@S0": { "x": 376, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@E0": { "x": 410, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@E1": { "x": 444, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@E2": { "x": 478, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@E3": { "x": 512, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@E4": { "x": 546, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@E5": { "x": 580, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@N0": { "x": 614, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@N1": { "x": 648, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@N2": { "x": 682, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@N3": { "x": 716, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@N4": { "x": 750, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@N5": { "x": 784, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@O0": { "x": 818, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@O1": { "x": 852, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@O2": { "x": 886, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@O3": { "x": 920, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@O4": { "x": 954, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@O5": { "x": 988, "y": 2048, "w": 32, "h": 64 },
+    "zapatos-botas@S0": { "x": 2, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-botas@S1": { "x": 36, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-botas@S2": { "x": 70, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-botas@S3": { "x": 104, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-botas@S4": { "x": 138, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-botas@S5": { "x": 172, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@E0": { "x": 206, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@E1": { "x": 240, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@E2": { "x": 274, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@E3": { "x": 308, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@E4": { "x": 342, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@E5": { "x": 376, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@N0": { "x": 410, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@N1": { "x": 444, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@N2": { "x": 478, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@N3": { "x": 512, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@N4": { "x": 546, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@N5": { "x": 580, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@O0": { "x": 614, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@O1": { "x": 648, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@O2": { "x": 682, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@O3": { "x": 716, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@O4": { "x": 750, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@O5": { "x": 784, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@S0": { "x": 818, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@S1": { "x": 852, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@S2": { "x": 886, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@S3": { "x": 920, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@S4": { "x": 954, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-formales@S5": { "x": 988, "y": 2114, "w": 32, "h": 64 },
+    "zapatos-sandalias@E0": { "x": 2, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@E1": { "x": 36, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@E2": { "x": 70, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@E3": { "x": 104, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@E4": { "x": 138, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@E5": { "x": 172, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@N0": { "x": 206, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@N1": { "x": 240, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@N2": { "x": 274, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@N3": { "x": 308, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@N4": { "x": 342, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@N5": { "x": 376, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@O0": { "x": 410, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@O1": { "x": 444, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@O2": { "x": 478, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@O3": { "x": 512, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@O4": { "x": 546, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@O5": { "x": 580, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@S0": { "x": 614, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@S1": { "x": 648, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@S2": { "x": 682, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@S3": { "x": 716, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@S4": { "x": 750, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-sandalias@S5": { "x": 784, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-tenis@E0": { "x": 818, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-tenis@E1": { "x": 852, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-tenis@E2": { "x": 886, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-tenis@E3": { "x": 920, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-tenis@E4": { "x": 954, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-tenis@E5": { "x": 988, "y": 2180, "w": 32, "h": 64 },
+    "zapatos-tenis@N0": { "x": 2, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@N1": { "x": 36, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@N2": { "x": 70, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@N3": { "x": 104, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@N4": { "x": 138, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@N5": { "x": 172, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@O0": { "x": 206, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@O1": { "x": 240, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@O2": { "x": 274, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@O3": { "x": 308, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@O4": { "x": 342, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@O5": { "x": 376, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@S0": { "x": 410, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@S1": { "x": 444, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@S2": { "x": 478, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@S3": { "x": 512, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@S4": { "x": 546, "y": 2246, "w": 32, "h": 64 },
+    "zapatos-tenis@S5": { "x": 580, "y": 2246, "w": 32, "h": 64 }
+  },
+  "pieles": [
+    {
+      "id": "piel-1",
+      "nombre": "Tono 1",
+      "rampa": ["#8B5237", "#E8A184", "#FDD7B8", "#FFE9D6", "#FFF5EC"]
+    },
+    {
+      "id": "piel-2",
+      "nombre": "Tono 2",
+      "rampa": ["#75412B", "#D8885C", "#F9BF95", "#FFD9BC", "#FFE8D4"]
+    },
+    {
+      "id": "piel-3",
+      "nombre": "Tono 3",
+      "rampa": ["#5B301C", "#B2693F", "#D79A6E", "#E8B38D", "#F3CDAB"]
+    },
+    {
+      "id": "piel-4",
+      "nombre": "Tono 4",
+      "rampa": ["#44220F", "#8A4F2A", "#B07646", "#C79465", "#DAAE85"]
+    },
+    {
+      "id": "piel-5",
+      "nombre": "Tono 5",
+      "rampa": ["#2D1609", "#5B351C", "#80522F", "#9A6A44", "#B58459"]
+    }
+  ],
+  "pelos": [
+    {
+      "id": "pelo-blanco",
+      "nombre": "Blanco",
+      "rampa": ["#14141E", "#B2B4C6", "#DCDEEA", "#F0F1F8", "#FFFFFF"]
+    },
+    {
+      "id": "pelo-casi-negro",
+      "nombre": "Casi negro",
+      "rampa": ["#040307", "#211F28", "#32343B", "#4D4C48", "#64625D"]
+    },
+    {
+      "id": "pelo-cafe-oscuro",
+      "nombre": "Café oscuro",
+      "rampa": ["#130806", "#481E0D", "#6A4129", "#815A3F", "#8D7561"]
+    },
+    {
+      "id": "pelo-cafe",
+      "nombre": "Café",
+      "rampa": ["#150703", "#874926", "#AB7144", "#C28E5D", "#CBAB89"]
+    },
+    {
+      "id": "pelo-caqui",
+      "nombre": "Caqui",
+      "rampa": ["#110903", "#7E5E2F", "#9F8553", "#B7A06F", "#C8B99A"]
+    },
+    {
+      "id": "pelo-rubio",
+      "nombre": "Rubio",
+      "rampa": ["#160700", "#D18835", "#F2B55B", "#FFD790", "#FFF5E2"]
+    },
+    {
+      "id": "pelo-rojizo",
+      "nombre": "Rojizo",
+      "rampa": ["#180505", "#6C0F15", "#933B29", "#AB583C", "#B17B63"]
+    },
+    {
+      "id": "pelo-naranja",
+      "nombre": "Naranja",
+      "rampa": ["#1A0400", "#BF591C", "#E4853A", "#FAA556", "#FDC894"]
+    },
+    {
+      "id": "pelo-rosa",
+      "nombre": "Rosa",
+      "rampa": ["#19020F", "#C73F85", "#F76899", "#FF98AD", "#FFC1C7"]
+    },
+    {
+      "id": "pelo-morado",
+      "nombre": "Morado",
+      "rampa": ["#0D0718", "#6B4791", "#9869B1", "#B782C5", "#C8A1CB"]
+    },
+    {
+      "id": "pelo-celeste",
+      "nombre": "Celeste",
+      "rampa": ["#000C1D", "#0D90DD", "#2DBDFF", "#7FD8FF", "#BCECFF"]
+    },
+    {
+      "id": "pelo-verde",
+      "nombre": "Verde",
+      "rampa": ["#001005", "#006939", "#349141", "#63A953", "#94B97F"]
+    }
+  ],
+  "colores": [
+    {
+      "id": "rojo",
+      "nombre": "Rojo",
+      "rampa": ["#1C0205", "#B4002B", "#E8372A", "#FF633C", "#FC9672"]
+    },
+    {
+      "id": "naranja",
+      "nombre": "Naranja",
+      "rampa": ["#190500", "#D06C2C", "#F5994A", "#FFBE7F", "#FFE0BF"]
+    },
+    {
+      "id": "amarillo",
+      "nombre": "Amarillo",
+      "rampa": ["#170700", "#DB9800", "#FBC63F", "#FFE7B6", "#FFFBF4"]
+    },
+    {
+      "id": "oliva",
+      "nombre": "Oliva",
+      "rampa": ["#060E04", "#3A5621", "#66783E", "#858F56", "#A0A47E"]
+    },
+    {
+      "id": "verde",
+      "nombre": "Verde",
+      "rampa": ["#001005", "#006939", "#349141", "#63A953", "#94B97F"]
+    },
+    {
+      "id": "verde-azulado",
+      "nombre": "Verde azulado",
+      "rampa": ["#000E0F", "#00504E", "#1D766B", "#458F7E", "#76A193"]
+    },
+    {
+      "id": "celeste",
+      "nombre": "Celeste",
+      "rampa": ["#000C1C", "#0C8AD3", "#2DB6F5", "#69D2FF", "#A9E7FF"]
+    },
+    {
+      "id": "azul-violeta",
+      "nombre": "Azul violeta",
+      "rampa": ["#0B061F", "#5F54C9", "#6F82F5", "#979DFF", "#B9B8FF"]
+    },
+    {
+      "id": "morado",
+      "nombre": "Morado",
+      "rampa": ["#0D0718", "#6B4791", "#9869B1", "#B782C5", "#C8A1CB"]
+    },
+    {
+      "id": "magenta",
+      "nombre": "Magenta",
+      "rampa": ["#150417", "#AB00AA", "#E03DBE", "#FF62C9", "#FF9ACD"]
+    },
+    {
+      "id": "rosa",
+      "nombre": "Rosa",
+      "rampa": ["#19020F", "#C73F85", "#F76899", "#FF98AD", "#FFC1C7"]
+    },
+    {
+      "id": "cafe",
+      "nombre": "Café",
+      "rampa": ["#160604", "#914630", "#B76E4A", "#CF8B61", "#D6AB8C"]
+    },
+    {
+      "id": "beige",
+      "nombre": "Beige",
+      "rampa": ["#1E1612", "#B8A28C", "#E3CAAE", "#F2E0C8", "#FFF3E2"]
+    },
+    {
+      "id": "blanco",
+      "nombre": "Blanco",
+      "rampa": ["#14141E", "#B6BACD", "#E6E8F0", "#F6F7FB", "#FFFFFF"]
+    },
+    {
+      "id": "gris",
+      "nombre": "Gris",
+      "rampa": ["#09080C", "#6F6D7F", "#9193A6", "#ADADBF", "#C7C5D2"]
+    },
+    {
+      "id": "negro",
+      "nombre": "Negro",
+      "rampa": ["#030205", "#211F28", "#32343B", "#504E4B", "#6A6763"]
+    }
+  ],
+  "cuerpos": [
+    {
+      "id": "cara-lisa",
+      "nombre": "Lisa",
+      "capa": "cuerpo",
+      "slots": ["piel"],
+      "frames": {
+        "S": [
+          "cara-lisa@S0",
+          "cara-lisa@S1",
+          "cara-lisa@S2",
+          "cara-lisa@S3",
+          "cara-lisa@S4",
+          "cara-lisa@S5",
+          "cara-lisa@S6",
+          "cara-lisa@S7"
+        ],
+        "O": [
+          "cara-lisa@O0",
+          "cara-lisa@O1",
+          "cara-lisa@O2",
+          "cara-lisa@O3",
+          "cara-lisa@O4",
+          "cara-lisa@O5",
+          "cara-lisa@O6",
+          "cara-lisa@O7"
+        ],
+        "E": [
+          "cara-lisa@E0",
+          "cara-lisa@E1",
+          "cara-lisa@E2",
+          "cara-lisa@E3",
+          "cara-lisa@E4",
+          "cara-lisa@E5",
+          "cara-lisa@E6",
+          "cara-lisa@E7"
+        ],
+        "N": [
+          "cara-lisa@N0",
+          "cara-lisa@N1",
+          "cara-lisa@N2",
+          "cara-lisa@N3",
+          "cara-lisa@N4",
+          "cara-lisa@N5",
+          "cara-lisa@N0",
+          "cara-lisa@N5"
+        ]
+      },
+      "etiquetas": ["piel", "cara", "lisa"]
+    },
+    {
+      "id": "cara-pecas",
+      "nombre": "Con pecas",
+      "capa": "cuerpo",
+      "slots": ["piel"],
+      "frames": {
+        "S": [
+          "cara-pecas@S0",
+          "cara-pecas@S1",
+          "cara-pecas@S2",
+          "cara-pecas@S3",
+          "cara-pecas@S4",
+          "cara-pecas@S5",
+          "cara-pecas@S6",
+          "cara-pecas@S7"
+        ],
+        "O": [
+          "cara-pecas@O0",
+          "cara-pecas@O1",
+          "cara-pecas@O2",
+          "cara-pecas@O3",
+          "cara-pecas@O4",
+          "cara-pecas@O5",
+          "cara-pecas@O6",
+          "cara-pecas@O7"
+        ],
+        "E": [
+          "cara-pecas@E0",
+          "cara-pecas@E1",
+          "cara-pecas@E2",
+          "cara-pecas@E3",
+          "cara-pecas@E4",
+          "cara-pecas@E5",
+          "cara-pecas@E6",
+          "cara-pecas@E7"
+        ],
+        "N": [
+          "cara-pecas@N0",
+          "cara-pecas@N1",
+          "cara-pecas@N2",
+          "cara-pecas@N3",
+          "cara-pecas@N4",
+          "cara-pecas@N5",
+          "cara-pecas@N0",
+          "cara-pecas@N5"
+        ]
+      },
+      "etiquetas": ["piel", "cara", "pecas"]
+    },
+    {
+      "id": "cara-manchas",
+      "nombre": "Con manchas",
+      "capa": "cuerpo",
+      "slots": ["piel"],
+      "frames": {
+        "S": [
+          "cara-manchas@S0",
+          "cara-manchas@S1",
+          "cara-manchas@S2",
+          "cara-manchas@S3",
+          "cara-manchas@S4",
+          "cara-manchas@S5",
+          "cara-manchas@S6",
+          "cara-manchas@S7"
+        ],
+        "O": [
+          "cara-manchas@O0",
+          "cara-manchas@O1",
+          "cara-manchas@O2",
+          "cara-manchas@O3",
+          "cara-manchas@O4",
+          "cara-manchas@O5",
+          "cara-manchas@O6",
+          "cara-manchas@O7"
+        ],
+        "E": [
+          "cara-manchas@E0",
+          "cara-manchas@E1",
+          "cara-manchas@E2",
+          "cara-manchas@E3",
+          "cara-manchas@E4",
+          "cara-manchas@E5",
+          "cara-manchas@E6",
+          "cara-manchas@E7"
+        ],
+        "N": [
+          "cara-manchas@N0",
+          "cara-manchas@N1",
+          "cara-manchas@N2",
+          "cara-manchas@N3",
+          "cara-manchas@N4",
+          "cara-manchas@N5",
+          "cara-manchas@N0",
+          "cara-manchas@N5"
+        ]
+      },
+      "etiquetas": ["piel", "cara", "manchas"]
+    },
+    {
+      "id": "cara-parches",
+      "nombre": "Con parches claros",
+      "capa": "cuerpo",
+      "slots": ["piel"],
+      "frames": {
+        "S": [
+          "cara-parches@S0",
+          "cara-parches@S1",
+          "cara-parches@S2",
+          "cara-parches@S3",
+          "cara-parches@S4",
+          "cara-parches@S5",
+          "cara-parches@S6",
+          "cara-parches@S7"
+        ],
+        "O": [
+          "cara-parches@O0",
+          "cara-parches@O1",
+          "cara-parches@O2",
+          "cara-parches@O3",
+          "cara-parches@O4",
+          "cara-parches@O5",
+          "cara-parches@O6",
+          "cara-parches@O7"
+        ],
+        "E": [
+          "cara-parches@E0",
+          "cara-parches@E1",
+          "cara-parches@E2",
+          "cara-parches@E3",
+          "cara-parches@E4",
+          "cara-parches@E5",
+          "cara-parches@E6",
+          "cara-parches@E7"
+        ],
+        "N": [
+          "cara-parches@N0",
+          "cara-parches@N1",
+          "cara-parches@N2",
+          "cara-parches@N3",
+          "cara-parches@N4",
+          "cara-parches@N5",
+          "cara-parches@N0",
+          "cara-parches@N5"
+        ]
+      },
+      "etiquetas": ["piel", "cara", "parches"]
+    },
+    {
+      "id": "cara-rubor",
+      "nombre": "Con rubor (la base)",
+      "capa": "cuerpo",
+      "slots": ["piel"],
+      "frames": {
+        "S": [
+          "cara-rubor@S0",
+          "cara-rubor@S1",
+          "cara-rubor@S2",
+          "cara-rubor@S3",
+          "cara-rubor@S4",
+          "cara-rubor@S5",
+          "cara-rubor@S6",
+          "cara-rubor@S7"
+        ],
+        "O": [
+          "cara-rubor@O0",
+          "cara-rubor@O1",
+          "cara-rubor@O2",
+          "cara-rubor@O3",
+          "cara-rubor@O4",
+          "cara-rubor@O5",
+          "cara-rubor@O6",
+          "cara-rubor@O7"
+        ],
+        "E": [
+          "cara-rubor@E0",
+          "cara-rubor@E1",
+          "cara-rubor@E2",
+          "cara-rubor@E3",
+          "cara-rubor@E4",
+          "cara-rubor@E5",
+          "cara-rubor@E6",
+          "cara-rubor@E7"
+        ],
+        "N": [
+          "cara-rubor@N0",
+          "cara-rubor@N1",
+          "cara-rubor@N2",
+          "cara-rubor@N3",
+          "cara-rubor@N4",
+          "cara-rubor@N5",
+          "cara-rubor@N0",
+          "cara-rubor@N5"
+        ]
+      },
+      "etiquetas": ["piel", "cara", "rubor"]
+    }
+  ],
+  "peinados": [
+    {
+      "id": "peinado-despeinado",
+      "nombre": "Despeinado oscuro de lado",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-despeinado@S0"],
+        "O": ["peinado-despeinado@O0"],
+        "E": ["peinado-despeinado@E0"],
+        "N": ["peinado-despeinado@N0"]
+      },
+      "etiquetas": ["despeinado", "oscuro", "corto"]
+    },
+    {
+      "id": "peinado-flequillo",
+      "nombre": "Flequillo largo recto",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-flequillo@S0"],
+        "O": ["peinado-flequillo@O0"],
+        "E": ["peinado-flequillo@E0"],
+        "N": ["peinado-flequillo@N0"]
+      },
+      "atras": {
+        "S": ["peinado-flequillo@S0a"],
+        "O": ["peinado-flequillo@O0a"],
+        "E": ["peinado-flequillo@E0a"]
+      },
+      "etiquetas": ["flequillo", "largo", "recto"]
+    },
+    {
+      "id": "peinado-rizado",
+      "nombre": "Rizado corto",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-rizado@S0"],
+        "O": ["peinado-rizado@O0"],
+        "E": ["peinado-rizado@E0"],
+        "N": ["peinado-rizado@N0"]
+      },
+      "etiquetas": ["rizado", "corto", "rizos"]
+    },
+    {
+      "id": "peinado-afro",
+      "nombre": "Afro",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-afro@S0"],
+        "O": ["peinado-afro@O0"],
+        "E": ["peinado-afro@E0"],
+        "N": ["peinado-afro@N0"]
+      },
+      "atras": {
+        "S": ["peinado-afro@S0a"],
+        "O": ["peinado-afro@O0a"],
+        "E": ["peinado-afro@E0a"]
+      },
+      "etiquetas": ["afro", "rizado", "volumen"]
+    },
+    {
+      "id": "peinado-melena",
+      "nombre": "Melena larga suelta",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-melena@S0"],
+        "O": ["peinado-melena@O0"],
+        "E": ["peinado-melena@E0"],
+        "N": ["peinado-melena@N0"]
+      },
+      "atras": {
+        "S": ["peinado-melena@S0a"],
+        "O": ["peinado-melena@O0a"],
+        "E": ["peinado-melena@E0a"]
+      },
+      "etiquetas": ["melena", "largo", "suelto"]
+    },
+    {
+      "id": "peinado-mono",
+      "nombre": "Moño alto con mechones",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-mono@S0"],
+        "O": ["peinado-mono@O0"],
+        "E": ["peinado-mono@E0"],
+        "N": ["peinado-mono@N0"]
+      },
+      "etiquetas": ["moño", "recogido", "alto"]
+    },
+    {
+      "id": "peinado-corto",
+      "nombre": "Corto clásico",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-corto@S0"],
+        "O": ["peinado-corto@O0"],
+        "E": ["peinado-corto@E0"],
+        "N": ["peinado-corto@N0"]
+      },
+      "etiquetas": ["corto", "clasico", "raya"]
+    },
+    {
+      "id": "peinado-rapado",
+      "nombre": "Rapado",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-rapado@S0"],
+        "O": ["peinado-rapado@O0"],
+        "E": ["peinado-rapado@E0"],
+        "N": ["peinado-rapado@N0"]
+      },
+      "etiquetas": ["rapado", "corto", "militar"]
+    },
+    {
+      "id": "peinado-rizos-largos",
+      "nombre": "Rizos largos",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-rizos-largos@S0"],
+        "O": ["peinado-rizos-largos@O0"],
+        "E": ["peinado-rizos-largos@E0"],
+        "N": ["peinado-rizos-largos@N0"]
+      },
+      "etiquetas": ["rizos", "largo", "rizado"]
+    },
+    {
+      "id": "peinado-trenzas",
+      "nombre": "Trenzas",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-trenzas@S0"],
+        "O": ["peinado-trenzas@O0"],
+        "E": ["peinado-trenzas@E0"],
+        "N": ["peinado-trenzas@N0"]
+      },
+      "etiquetas": ["trenzas", "largo", "recogido"]
+    },
+    {
+      "id": "peinado-cola",
+      "nombre": "Cola alta",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-cola@S0"],
+        "O": ["peinado-cola@O0"],
+        "E": ["peinado-cola@E0"],
+        "N": ["peinado-cola@N0"]
+      },
+      "etiquetas": ["cola", "recogido", "alto"]
+    },
+    {
+      "id": "peinado-ondulado",
+      "nombre": "Largo ondulado",
+      "capa": "pelo",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["peinado-ondulado@S0"],
+        "O": ["peinado-ondulado@O0"],
+        "E": ["peinado-ondulado@E0"],
+        "N": ["peinado-ondulado@N0"]
+      },
+      "atras": {
+        "S": ["peinado-ondulado@S0a"],
+        "O": ["peinado-ondulado@O0a"],
+        "E": ["peinado-ondulado@E0a"]
+      },
+      "etiquetas": ["largo", "ondulado", "suelto"]
+    }
+  ],
+  "arriba": [
+    {
+      "id": "arriba-camiseta",
+      "nombre": "Camiseta",
+      "capa": "arriba",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "arriba-camiseta@S0",
+          "arriba-camiseta@S1",
+          "arriba-camiseta@S2",
+          "arriba-camiseta@S3",
+          "arriba-camiseta@S4",
+          "arriba-camiseta@S5"
+        ],
+        "O": [
+          "arriba-camiseta@O0",
+          "arriba-camiseta@O1",
+          "arriba-camiseta@O2",
+          "arriba-camiseta@O3",
+          "arriba-camiseta@O4",
+          "arriba-camiseta@O5"
+        ],
+        "E": [
+          "arriba-camiseta@E0",
+          "arriba-camiseta@E1",
+          "arriba-camiseta@E2",
+          "arriba-camiseta@E3",
+          "arriba-camiseta@E4",
+          "arriba-camiseta@E5"
+        ],
+        "N": [
+          "arriba-camiseta@N0",
+          "arriba-camiseta@N1",
+          "arriba-camiseta@N2",
+          "arriba-camiseta@N3",
+          "arriba-camiseta@N4",
+          "arriba-camiseta@N5"
+        ]
+      },
+      "etiquetas": ["camiseta", "basica"]
+    },
+    {
+      "id": "arriba-camisa",
+      "nombre": "Camisa de manga larga",
+      "capa": "arriba",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "arriba-camisa@S0",
+          "arriba-camisa@S1",
+          "arriba-camisa@S2",
+          "arriba-camisa@S3",
+          "arriba-camisa@S4",
+          "arriba-camisa@S5"
+        ],
+        "O": [
+          "arriba-camisa@O0",
+          "arriba-camisa@O1",
+          "arriba-camisa@O2",
+          "arriba-camisa@O3",
+          "arriba-camisa@O4",
+          "arriba-camisa@O5"
+        ],
+        "E": [
+          "arriba-camisa@E0",
+          "arriba-camisa@E1",
+          "arriba-camisa@E2",
+          "arriba-camisa@E3",
+          "arriba-camisa@E4",
+          "arriba-camisa@E5"
+        ],
+        "N": [
+          "arriba-camisa@N0",
+          "arriba-camisa@N1",
+          "arriba-camisa@N2",
+          "arriba-camisa@N3",
+          "arriba-camisa@N4",
+          "arriba-camisa@N5"
+        ]
+      },
+      "etiquetas": ["camisa", "formal"]
+    },
+    {
+      "id": "arriba-polo",
+      "nombre": "Polo",
+      "capa": "arriba",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "arriba-polo@S0",
+          "arriba-polo@S1",
+          "arriba-polo@S2",
+          "arriba-polo@S3",
+          "arriba-polo@S4",
+          "arriba-polo@S5"
+        ],
+        "O": [
+          "arriba-polo@O0",
+          "arriba-polo@O1",
+          "arriba-polo@O2",
+          "arriba-polo@O3",
+          "arriba-polo@O4",
+          "arriba-polo@O5"
+        ],
+        "E": [
+          "arriba-polo@E0",
+          "arriba-polo@E1",
+          "arriba-polo@E2",
+          "arriba-polo@E3",
+          "arriba-polo@E4",
+          "arriba-polo@E5"
+        ],
+        "N": [
+          "arriba-polo@N0",
+          "arriba-polo@N1",
+          "arriba-polo@N2",
+          "arriba-polo@N3",
+          "arriba-polo@N4",
+          "arriba-polo@N5"
+        ]
+      },
+      "etiquetas": ["polo", "casual"]
+    },
+    {
+      "id": "arriba-buso",
+      "nombre": "Buso con capota",
+      "capa": "arriba",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "arriba-buso@S0",
+          "arriba-buso@S1",
+          "arriba-buso@S2",
+          "arriba-buso@S3",
+          "arriba-buso@S4",
+          "arriba-buso@S5"
+        ],
+        "O": [
+          "arriba-buso@O0",
+          "arriba-buso@O1",
+          "arriba-buso@O2",
+          "arriba-buso@O3",
+          "arriba-buso@O4",
+          "arriba-buso@O5"
+        ],
+        "E": [
+          "arriba-buso@E0",
+          "arriba-buso@E1",
+          "arriba-buso@E2",
+          "arriba-buso@E3",
+          "arriba-buso@E4",
+          "arriba-buso@E5"
+        ],
+        "N": [
+          "arriba-buso@N0",
+          "arriba-buso@N1",
+          "arriba-buso@N2",
+          "arriba-buso@N3",
+          "arriba-buso@N4",
+          "arriba-buso@N5"
+        ]
+      },
+      "etiquetas": ["buso", "hoodie", "capota"]
+    },
+    {
+      "id": "arriba-sueter",
+      "nombre": "Suéter",
+      "capa": "arriba",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "arriba-sueter@S0",
+          "arriba-sueter@S1",
+          "arriba-sueter@S2",
+          "arriba-sueter@S3",
+          "arriba-sueter@S4",
+          "arriba-sueter@S5"
+        ],
+        "O": [
+          "arriba-sueter@O0",
+          "arriba-sueter@O1",
+          "arriba-sueter@O2",
+          "arriba-sueter@O3",
+          "arriba-sueter@O4",
+          "arriba-sueter@O5"
+        ],
+        "E": [
+          "arriba-sueter@E0",
+          "arriba-sueter@E1",
+          "arriba-sueter@E2",
+          "arriba-sueter@E3",
+          "arriba-sueter@E4",
+          "arriba-sueter@E5"
+        ],
+        "N": [
+          "arriba-sueter@N0",
+          "arriba-sueter@N1",
+          "arriba-sueter@N2",
+          "arriba-sueter@N3",
+          "arriba-sueter@N4",
+          "arriba-sueter@N5"
+        ]
+      },
+      "etiquetas": ["sueter", "tejido", "lana"]
+    },
+    {
+      "id": "arriba-blusa",
+      "nombre": "Blusa",
+      "capa": "arriba",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "arriba-blusa@S0",
+          "arriba-blusa@S1",
+          "arriba-blusa@S2",
+          "arriba-blusa@S3",
+          "arriba-blusa@S4",
+          "arriba-blusa@S5"
+        ],
+        "O": [
+          "arriba-blusa@O0",
+          "arriba-blusa@O1",
+          "arriba-blusa@O2",
+          "arriba-blusa@O3",
+          "arriba-blusa@O4",
+          "arriba-blusa@O5"
+        ],
+        "E": [
+          "arriba-blusa@E0",
+          "arriba-blusa@E1",
+          "arriba-blusa@E2",
+          "arriba-blusa@E3",
+          "arriba-blusa@E4",
+          "arriba-blusa@E5"
+        ],
+        "N": [
+          "arriba-blusa@N0",
+          "arriba-blusa@N1",
+          "arriba-blusa@N2",
+          "arriba-blusa@N3",
+          "arriba-blusa@N4",
+          "arriba-blusa@N5"
+        ]
+      },
+      "etiquetas": ["blusa", "elegante"]
+    }
+  ],
+  "chaquetas": [
+    {
+      "id": "chaqueta-blazer",
+      "nombre": "Blazer abierto",
+      "capa": "chaqueta",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "chaqueta-blazer@S0",
+          "chaqueta-blazer@S1",
+          "chaqueta-blazer@S2",
+          "chaqueta-blazer@S3",
+          "chaqueta-blazer@S4",
+          "chaqueta-blazer@S5"
+        ],
+        "O": [
+          "chaqueta-blazer@O0",
+          "chaqueta-blazer@O1",
+          "chaqueta-blazer@O2",
+          "chaqueta-blazer@O3",
+          "chaqueta-blazer@O4",
+          "chaqueta-blazer@O5"
+        ],
+        "E": [
+          "chaqueta-blazer@E0",
+          "chaqueta-blazer@E1",
+          "chaqueta-blazer@E2",
+          "chaqueta-blazer@E3",
+          "chaqueta-blazer@E4",
+          "chaqueta-blazer@E5"
+        ],
+        "N": [
+          "chaqueta-blazer@N0",
+          "chaqueta-blazer@N1",
+          "chaqueta-blazer@N2",
+          "chaqueta-blazer@N3",
+          "chaqueta-blazer@N4",
+          "chaqueta-blazer@N5"
+        ]
+      },
+      "etiquetas": ["blazer", "formal", "saco"]
+    },
+    {
+      "id": "chaqueta-chaqueta",
+      "nombre": "Chaqueta con cierre",
+      "capa": "chaqueta",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "chaqueta-chaqueta@S0",
+          "chaqueta-chaqueta@S1",
+          "chaqueta-chaqueta@S2",
+          "chaqueta-chaqueta@S3",
+          "chaqueta-chaqueta@S4",
+          "chaqueta-chaqueta@S5"
+        ],
+        "O": [
+          "chaqueta-chaqueta@O0",
+          "chaqueta-chaqueta@O1",
+          "chaqueta-chaqueta@O2",
+          "chaqueta-chaqueta@O3",
+          "chaqueta-chaqueta@O4",
+          "chaqueta-chaqueta@O5"
+        ],
+        "E": [
+          "chaqueta-chaqueta@E0",
+          "chaqueta-chaqueta@E1",
+          "chaqueta-chaqueta@E2",
+          "chaqueta-chaqueta@E3",
+          "chaqueta-chaqueta@E4",
+          "chaqueta-chaqueta@E5"
+        ],
+        "N": [
+          "chaqueta-chaqueta@N0",
+          "chaqueta-chaqueta@N1",
+          "chaqueta-chaqueta@N2",
+          "chaqueta-chaqueta@N3",
+          "chaqueta-chaqueta@N4",
+          "chaqueta-chaqueta@N5"
+        ]
+      },
+      "etiquetas": ["chaqueta", "casual", "cierre"]
+    },
+    {
+      "id": "chaqueta-abrigo",
+      "nombre": "Abrigo",
+      "capa": "chaqueta",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "chaqueta-abrigo@S0",
+          "chaqueta-abrigo@S1",
+          "chaqueta-abrigo@S2",
+          "chaqueta-abrigo@S3",
+          "chaqueta-abrigo@S4",
+          "chaqueta-abrigo@S5"
+        ],
+        "O": [
+          "chaqueta-abrigo@O0",
+          "chaqueta-abrigo@O1",
+          "chaqueta-abrigo@O2",
+          "chaqueta-abrigo@O3",
+          "chaqueta-abrigo@O4",
+          "chaqueta-abrigo@O5"
+        ],
+        "E": [
+          "chaqueta-abrigo@E0",
+          "chaqueta-abrigo@E1",
+          "chaqueta-abrigo@E2",
+          "chaqueta-abrigo@E3",
+          "chaqueta-abrigo@E4",
+          "chaqueta-abrigo@E5"
+        ],
+        "N": [
+          "chaqueta-abrigo@N0",
+          "chaqueta-abrigo@N1",
+          "chaqueta-abrigo@N2",
+          "chaqueta-abrigo@N3",
+          "chaqueta-abrigo@N4",
+          "chaqueta-abrigo@N5"
+        ]
+      },
+      "etiquetas": ["abrigo", "invierno", "largo"],
+      "premium": true
+    },
+    {
+      "id": "chaqueta-chaleco",
+      "nombre": "Chaleco",
+      "capa": "chaqueta",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "chaqueta-chaleco@S0",
+          "chaqueta-chaleco@S1",
+          "chaqueta-chaleco@S2",
+          "chaqueta-chaleco@S3",
+          "chaqueta-chaleco@S4",
+          "chaqueta-chaleco@S5"
+        ],
+        "O": [
+          "chaqueta-chaleco@O0",
+          "chaqueta-chaleco@O1",
+          "chaqueta-chaleco@O2",
+          "chaqueta-chaleco@O3",
+          "chaqueta-chaleco@O4",
+          "chaqueta-chaleco@O5"
+        ],
+        "E": [
+          "chaqueta-chaleco@E0",
+          "chaqueta-chaleco@E1",
+          "chaqueta-chaleco@E2",
+          "chaqueta-chaleco@E3",
+          "chaqueta-chaleco@E4",
+          "chaqueta-chaleco@E5"
+        ],
+        "N": [
+          "chaqueta-chaleco@N0",
+          "chaqueta-chaleco@N1",
+          "chaqueta-chaleco@N2",
+          "chaqueta-chaleco@N3",
+          "chaqueta-chaleco@N4",
+          "chaqueta-chaleco@N5"
+        ]
+      },
+      "etiquetas": ["chaleco", "formal", "sin mangas"]
+    },
+    {
+      "id": "chaqueta-cardigan",
+      "nombre": "Cárdigan",
+      "capa": "chaqueta",
+      "slots": ["ropaA", "ropaB"],
+      "frames": {
+        "S": [
+          "chaqueta-cardigan@S0",
+          "chaqueta-cardigan@S1",
+          "chaqueta-cardigan@S2",
+          "chaqueta-cardigan@S3",
+          "chaqueta-cardigan@S4",
+          "chaqueta-cardigan@S5"
+        ],
+        "O": [
+          "chaqueta-cardigan@O0",
+          "chaqueta-cardigan@O1",
+          "chaqueta-cardigan@O2",
+          "chaqueta-cardigan@O3",
+          "chaqueta-cardigan@O4",
+          "chaqueta-cardigan@O5"
+        ],
+        "E": [
+          "chaqueta-cardigan@E0",
+          "chaqueta-cardigan@E1",
+          "chaqueta-cardigan@E2",
+          "chaqueta-cardigan@E3",
+          "chaqueta-cardigan@E4",
+          "chaqueta-cardigan@E5"
+        ],
+        "N": [
+          "chaqueta-cardigan@N0",
+          "chaqueta-cardigan@N1",
+          "chaqueta-cardigan@N2",
+          "chaqueta-cardigan@N3",
+          "chaqueta-cardigan@N4",
+          "chaqueta-cardigan@N5"
+        ]
+      },
+      "etiquetas": ["cardigan", "tejido", "abierto"],
+      "premium": true
+    }
+  ],
+  "abajo": [
+    {
+      "id": "abajo-pantalon",
+      "nombre": "Pantalón largo",
+      "capa": "abajo",
+      "slots": ["pantalon"],
+      "frames": {
+        "S": [
+          "abajo-pantalon@S0",
+          "abajo-pantalon@S1",
+          "abajo-pantalon@S2",
+          "abajo-pantalon@S3",
+          "abajo-pantalon@S4",
+          "abajo-pantalon@S5"
+        ],
+        "O": [
+          "abajo-pantalon@O0",
+          "abajo-pantalon@O1",
+          "abajo-pantalon@O2",
+          "abajo-pantalon@O3",
+          "abajo-pantalon@O4",
+          "abajo-pantalon@O5"
+        ],
+        "E": [
+          "abajo-pantalon@E0",
+          "abajo-pantalon@E1",
+          "abajo-pantalon@E2",
+          "abajo-pantalon@E3",
+          "abajo-pantalon@E4",
+          "abajo-pantalon@E5"
+        ],
+        "N": [
+          "abajo-pantalon@N0",
+          "abajo-pantalon@N1",
+          "abajo-pantalon@N2",
+          "abajo-pantalon@N3",
+          "abajo-pantalon@N4",
+          "abajo-pantalon@N5"
+        ]
+      },
+      "etiquetas": ["pantalon", "largo"]
+    },
+    {
+      "id": "abajo-jean",
+      "nombre": "Jean",
+      "capa": "abajo",
+      "slots": ["pantalon"],
+      "frames": {
+        "S": [
+          "abajo-jean@S0",
+          "abajo-jean@S1",
+          "abajo-jean@S2",
+          "abajo-jean@S3",
+          "abajo-jean@S4",
+          "abajo-jean@S5"
+        ],
+        "O": [
+          "abajo-jean@O0",
+          "abajo-jean@O1",
+          "abajo-jean@O2",
+          "abajo-jean@O3",
+          "abajo-jean@O4",
+          "abajo-jean@O5"
+        ],
+        "E": [
+          "abajo-jean@E0",
+          "abajo-jean@E1",
+          "abajo-jean@E2",
+          "abajo-jean@E3",
+          "abajo-jean@E4",
+          "abajo-jean@E5"
+        ],
+        "N": [
+          "abajo-jean@N0",
+          "abajo-jean@N1",
+          "abajo-jean@N2",
+          "abajo-jean@N3",
+          "abajo-jean@N4",
+          "abajo-jean@N5"
+        ]
+      },
+      "etiquetas": ["jean", "pantalon", "denim"]
+    },
+    {
+      "id": "abajo-corto",
+      "nombre": "Pantalón corto",
+      "capa": "abajo",
+      "slots": ["pantalon"],
+      "frames": {
+        "S": [
+          "abajo-corto@S0",
+          "abajo-corto@S1",
+          "abajo-corto@S2",
+          "abajo-corto@S3",
+          "abajo-corto@S4",
+          "abajo-corto@S5"
+        ],
+        "O": [
+          "abajo-corto@O0",
+          "abajo-corto@O1",
+          "abajo-corto@O2",
+          "abajo-corto@O3",
+          "abajo-corto@O4",
+          "abajo-corto@O5"
+        ],
+        "E": [
+          "abajo-corto@E0",
+          "abajo-corto@E1",
+          "abajo-corto@E2",
+          "abajo-corto@E3",
+          "abajo-corto@E4",
+          "abajo-corto@E5"
+        ],
+        "N": [
+          "abajo-corto@N0",
+          "abajo-corto@N1",
+          "abajo-corto@N2",
+          "abajo-corto@N3",
+          "abajo-corto@N4",
+          "abajo-corto@N5"
+        ]
+      },
+      "etiquetas": ["corto", "bermuda", "short"]
+    },
+    {
+      "id": "abajo-falda",
+      "nombre": "Falda",
+      "capa": "abajo",
+      "slots": ["pantalon"],
+      "frames": {
+        "S": [
+          "abajo-falda@S0",
+          "abajo-falda@S1",
+          "abajo-falda@S2",
+          "abajo-falda@S3",
+          "abajo-falda@S4",
+          "abajo-falda@S5"
+        ],
+        "O": [
+          "abajo-falda@O0",
+          "abajo-falda@O1",
+          "abajo-falda@O2",
+          "abajo-falda@O3",
+          "abajo-falda@O4",
+          "abajo-falda@O5"
+        ],
+        "E": [
+          "abajo-falda@E0",
+          "abajo-falda@E1",
+          "abajo-falda@E2",
+          "abajo-falda@E3",
+          "abajo-falda@E4",
+          "abajo-falda@E5"
+        ],
+        "N": [
+          "abajo-falda@N0",
+          "abajo-falda@N1",
+          "abajo-falda@N2",
+          "abajo-falda@N3",
+          "abajo-falda@N4",
+          "abajo-falda@N5"
+        ]
+      },
+      "etiquetas": ["falda", "vuelo"]
+    },
+    {
+      "id": "abajo-vestir",
+      "nombre": "Pantalón de vestir",
+      "capa": "abajo",
+      "slots": ["pantalon"],
+      "frames": {
+        "S": [
+          "abajo-vestir@S0",
+          "abajo-vestir@S1",
+          "abajo-vestir@S2",
+          "abajo-vestir@S3",
+          "abajo-vestir@S4",
+          "abajo-vestir@S5"
+        ],
+        "O": [
+          "abajo-vestir@O0",
+          "abajo-vestir@O1",
+          "abajo-vestir@O2",
+          "abajo-vestir@O3",
+          "abajo-vestir@O4",
+          "abajo-vestir@O5"
+        ],
+        "E": [
+          "abajo-vestir@E0",
+          "abajo-vestir@E1",
+          "abajo-vestir@E2",
+          "abajo-vestir@E3",
+          "abajo-vestir@E4",
+          "abajo-vestir@E5"
+        ],
+        "N": [
+          "abajo-vestir@N0",
+          "abajo-vestir@N1",
+          "abajo-vestir@N2",
+          "abajo-vestir@N3",
+          "abajo-vestir@N4",
+          "abajo-vestir@N5"
+        ]
+      },
+      "etiquetas": ["pantalon", "vestir", "formal"]
+    }
+  ],
+  "zapatos": [
+    {
+      "id": "zapatos-tenis",
+      "nombre": "Tenis",
+      "capa": "zapatos",
+      "slots": ["zapatos"],
+      "frames": {
+        "S": [
+          "zapatos-tenis@S0",
+          "zapatos-tenis@S1",
+          "zapatos-tenis@S2",
+          "zapatos-tenis@S3",
+          "zapatos-tenis@S4",
+          "zapatos-tenis@S5"
+        ],
+        "O": [
+          "zapatos-tenis@O0",
+          "zapatos-tenis@O1",
+          "zapatos-tenis@O2",
+          "zapatos-tenis@O3",
+          "zapatos-tenis@O4",
+          "zapatos-tenis@O5"
+        ],
+        "E": [
+          "zapatos-tenis@E0",
+          "zapatos-tenis@E1",
+          "zapatos-tenis@E2",
+          "zapatos-tenis@E3",
+          "zapatos-tenis@E4",
+          "zapatos-tenis@E5"
+        ],
+        "N": [
+          "zapatos-tenis@N0",
+          "zapatos-tenis@N1",
+          "zapatos-tenis@N2",
+          "zapatos-tenis@N3",
+          "zapatos-tenis@N4",
+          "zapatos-tenis@N5"
+        ]
+      },
+      "etiquetas": ["tenis", "deportivo"]
+    },
+    {
+      "id": "zapatos-botas",
+      "nombre": "Botas",
+      "capa": "zapatos",
+      "slots": ["zapatos"],
+      "frames": {
+        "S": [
+          "zapatos-botas@S0",
+          "zapatos-botas@S1",
+          "zapatos-botas@S2",
+          "zapatos-botas@S3",
+          "zapatos-botas@S4",
+          "zapatos-botas@S5"
+        ],
+        "O": [
+          "zapatos-botas@O0",
+          "zapatos-botas@O1",
+          "zapatos-botas@O2",
+          "zapatos-botas@O3",
+          "zapatos-botas@O4",
+          "zapatos-botas@O5"
+        ],
+        "E": [
+          "zapatos-botas@E0",
+          "zapatos-botas@E1",
+          "zapatos-botas@E2",
+          "zapatos-botas@E3",
+          "zapatos-botas@E4",
+          "zapatos-botas@E5"
+        ],
+        "N": [
+          "zapatos-botas@N0",
+          "zapatos-botas@N1",
+          "zapatos-botas@N2",
+          "zapatos-botas@N3",
+          "zapatos-botas@N4",
+          "zapatos-botas@N5"
+        ]
+      },
+      "etiquetas": ["botas", "cuero"]
+    },
+    {
+      "id": "zapatos-formales",
+      "nombre": "Zapatos de vestir",
+      "capa": "zapatos",
+      "slots": ["zapatos"],
+      "frames": {
+        "S": [
+          "zapatos-formales@S0",
+          "zapatos-formales@S1",
+          "zapatos-formales@S2",
+          "zapatos-formales@S3",
+          "zapatos-formales@S4",
+          "zapatos-formales@S5"
+        ],
+        "O": [
+          "zapatos-formales@O0",
+          "zapatos-formales@O1",
+          "zapatos-formales@O2",
+          "zapatos-formales@O3",
+          "zapatos-formales@O4",
+          "zapatos-formales@O5"
+        ],
+        "E": [
+          "zapatos-formales@E0",
+          "zapatos-formales@E1",
+          "zapatos-formales@E2",
+          "zapatos-formales@E3",
+          "zapatos-formales@E4",
+          "zapatos-formales@E5"
+        ],
+        "N": [
+          "zapatos-formales@N0",
+          "zapatos-formales@N1",
+          "zapatos-formales@N2",
+          "zapatos-formales@N3",
+          "zapatos-formales@N4",
+          "zapatos-formales@N5"
+        ]
+      },
+      "etiquetas": ["formal", "zapatos", "vestir"]
+    },
+    {
+      "id": "zapatos-sandalias",
+      "nombre": "Sandalias",
+      "capa": "zapatos",
+      "slots": ["zapatos"],
+      "frames": {
+        "S": [
+          "zapatos-sandalias@S0",
+          "zapatos-sandalias@S1",
+          "zapatos-sandalias@S2",
+          "zapatos-sandalias@S3",
+          "zapatos-sandalias@S4",
+          "zapatos-sandalias@S5"
+        ],
+        "O": [
+          "zapatos-sandalias@O0",
+          "zapatos-sandalias@O1",
+          "zapatos-sandalias@O2",
+          "zapatos-sandalias@O3",
+          "zapatos-sandalias@O4",
+          "zapatos-sandalias@O5"
+        ],
+        "E": [
+          "zapatos-sandalias@E0",
+          "zapatos-sandalias@E1",
+          "zapatos-sandalias@E2",
+          "zapatos-sandalias@E3",
+          "zapatos-sandalias@E4",
+          "zapatos-sandalias@E5"
+        ],
+        "N": [
+          "zapatos-sandalias@N0",
+          "zapatos-sandalias@N1",
+          "zapatos-sandalias@N2",
+          "zapatos-sandalias@N3",
+          "zapatos-sandalias@N4",
+          "zapatos-sandalias@N5"
+        ]
+      },
+      "etiquetas": ["sandalias", "verano"]
+    }
+  ],
+  "accesorios": [
+    {
+      "id": "acc-gorra",
+      "nombre": "Gorra",
+      "capa": "cabeza",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": ["acc-gorra@S0"],
+        "O": ["acc-gorra@O0"],
+        "E": ["acc-gorra@E0"],
+        "N": ["acc-gorra@N0"]
+      },
+      "etiquetas": ["gorra", "deportivo"],
+      "carpeta": "sombrero",
+      "ocultaPeloSobre": 36
+    },
+    {
+      "id": "acc-gorro-lana",
+      "nombre": "Gorro de lana",
+      "capa": "cabeza",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": ["acc-gorro-lana@S0"],
+        "O": ["acc-gorro-lana@O0"],
+        "E": ["acc-gorro-lana@E0"],
+        "N": ["acc-gorro-lana@N0"]
+      },
+      "etiquetas": ["gorro", "lana", "invierno"],
+      "carpeta": "sombrero",
+      "ocultaPeloSobre": 38
+    },
+    {
+      "id": "acc-boina",
+      "nombre": "Boina",
+      "capa": "cabeza",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": ["acc-boina@S0"],
+        "O": ["acc-boina@O0"],
+        "E": ["acc-boina@E0"],
+        "N": ["acc-boina@N0"]
+      },
+      "etiquetas": ["boina", "artista"],
+      "carpeta": "sombrero",
+      "ocultaPeloSobre": 33,
+      "premium": true
+    },
+    {
+      "id": "acc-audifonos",
+      "nombre": "Audífonos",
+      "capa": "cabeza",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": ["acc-audifonos@S0"],
+        "O": ["acc-audifonos@O0"],
+        "E": ["acc-audifonos@E0"],
+        "N": ["acc-audifonos@N0"]
+      },
+      "etiquetas": ["audifonos", "musica"],
+      "carpeta": "sombrero",
+      "premium": true
+    },
+    {
+      "id": "acc-gafas-redondas",
+      "nombre": "Gafas redondas",
+      "capa": "cara",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": ["acc-gafas-redondas@S0"],
+        "O": ["acc-gafas-redondas@O0"],
+        "E": ["acc-gafas-redondas@E0"]
+      },
+      "etiquetas": ["gafas", "redondas"],
+      "carpeta": "gafas"
+    },
+    {
+      "id": "acc-gafas-cuadradas",
+      "nombre": "Gafas cuadradas",
+      "capa": "cara",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": ["acc-gafas-cuadradas@S0"],
+        "O": ["acc-gafas-cuadradas@O0"],
+        "E": ["acc-gafas-cuadradas@E0"]
+      },
+      "etiquetas": ["gafas", "cuadradas", "montura"],
+      "carpeta": "gafas",
+      "premium": true
+    },
+    {
+      "id": "acc-gafas-sol",
+      "nombre": "Gafas de sol",
+      "capa": "cara",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": ["acc-gafas-sol@S0"],
+        "O": ["acc-gafas-sol@O0"],
+        "E": ["acc-gafas-sol@E0"]
+      },
+      "etiquetas": ["gafas", "sol", "oscuras"],
+      "carpeta": "gafas"
+    },
+    {
+      "id": "acc-gafas-sin-marco",
+      "nombre": "Gafas sin marco",
+      "capa": "cara",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": ["acc-gafas-sin-marco@S0"],
+        "O": ["acc-gafas-sin-marco@O0"],
+        "E": ["acc-gafas-sin-marco@E0"]
+      },
+      "etiquetas": ["gafas", "ligeras", "sin marco"],
+      "carpeta": "gafas",
+      "premium": true
+    },
+    {
+      "id": "acc-mochila",
+      "nombre": "Mochila",
+      "capa": "cuello",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": [
+          "acc-mochila@S0",
+          "acc-mochila@S1",
+          "acc-mochila@S2",
+          "acc-mochila@S3",
+          "acc-mochila@S4",
+          "acc-mochila@S5"
+        ],
+        "O": [
+          "acc-mochila@O0",
+          "acc-mochila@O1",
+          "acc-mochila@O2",
+          "acc-mochila@O3",
+          "acc-mochila@O4",
+          "acc-mochila@O5"
+        ],
+        "E": [
+          "acc-mochila@E0",
+          "acc-mochila@E1",
+          "acc-mochila@E2",
+          "acc-mochila@E3",
+          "acc-mochila@E4",
+          "acc-mochila@E5"
+        ],
+        "N": [
+          "acc-mochila@N0",
+          "acc-mochila@N1",
+          "acc-mochila@N2",
+          "acc-mochila@N3",
+          "acc-mochila@N4",
+          "acc-mochila@N5"
+        ]
+      },
+      "atras": {
+        "S": [
+          "acc-mochila@S0a",
+          "acc-mochila@S1a",
+          "acc-mochila@S2a",
+          "acc-mochila@S3a",
+          "acc-mochila@S4a",
+          "acc-mochila@S5a"
+        ],
+        "O": [
+          "acc-mochila@O0a",
+          "acc-mochila@O1a",
+          "acc-mochila@O2a",
+          "acc-mochila@O3a",
+          "acc-mochila@O4a",
+          "acc-mochila@O5a"
+        ],
+        "E": [
+          "acc-mochila@E0a",
+          "acc-mochila@E1a",
+          "acc-mochila@E2a",
+          "acc-mochila@E3a",
+          "acc-mochila@E4a",
+          "acc-mochila@E5a"
+        ]
+      },
+      "etiquetas": ["mochila", "escuela", "viaje"],
+      "carpeta": "otro"
+    },
+    {
+      "id": "acc-bufanda",
+      "nombre": "Bufanda",
+      "capa": "cuello",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": [
+          "acc-bufanda@S0",
+          "acc-bufanda@S1",
+          "acc-bufanda@S2",
+          "acc-bufanda@S3",
+          "acc-bufanda@S4",
+          "acc-bufanda@S5"
+        ],
+        "O": [
+          "acc-bufanda@O0",
+          "acc-bufanda@O1",
+          "acc-bufanda@O2",
+          "acc-bufanda@O3",
+          "acc-bufanda@O4",
+          "acc-bufanda@O5"
+        ],
+        "E": [
+          "acc-bufanda@E0",
+          "acc-bufanda@E1",
+          "acc-bufanda@E2",
+          "acc-bufanda@E3",
+          "acc-bufanda@E4",
+          "acc-bufanda@E5"
+        ],
+        "N": [
+          "acc-bufanda@N0",
+          "acc-bufanda@N1",
+          "acc-bufanda@N2",
+          "acc-bufanda@N3",
+          "acc-bufanda@N4",
+          "acc-bufanda@N5"
+        ]
+      },
+      "etiquetas": ["bufanda", "invierno", "cuello"],
+      "carpeta": "otro"
+    },
+    {
+      "id": "acc-auriculares-cuello",
+      "nombre": "Auriculares al cuello",
+      "capa": "cuello",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": [
+          "acc-auriculares-cuello@S0",
+          "acc-auriculares-cuello@S1",
+          "acc-auriculares-cuello@S2",
+          "acc-auriculares-cuello@S3",
+          "acc-auriculares-cuello@S4",
+          "acc-auriculares-cuello@S5"
+        ],
+        "O": [
+          "acc-auriculares-cuello@O0",
+          "acc-auriculares-cuello@O1",
+          "acc-auriculares-cuello@O2",
+          "acc-auriculares-cuello@O3",
+          "acc-auriculares-cuello@O4",
+          "acc-auriculares-cuello@O5"
+        ],
+        "E": [
+          "acc-auriculares-cuello@E0",
+          "acc-auriculares-cuello@E1",
+          "acc-auriculares-cuello@E2",
+          "acc-auriculares-cuello@E3",
+          "acc-auriculares-cuello@E4",
+          "acc-auriculares-cuello@E5"
+        ],
+        "N": [
+          "acc-auriculares-cuello@N0",
+          "acc-auriculares-cuello@N1",
+          "acc-auriculares-cuello@N2",
+          "acc-auriculares-cuello@N3",
+          "acc-auriculares-cuello@N4",
+          "acc-auriculares-cuello@N5"
+        ]
+      },
+      "etiquetas": ["auriculares", "musica", "cuello"],
+      "carpeta": "otro",
+      "premium": true
+    },
+    {
+      "id": "acc-capa",
+      "nombre": "Capa",
+      "capa": "cuello",
+      "slots": ["accA", "accB"],
+      "frames": {
+        "S": ["acc-capa@S0", "acc-capa@S1", "acc-capa@S2", "acc-capa@S3", "acc-capa@S4", "acc-capa@S5"],
+        "O": ["acc-capa@O0", "acc-capa@O1", "acc-capa@O2", "acc-capa@O3", "acc-capa@O4", "acc-capa@O5"],
+        "E": ["acc-capa@E0", "acc-capa@E1", "acc-capa@E2", "acc-capa@E3", "acc-capa@E4", "acc-capa@E5"],
+        "N": ["acc-capa@N0", "acc-capa@N1", "acc-capa@N2", "acc-capa@N3", "acc-capa@N4", "acc-capa@N5"]
+      },
+      "atras": {
+        "S": ["acc-capa@S0a", "acc-capa@S1a", "acc-capa@S2a", "acc-capa@S3a", "acc-capa@S4a", "acc-capa@S5a"],
+        "O": ["acc-capa@O0a", "acc-capa@O1a", "acc-capa@O2a", "acc-capa@O3a", "acc-capa@O4a", "acc-capa@O5a"],
+        "E": ["acc-capa@E0a", "acc-capa@E1a", "acc-capa@E2a", "acc-capa@E3a", "acc-capa@E4a", "acc-capa@E5a"]
+      },
+      "etiquetas": ["capa", "heroe", "disfraz"],
+      "carpeta": "otro",
+      "premium": true
+    }
+  ],
+  "especiales": [
+    {
+      "id": "especial-calamar",
+      "nombre": "Calamar rosa",
+      "coleccion": "halloween",
+      "ocultaPelo": true,
+      "ocultaAccesorios": true,
+      "ocultaBarba": true,
+      "slots": ["ropaA", "ropaB"],
+      "porDefecto": { "color": "rosa", "color2": "magenta" },
+      "etiquetas": ["calamar", "fantasma", "rosa"],
+      "partes": [
+        {
+          "id": "disfraz-calamar-traje",
+          "nombre": "Traje",
+          "capa": "arriba",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": [
+              "disfraz-calamar-traje@S0",
+              "disfraz-calamar-traje@S1",
+              "disfraz-calamar-traje@S2",
+              "disfraz-calamar-traje@S3",
+              "disfraz-calamar-traje@S4",
+              "disfraz-calamar-traje@S5"
+            ],
+            "O": [
+              "disfraz-calamar-traje@O0",
+              "disfraz-calamar-traje@O1",
+              "disfraz-calamar-traje@O2",
+              "disfraz-calamar-traje@O3",
+              "disfraz-calamar-traje@O4",
+              "disfraz-calamar-traje@O5"
+            ],
+            "E": [
+              "disfraz-calamar-traje@E0",
+              "disfraz-calamar-traje@E1",
+              "disfraz-calamar-traje@E2",
+              "disfraz-calamar-traje@E3",
+              "disfraz-calamar-traje@E4",
+              "disfraz-calamar-traje@E5"
+            ],
+            "N": [
+              "disfraz-calamar-traje@N0",
+              "disfraz-calamar-traje@N1",
+              "disfraz-calamar-traje@N2",
+              "disfraz-calamar-traje@N3",
+              "disfraz-calamar-traje@N4",
+              "disfraz-calamar-traje@N5"
+            ]
+          },
+          "etiquetas": ["disfraz"]
+        },
+        {
+          "id": "disfraz-calamar-cabeza",
+          "nombre": "Cabeza",
+          "capa": "cabeza",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": ["disfraz-calamar-cabeza@S0"],
+            "O": ["disfraz-calamar-cabeza@O0"],
+            "E": ["disfraz-calamar-cabeza@E0"],
+            "N": ["disfraz-calamar-cabeza@N0"]
+          },
+          "etiquetas": ["disfraz"]
+        }
+      ]
+    },
+    {
+      "id": "especial-momia",
+      "nombre": "Momia",
+      "coleccion": "halloween",
+      "ocultaPelo": true,
+      "ocultaAccesorios": true,
+      "ocultaBarba": true,
+      "slots": ["ropaA", "ropaB"],
+      "porDefecto": { "color": "beige" },
+      "etiquetas": ["momia", "vendas"],
+      "partes": [
+        {
+          "id": "disfraz-momia-traje",
+          "nombre": "Traje",
+          "capa": "arriba",
+          "slots": ["ropaA"],
+          "frames": {
+            "S": [
+              "disfraz-momia-traje@S0",
+              "disfraz-momia-traje@S1",
+              "disfraz-momia-traje@S2",
+              "disfraz-momia-traje@S3",
+              "disfraz-momia-traje@S4",
+              "disfraz-momia-traje@S5"
+            ],
+            "O": [
+              "disfraz-momia-traje@O0",
+              "disfraz-momia-traje@O1",
+              "disfraz-momia-traje@O2",
+              "disfraz-momia-traje@O3",
+              "disfraz-momia-traje@O4",
+              "disfraz-momia-traje@O5"
+            ],
+            "E": [
+              "disfraz-momia-traje@E0",
+              "disfraz-momia-traje@E1",
+              "disfraz-momia-traje@E2",
+              "disfraz-momia-traje@E3",
+              "disfraz-momia-traje@E4",
+              "disfraz-momia-traje@E5"
+            ],
+            "N": [
+              "disfraz-momia-traje@N0",
+              "disfraz-momia-traje@N1",
+              "disfraz-momia-traje@N2",
+              "disfraz-momia-traje@N3",
+              "disfraz-momia-traje@N4",
+              "disfraz-momia-traje@N5"
+            ]
+          },
+          "etiquetas": ["disfraz"]
+        },
+        {
+          "id": "disfraz-momia-cabeza",
+          "nombre": "Cabeza",
+          "capa": "cabeza",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": ["disfraz-momia-cabeza@S0"],
+            "O": ["disfraz-momia-cabeza@O0"],
+            "E": ["disfraz-momia-cabeza@E0"],
+            "N": ["disfraz-momia-cabeza@N0"]
+          },
+          "etiquetas": ["disfraz"]
+        }
+      ]
+    },
+    {
+      "id": "especial-vampiro",
+      "nombre": "Vampiro",
+      "coleccion": "halloween",
+      "ocultaPelo": true,
+      "ocultaAccesorios": false,
+      "ocultaCabeza": true,
+      "slots": ["ropaA", "ropaB"],
+      "porDefecto": { "color": "negro", "color2": "rojo" },
+      "etiquetas": ["vampiro", "capa"],
+      "partes": [
+        {
+          "id": "disfraz-vampiro-atras",
+          "nombre": "Capa",
+          "capa": "atras",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": [
+              "disfraz-vampiro-atras@S0",
+              "disfraz-vampiro-atras@S1",
+              "disfraz-vampiro-atras@S2",
+              "disfraz-vampiro-atras@S3",
+              "disfraz-vampiro-atras@S4",
+              "disfraz-vampiro-atras@S5"
+            ],
+            "O": [
+              "disfraz-vampiro-atras@O0",
+              "disfraz-vampiro-atras@O1",
+              "disfraz-vampiro-atras@O2",
+              "disfraz-vampiro-atras@O3",
+              "disfraz-vampiro-atras@O4",
+              "disfraz-vampiro-atras@O5"
+            ],
+            "E": [
+              "disfraz-vampiro-atras@E0",
+              "disfraz-vampiro-atras@E1",
+              "disfraz-vampiro-atras@E2",
+              "disfraz-vampiro-atras@E3",
+              "disfraz-vampiro-atras@E4",
+              "disfraz-vampiro-atras@E5"
+            ]
+          },
+          "etiquetas": ["disfraz"]
+        },
+        {
+          "id": "disfraz-vampiro-traje",
+          "nombre": "Traje",
+          "capa": "arriba",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": [
+              "disfraz-vampiro-traje@S0",
+              "disfraz-vampiro-traje@S1",
+              "disfraz-vampiro-traje@S2",
+              "disfraz-vampiro-traje@S3",
+              "disfraz-vampiro-traje@S4",
+              "disfraz-vampiro-traje@S5"
+            ],
+            "O": [
+              "disfraz-vampiro-traje@O0",
+              "disfraz-vampiro-traje@O1",
+              "disfraz-vampiro-traje@O2",
+              "disfraz-vampiro-traje@O3",
+              "disfraz-vampiro-traje@O4",
+              "disfraz-vampiro-traje@O5"
+            ],
+            "E": [
+              "disfraz-vampiro-traje@E0",
+              "disfraz-vampiro-traje@E1",
+              "disfraz-vampiro-traje@E2",
+              "disfraz-vampiro-traje@E3",
+              "disfraz-vampiro-traje@E4",
+              "disfraz-vampiro-traje@E5"
+            ],
+            "N": [
+              "disfraz-vampiro-traje@N0",
+              "disfraz-vampiro-traje@N1",
+              "disfraz-vampiro-traje@N2",
+              "disfraz-vampiro-traje@N3",
+              "disfraz-vampiro-traje@N4",
+              "disfraz-vampiro-traje@N5"
+            ]
+          },
+          "etiquetas": ["disfraz"]
+        },
+        {
+          "id": "disfraz-vampiro-cabeza",
+          "nombre": "Pelo y colmillos",
+          "capa": "cabeza",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": ["disfraz-vampiro-cabeza@S0"],
+            "O": ["disfraz-vampiro-cabeza@O0"],
+            "E": ["disfraz-vampiro-cabeza@E0"],
+            "N": ["disfraz-vampiro-cabeza@N0"]
+          },
+          "etiquetas": ["disfraz"]
+        }
+      ]
+    },
+    {
+      "id": "especial-zorro",
+      "nombre": "Zorro",
+      "coleccion": "halloween",
+      "ocultaPelo": true,
+      "ocultaAccesorios": false,
+      "ocultaCabeza": true,
+      "slots": ["ropaA", "ropaB"],
+      "porDefecto": { "color": "naranja", "color2": "blanco" },
+      "etiquetas": ["zorro", "animal", "cola"],
+      "partes": [
+        {
+          "id": "disfraz-zorro-atras",
+          "nombre": "Cola",
+          "capa": "atras",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": [
+              "disfraz-zorro-atras@S0",
+              "disfraz-zorro-atras@S1",
+              "disfraz-zorro-atras@S2",
+              "disfraz-zorro-atras@S3",
+              "disfraz-zorro-atras@S4",
+              "disfraz-zorro-atras@S5"
+            ],
+            "O": [
+              "disfraz-zorro-atras@O0",
+              "disfraz-zorro-atras@O1",
+              "disfraz-zorro-atras@O2",
+              "disfraz-zorro-atras@O3",
+              "disfraz-zorro-atras@O4",
+              "disfraz-zorro-atras@O5"
+            ],
+            "E": [
+              "disfraz-zorro-atras@E0",
+              "disfraz-zorro-atras@E1",
+              "disfraz-zorro-atras@E2",
+              "disfraz-zorro-atras@E3",
+              "disfraz-zorro-atras@E4",
+              "disfraz-zorro-atras@E5"
+            ]
+          },
+          "etiquetas": ["disfraz"]
+        },
+        {
+          "id": "disfraz-zorro-traje",
+          "nombre": "Traje",
+          "capa": "arriba",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": [
+              "disfraz-zorro-traje@S0",
+              "disfraz-zorro-traje@S1",
+              "disfraz-zorro-traje@S2",
+              "disfraz-zorro-traje@S3",
+              "disfraz-zorro-traje@S4",
+              "disfraz-zorro-traje@S5"
+            ],
+            "O": [
+              "disfraz-zorro-traje@O0",
+              "disfraz-zorro-traje@O1",
+              "disfraz-zorro-traje@O2",
+              "disfraz-zorro-traje@O3",
+              "disfraz-zorro-traje@O4",
+              "disfraz-zorro-traje@O5"
+            ],
+            "E": [
+              "disfraz-zorro-traje@E0",
+              "disfraz-zorro-traje@E1",
+              "disfraz-zorro-traje@E2",
+              "disfraz-zorro-traje@E3",
+              "disfraz-zorro-traje@E4",
+              "disfraz-zorro-traje@E5"
+            ],
+            "N": [
+              "disfraz-zorro-traje@N0",
+              "disfraz-zorro-traje@N1",
+              "disfraz-zorro-traje@N2",
+              "disfraz-zorro-traje@N3",
+              "disfraz-zorro-traje@N4",
+              "disfraz-zorro-traje@N5"
+            ]
+          },
+          "etiquetas": ["disfraz"]
+        },
+        {
+          "id": "disfraz-zorro-cabeza",
+          "nombre": "Orejas y mejillas",
+          "capa": "cabeza",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": ["disfraz-zorro-cabeza@S0"],
+            "O": ["disfraz-zorro-cabeza@O0"],
+            "E": ["disfraz-zorro-cabeza@E0"],
+            "N": ["disfraz-zorro-cabeza@N0"]
+          },
+          "etiquetas": ["disfraz"]
+        }
+      ]
+    },
+    {
+      "id": "especial-bruja",
+      "nombre": "Bruja",
+      "coleccion": "halloween",
+      "ocultaPelo": false,
+      "ocultaAccesorios": false,
+      "ocultaCabeza": true,
+      "slots": ["ropaA", "ropaB"],
+      "porDefecto": { "color": "morado", "color2": "negro" },
+      "etiquetas": ["bruja", "sombrero", "vestido"],
+      "partes": [
+        {
+          "id": "disfraz-bruja-traje",
+          "nombre": "Vestido",
+          "capa": "arriba",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": [
+              "disfraz-bruja-traje@S0",
+              "disfraz-bruja-traje@S1",
+              "disfraz-bruja-traje@S2",
+              "disfraz-bruja-traje@S3",
+              "disfraz-bruja-traje@S4",
+              "disfraz-bruja-traje@S5"
+            ],
+            "O": [
+              "disfraz-bruja-traje@O0",
+              "disfraz-bruja-traje@O1",
+              "disfraz-bruja-traje@O2",
+              "disfraz-bruja-traje@O3",
+              "disfraz-bruja-traje@O4",
+              "disfraz-bruja-traje@O5"
+            ],
+            "E": [
+              "disfraz-bruja-traje@E0",
+              "disfraz-bruja-traje@E1",
+              "disfraz-bruja-traje@E2",
+              "disfraz-bruja-traje@E3",
+              "disfraz-bruja-traje@E4",
+              "disfraz-bruja-traje@E5"
+            ],
+            "N": [
+              "disfraz-bruja-traje@N0",
+              "disfraz-bruja-traje@N1",
+              "disfraz-bruja-traje@N2",
+              "disfraz-bruja-traje@N3",
+              "disfraz-bruja-traje@N4",
+              "disfraz-bruja-traje@N5"
+            ]
+          },
+          "etiquetas": ["disfraz"]
+        },
+        {
+          "id": "disfraz-bruja-sombrero",
+          "nombre": "Sombrero",
+          "capa": "cabeza",
+          "slots": ["ropaA", "ropaB"],
+          "frames": {
+            "S": ["disfraz-bruja-sombrero@S0"],
+            "O": ["disfraz-bruja-sombrero@O0"],
+            "E": ["disfraz-bruja-sombrero@E0"],
+            "N": ["disfraz-bruja-sombrero@N0"]
+          },
+          "etiquetas": ["disfraz"],
+          "ocultaPeloSobre": 35
+        }
+      ]
+    }
+  ],
+  "movilidad": [],
+  "barbas": [
+    {
+      "id": "barba-bigote-clasico",
+      "nombre": "Bigote",
+      "capa": "barba",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["barba-bigote-clasico@S0"],
+        "O": ["barba-bigote-clasico@O0"],
+        "E": ["barba-bigote-clasico@E0"]
+      },
+      "etiquetas": ["bigote"]
+    },
+    {
+      "id": "barba-perilla",
+      "nombre": "Perilla",
+      "capa": "barba",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["barba-perilla@S0"],
+        "O": ["barba-perilla@O0"],
+        "E": ["barba-perilla@E0"]
+      },
+      "etiquetas": ["perilla", "chivo"]
+    },
+    {
+      "id": "barba-corta",
+      "nombre": "Barba corta",
+      "capa": "barba",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["barba-corta@S0"],
+        "O": ["barba-corta@O0"],
+        "E": ["barba-corta@E0"]
+      },
+      "etiquetas": ["barba", "corta"]
+    },
+    {
+      "id": "barba-completa",
+      "nombre": "Barba completa",
+      "capa": "barba",
+      "slots": ["cabello"],
+      "frames": {
+        "S": ["barba-completa@S0"],
+        "O": ["barba-completa@O0"],
+        "E": ["barba-completa@E0"]
+      },
+      "etiquetas": ["barba", "completa", "larga"]
+    }
+  ],
+  "marcadores": {
+    "piel": ["#FA00C8", "#FA00D4", "#FA00E0", "#FA00EC", "#FA00F8"],
+    "cabello": ["#FA08C8", "#FA08D4", "#FA08E0", "#FA08EC", "#FA08F8"],
+    "ropaA": ["#FA10C8", "#FA10D4", "#FA10E0", "#FA10EC", "#FA10F8"],
+    "ropaB": ["#FA18C8", "#FA18D4", "#FA18E0", "#FA18EC", "#FA18F8"],
+    "pantalon": ["#FA20C8", "#FA20D4", "#FA20E0", "#FA20EC", "#FA20F8"],
+    "zapatos": ["#FA28C8", "#FA28D4", "#FA28E0", "#FA28EC", "#FA28F8"],
+    "accA": ["#FA30C8", "#FA30D4", "#FA30E0", "#FA30EC", "#FA30F8"],
+    "accB": ["#FA38C8", "#FA38D4", "#FA38E0", "#FA38EC", "#FA38F8"]
+  }
+}
